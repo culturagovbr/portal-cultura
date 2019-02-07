@@ -28,7 +28,8 @@ var gulp = require('gulp'),
 	sourcemaps = require('gulp-sourcemaps'),
 	watch = require('gulp-watch'),
 	livereload = require('gulp-livereload'),
-	browserSync = require('browser-sync').create();
+	browserSync = require('browser-sync').create(),
+	cachebust = require('gulp-cache-bust');
 // sassVariables = require('gulp-sass-variables');
 
 /**
@@ -144,6 +145,9 @@ gulp.task('styles-dev', function () {
 		.pipe(plumber())
 		.pipe(sourcemaps.init())
 		.pipe(sass())
+    .pipe(cachebust({
+        type: 'timestamp'
+    }))
 		.pipe(concat('bundle.css'))
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('./assets/stylesheets/dist/'))

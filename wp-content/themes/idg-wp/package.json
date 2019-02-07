@@ -24,6 +24,7 @@
     "browser-sync": "^2.24.7",
     "delete": "^1.1.0",
     "gulp": "^3.9.1",
+    "gulp-cache-bust": "^1.4.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
     "gulp-google-webfonts": "^2.0.0",
