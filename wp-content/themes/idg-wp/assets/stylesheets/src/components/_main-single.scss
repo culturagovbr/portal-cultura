@@ -1,8 +1,27 @@
 #main-single {
+  > .container {
+    > .row {
+      @include media("≥phone", "≤desktop") {
+        overflow: hidden;
+      }
+    }
+  }
+
   #content {
     .align {
       max-width: 960px;
       margin: 0 auto;
+    }
+
+    > .col-12 {
+      @include media("≥phone", "≤desktop") {
+        padding: 15px !important;
+        overflow: hidden;
+
+        > article {
+          overflow: hidden;
+        }
+      }
     }
   }
 }

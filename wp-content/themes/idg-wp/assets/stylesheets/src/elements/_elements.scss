@@ -95,6 +95,14 @@ img {
 
 .type-post {
 	.entry-content {
+		*:empty,
+		*:blank,
+		*:-moz-only-whitespace {
+			&:not(br):not(img):not(hr):not(link) {
+				display: none;
+			}
+		}
+
 		> p {
 			&:first-child:first-letter {
 				color: color(primary);
@@ -259,12 +267,12 @@ figure {
 }
 
 body.page {
-	#main {
+	#main-single {
 		background: color(white);
 	}
 }
 
-#main {
+#main-single {
 	@include media("≥phone", "≤desktop") {
 		overflow: hidden;
 	}

@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="main" class="site-main <?php echo is_singular('multimedia') ? 'multimedia-content' : ''; ?>">
+	<main id="main-single" class="site-main <?php echo is_singular('multimedia') ? 'multimedia-content' : ''; ?>">
 		<div class="container">
 			<div class="row">
 				<?php the_breadcrumb(); ?>

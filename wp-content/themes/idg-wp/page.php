@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="main" class="site-main">
+	<main id="main-single" class="site-main">
 		<div class="container">
 			<?php the_breadcrumb (); ?>
 

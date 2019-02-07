@@ -6,8 +6,20 @@
   float: left;
   clear: both;
 
+  @include media("≥phone", "≤desktop") {
+    border-bottom: none;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    display: block !important;
+  }
+
   span {
     font-size: 1em;
+
+    @include media("≥phone", "≤desktop") {
+      display: block;
+      margin-bottom: 60px;
+    }
 
     a {
       color: color(dark);
@@ -20,6 +32,13 @@
     width: 210px;
     text-align: right;
 
+    @include media("≥phone", "≤desktop") {
+      width: 100%;
+      margin-bottom: 15px;
+      display: inline-block;
+      text-align: center;
+    }
+
     a {
       color: color(dark);
       font-size: 0.8em;
@@ -29,17 +48,23 @@
       padding-right: 50px;
       position: relative;
 
+      @include media("≥phone", "≤desktop") {
+        display: inline-block;
+      }
+
       &:after {
         @include border-radius(50%);
         @include transform(translateY(-50%));
 
-        content: "^";
+        content: map-get($icons, angle_up);
         background: color(dark);
-        font-size: 1.4em;
+        font-size: 1em;
         width: 40px;
         height: 40px;
         line-height: 40px;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         color: color(white);
         text-align: center;
         font-weight: 700;
@@ -47,6 +72,7 @@
         right: 0;
         text-align: center;
         top: 50%;
+        font-family: 'icomoon';
       }
     }
   }
