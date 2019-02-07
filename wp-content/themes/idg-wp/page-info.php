@@ -10,18 +10,17 @@
 
 		<?php wp_reset_postdata(); ?>
 
-		<div id="content">
+		<div id="content" class="pt-5">
 
-			<div class="row title-wrapper">
-				<div class="title text-center">
-					<?php the_content(); ?>
-				</div>
+			<div class="content-wrapper">
+				<?php the_content(); ?>
 			</div>
 
 			<div class="entry-content">
 				<?php get_template_part( 'template-parts/copyright' ); ?>
 			</div>
 		</div>
+	</div>
 </main>
 
 <?php get_footer(); ?>

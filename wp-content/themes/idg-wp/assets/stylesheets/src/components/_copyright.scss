@@ -18,7 +18,9 @@
 
     @include media("≥phone", "≤desktop") {
       display: block;
-      margin-bottom: 60px;
+      margin-bottom: 25px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      padding-bottom: 1rem;
     }
 
     a {

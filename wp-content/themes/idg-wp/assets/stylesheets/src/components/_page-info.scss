@@ -2,19 +2,38 @@
 	overflow: hidden;
 	background: color(primary);
 	color: color(white);
+	padding-bottom: 15px;
 
 	.idg-menu {
 		margin-top: 60px;
+
+		@include media("≥phone", "≤desktop") {
+			margin-top: 30px;
+		}
 	}
 
-	.title-wrapper {
-		padding: 70px 0 80px;
+	#content {
+		@include media("≥phone", "≤desktop") {
+			padding-top: 15px !important;
+		}
+	}
+
+	.content-wrapper {
+		text-align: center;
+
+		@include media("≥phone", "≤desktop") {
+			text-align: left;
+		}
 
 		h1,
 		h2,
 		h3,
 		h4 {
 			margin-bottom: 30px;
+
+			@include media("≥phone", "≤desktop") {
+				margin-bottom: 15px;
+			}
 		}
 
 		.card-title {
@@ -31,29 +50,8 @@
 		}
 	}
 
-	#breadcrumb-wrapper #breadcrumb li a,
-	#breadcrumb-wrapper #breadcrumb li.separator {
-		color: color(white);
-	}
-
-	.wrapper-box {
-		.feature-card {
-			padding: 0;
-			border: none;
-			text-align: center;
-			margin-bottom: 30px;
-
-			&.static-height {
-				height: 260px;
-			}
-
-			a {
-				width: 100%;
-				height: 100%;
-				display: block;
-				color: color(dark);
-			}
-		}
+	#breadcrumb-wrapper {
+		display: none;
 	}
 
 	.entry-content {
@@ -61,14 +59,21 @@
 	}
 
 	.texto-copyright {
+		border-color: color(white);
 
 		span {
 			font-size: 0.98em;
+			border-color: color(white);
 		}
 
 		a {
 			color: color(white);
 			text-decoration: underline;
+
+			&:after {
+				color: color(dark);
+				background: color(white);
+			}
 		}
 	}
 }

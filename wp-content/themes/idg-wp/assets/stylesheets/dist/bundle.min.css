@@ -8092,19 +8092,46 @@ body.page #main-single {
     top: 0;
     z-index: 0; }
 
-.idg-menu .feature-card {
-  padding: 0;
-  border: none;
-  text-align: center;
-  margin-bottom: 30px; }
-  .idg-menu .feature-card.static-height {
-    height: 260px; }
-  .idg-menu .feature-card a {
-    width: 100%;
-    height: 100%;
-    display: block;
-    color: #222222 !important;
-    text-decoration: none !important; }
+.idg-menu {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin: 0 auto; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .idg-menu {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  .idg-menu {
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); } }
+  .idg-menu > * {
+    max-width: none;
+    padding: 0 !important; }
+  .idg-menu .feature-card {
+    padding: 0;
+    border: none;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    padding-bottom: 100%; }
+    .idg-menu .feature-card .align {
+      width: 100%;
+      height: 100%; }
+    .idg-menu .feature-card .card-title {
+      width: 100%;
+      height: 100%;
+      display: block; }
+      .idg-menu .feature-card .card-title a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #222222 !important;
+        text-decoration: none !important;
+        padding: 0 15px; }
 
 .search-content-wrapper {
   position: relative;
@@ -9862,7 +9889,9 @@ body.page #main-single {
 @media (min-width: 320px) and (max-width: 1150px) {
   .texto-copyright span {
     display: block;
-    margin-bottom: 60px; } }
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem; } }
     .texto-copyright span a {
       color: #222222;
       font-weight: bold;
@@ -10187,45 +10216,58 @@ body.page #main-single {
 #page-info {
   overflow: hidden;
   background: #2969BD;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding-bottom: 15px; }
   #page-info .idg-menu {
     margin-top: 60px; }
-  #page-info .title-wrapper {
-    padding: 70px 0 80px; }
-    #page-info .title-wrapper h1,
-    #page-info .title-wrapper h2,
-    #page-info .title-wrapper h3,
-    #page-info .title-wrapper h4 {
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  #page-info .idg-menu {
+    margin-top: 30px; } }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  #page-info #content {
+    padding-top: 15px !important; } }
+  #page-info .content-wrapper {
+    text-align: center; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  #page-info .content-wrapper {
+    text-align: left; } }
+    #page-info .content-wrapper h1,
+    #page-info .content-wrapper h2,
+    #page-info .content-wrapper h3,
+    #page-info .content-wrapper h4 {
       margin-bottom: 30px; }
-    #page-info .title-wrapper .card-title {
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  #page-info .content-wrapper h1,
+  #page-info .content-wrapper h2,
+  #page-info .content-wrapper h3,
+  #page-info .content-wrapper h4 {
+    margin-bottom: 15px; } }
+    #page-info .content-wrapper .card-title {
       margin: 0; }
-    #page-info .title-wrapper .title {
+    #page-info .content-wrapper .title {
       width: 100%; }
-    #page-info .title-wrapper a {
+    #page-info .content-wrapper a {
       color: #FFFFFF;
       text-decoration: underline; }
-  #page-info #breadcrumb-wrapper #breadcrumb li a,
-  #page-info #breadcrumb-wrapper #breadcrumb li.separator {
-    color: #FFFFFF; }
-  #page-info .wrapper-box .feature-card {
-    padding: 0;
-    border: none;
-    text-align: center;
-    margin-bottom: 30px; }
-    #page-info .wrapper-box .feature-card.static-height {
-      height: 260px; }
-    #page-info .wrapper-box .feature-card a {
-      width: 100%;
-      height: 100%;
-      display: block;
-      color: #222222; }
+  #page-info #breadcrumb-wrapper {
+    display: none; }
   #page-info .entry-content {
     max-width: none; }
-  #page-info .texto-copyright span {
-    font-size: 0.98em; }
-  #page-info .texto-copyright a {
-    color: #FFFFFF;
-    text-decoration: underline; }
+  #page-info .texto-copyright {
+    border-color: #FFFFFF; }
+    #page-info .texto-copyright span {
+      font-size: 0.98em;
+      border-color: #FFFFFF; }
+    #page-info .texto-copyright a {
+      color: #FFFFFF;
+      text-decoration: underline; }
+      #page-info .texto-copyright a:after {
+        color: #222222;
+        background: #FFFFFF; }
 
 #page-imprensa #contact {
   background-color: #E5E5E5;

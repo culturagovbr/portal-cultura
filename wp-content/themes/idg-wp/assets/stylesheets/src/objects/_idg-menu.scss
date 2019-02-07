@@ -1,20 +1,51 @@
 .idg-menu {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+	margin: 0 auto;
+
+	@include media("≥phone", "≤tablet") {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include media("≥tablet", "≤desktop") {
+		grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+	}
+
+	> * {
+		max-width: none;
+		padding: 0 !important;
+	}
+
 	.feature-card {
 		padding: 0;
 		border: none;
 		text-align: center;
-		margin-bottom: 30px;
+		margin: 0;
+		height: auto;
+		padding-bottom: 100%;
 
-		&.static-height {
-			height: 260px;
+		.align {
+			width: 100%;
+			height: 100%;
 		}
 
-		a {
+		.card-title {
 			width: 100%;
 			height: 100%;
 			display: block;
-			color: color(dark) !important;
-			text-decoration: none !important;
+
+			a {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: color(dark) !important;
+				text-decoration: none !important;
+				padding: 0 15px;
+			}
 		}
 	}
 }
