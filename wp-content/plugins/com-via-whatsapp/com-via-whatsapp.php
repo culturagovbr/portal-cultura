@@ -74,13 +74,19 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 			ob_start(); ?>
 
 			<form id="com-via-whatsapp-form" action="<?php the_permalink(); ?>" method="post">
-				<div class="form-group">
-					<label for="user_fullname">Nome completo</label>
-					<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>">
-				</div>
-				<div class="form-group">
-					<label for="user_email">Email</label>
-					<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>">
+				<div class="row">
+					<div class="col-6">
+						<div class="form-group">
+							<label for="user_fullname">Nome completo</label>
+							<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>">
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="form-group">
+							<label for="user_email">Email</label>
+							<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>">
+						</div>
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-6">
@@ -98,7 +104,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 				</div>
 				<div class="form-group">
 					<label for="user_areas_of_interest">Área de interesse (selecione abaixo uma ou mais áreas de interesse)</label>
-					<select multiple class="form-control" id="user_areas_of_interest" name="user_areas_of_interest[]">
+					<select multiple class="form-control" id="user_areas_of_interest" name="user_areas_of_interest[]" style="height: 320px">
 						<option <?php echo in_array( 'Audiovisual', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Audiovisual">Audiovisual</option>
 						<option <?php echo in_array( 'Museus', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Museus">Museus</option>
 						<option <?php echo in_array( 'Pontos de Cultura', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Pontos de Cultura">Pontos de Cultura</option>
@@ -116,6 +122,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 						<option <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Todos">Todos</option>
 					</select>
 				</div>
+				<input type="hidden" name="user_is_government_employee" value="<?php echo $_GET['uge'] ? '1' : ''; ?>">
 				<input type="hidden" name="register_com_via_whatsapp_form" value="1">
 				<?php wp_nonce_field( 'register_com_via_whatsapp', 'com_via_whatsapp_nonce' ); ?>
 				<button type="submit" class="btn btn-primary">Enviar</button>
@@ -148,6 +155,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 				$user_phone             = $_POST['user_phone'];
 				$user_profession        = $_POST['user_profession'];
 				$user_areas_of_interest = maybe_serialize( $_POST['user_areas_of_interest'] );
+				$user_is_government_employee = $_POST['user_is_government_employee'];
 
 				global $wpdb;
 				$table_name = $wpdb->prefix . 'com_via_whatsapp';
@@ -157,9 +165,10 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 					'user_fullname'          => $user_fullname,
 					'user_phone'             => $user_phone,
 					'user_profession'        => $user_profession,
-					'user_areas_of_interest' => $user_areas_of_interest
+					'user_areas_of_interest' => $user_areas_of_interest,
+					'user_is_government_employee' => $user_is_government_employee
 				),
-					array( '%s', '%s', '%s', '%s', '%s', '%s' ) // '%d', '%f', '%s' (integer, float, string)
+					array( '%s', '%s', '%s', '%s', '%s', '%s', '%s' ) // '%d', '%f', '%s' (integer, float, string)
 				);
 
 				if ( $registered ) : $_POST = array(); ?>
