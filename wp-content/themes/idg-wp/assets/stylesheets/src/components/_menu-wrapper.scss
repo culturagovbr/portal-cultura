@@ -35,7 +35,7 @@
 		z-index: 102;
 		padding: 0;
 		display: block;
-		min-height: 100%;
+		min-height: 100vh;
 
 		.icon-close {
 			display: block;
@@ -181,6 +181,13 @@
 				}
 
 				.menu-footer {
+					@include transform(translateY(56px));
+					overflow: hidden;
+					position: sticky;
+					bottom: 0;
+					padding-bottom: 56px;
+					background: color(secondary);
+
 					.social-medias {
 						margin: 0;
 						padding: 0;
@@ -268,11 +275,21 @@
 					border: none;
 
 					li {
-						width: 30px;
-						height: 30px;
+						width: 50px;
+						height: 50px;
+						background-size: 55% auto;
 						margin-left: 15px !important;
 						-webkit-filter: grayscale(100%) brightness(0);
 						filter: grayscale(100%) brightness(0);
+						margin-bottom: 0;
+
+						@include media("≥phone", "≤desktop") {
+							background-size: auto !important;
+						}
+
+						&.soundcloud {
+							background-size: 65% auto;
+						}
 					}
 				}
 
