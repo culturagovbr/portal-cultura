@@ -34,16 +34,22 @@
 			})
 		},
 
-
-
 		/**
 		 * Menu Functions
 		 *
 		 */
 		menu: function () {
+
 			// High contrast
 			$('#menu-toggle').click(function () {
 				$('body').toggleClass('menu-active');
+
+				if ($('body').hasClass('menu-active')) {
+					bodyScrollLock.disableBodyScroll(document.querySelector('.scrollTarget'),{
+						allowTouchMove: el => (el.tagName === 'div')
+  				});
+
+				}
 			})
 
 			$('#menu-wrapper, #menu-toggle').click(function(event){
@@ -52,6 +58,8 @@
 
 			$('body, .close-menu').click(function(event){
 				$('body').removeClass('menu-active');
+
+				bodyScrollLock.clearAllBodyScrollLocks();
 			});
 
 			$('.widget_nav_menu').click(function() {
@@ -105,7 +113,6 @@
 				window.open(url, "shareWindow", "width=600, height=400");
 				return false;
 			}
-
 		},
 
 		// credit: http://www.javascriptkit.com/javatutors/touchevents2.shtml

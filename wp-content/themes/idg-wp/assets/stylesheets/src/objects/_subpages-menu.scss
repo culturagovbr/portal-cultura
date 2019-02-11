@@ -2,6 +2,15 @@
   float: right;
   display: block;
 
+  @include media("≥phone", "≤desktop") {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    z-index: 10;
+  }
+
   #page-info & {
     display: none;
   }
@@ -11,7 +20,36 @@
     position: relative;
     padding-right: 40px;
 
+    @include media("≥phone", "≤desktop") {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+    }
+
+    &:before {
+      @include transition(visibility 0s .2s, opacity .2s);
+
+      content: "";
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, .8);
+      visibility: hidden;
+      opacity: 0;
+    }
+
     &.active {
+      &:before {
+        @include media("≥phone", "≤desktop") {
+          @include transition(opacity ease .2s);
+
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+
       button {
         &:before {
           @include transform(translateY(-50%) translateX(-50%) rotate(45deg));
@@ -22,6 +60,7 @@
         visibility: visible;
         opacity: 1;
         transition: opacity .2s linear;
+        margin: 0;
       }
     }
 
@@ -35,6 +74,10 @@
 
       &:first-child {
         margin-left: 0;
+      }
+
+      @include media("≥phone", "≤desktop") {
+        display: none;
       }
     }
 
@@ -60,10 +103,12 @@
       border: none;
       outline: none;
 
-      &.active {
-        &:before {
-          
-        }
+      @include media("≥phone", "≤desktop") {
+        transform: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
       }
 
       &:before {
@@ -74,6 +119,10 @@
         position: absolute;
         top: 50%;
         left: 50%;
+
+        @include media("≥phone", "≤desktop") {
+          font-size: 23px;
+        }
       }
     }
 
@@ -86,10 +135,18 @@
       background: #efefef;
       padding: 30px;
       z-index: 4;
+      margin: 0;
 
       visibility: hidden;
       opacity: 0;
       transition: visibility 0s .2s, opacity .2s linear;
+
+      @include media("≥phone", "≤desktop") {
+        right: 80px;
+        top: auto;
+        bottom: 0px;
+        width: 230px;
+      }
 
       &:before {
         @include transform(translateY(-100%));
@@ -100,6 +157,17 @@
         border-left: 13px solid transparent;
         border-right: 13px solid transparent;
         border-bottom: 13px solid #efefef;
+
+        @include media("≥phone", "≤desktop") {
+          border-right: none;
+          border-top: 13px solid transparent;
+          border-bottom: 13px solid transparent;
+          border-left: 13px solid #efefef;
+          top: auto;
+          bottom: -5px;
+          right: -13px;
+        }
+
         position: absolute;
         top: 0;
         right: 0;

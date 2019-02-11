@@ -14,8 +14,11 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
 
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicons/apple-touch-icon.png" />
@@ -88,14 +91,26 @@
 						</div>
 					</div>
 
-					<div class="menu-body">
+					<div class="menu-body scrollTarget">
 						<div class="row">
 							<?php
 							if ( is_active_sidebar( 'main-menu-area' ) ) :
 								dynamic_sidebar( 'main-menu-area' );
 							endif;
 							?>
+
+							<div class="col social-media-col hide-mobile">
+								<div class="menu-col border-0">
+									<h3 class="menu-title">Redes Sociais</h3>
+
+									<?php get_template_part( 'template-parts/social-medias' ); ?>
+								</div>
+							</div>
 						</div>
+					</div>
+
+					<div class="menu-footer hide-desktop">
+						<?php get_template_part( 'template-parts/social-medias' ); ?>
 					</div>
 
 			</div>

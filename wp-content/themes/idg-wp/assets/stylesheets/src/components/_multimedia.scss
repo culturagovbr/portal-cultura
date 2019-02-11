@@ -8,6 +8,7 @@
 	@include media("≥phone", "≤desktop") {
 		padding: 0;
 		background-size: 30px auto;
+		font-size: 0;
 
 		.container {
 			padding: 0;
@@ -43,7 +44,7 @@
 	}
 
 	.highlight {
-		width: 100%;
+		width: calc(100% - 30px);
 		margin: 0 auto;
 		height: 500px;
 		padding: 0 20px;
@@ -106,7 +107,7 @@
 
 				span {
 					display: block;
-					font-size: 1rem;
+					font-size: 0.8rem;
 					line-height: normal;
 				}
 			}

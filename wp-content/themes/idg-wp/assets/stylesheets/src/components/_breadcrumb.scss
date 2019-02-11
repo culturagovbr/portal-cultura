@@ -3,12 +3,49 @@
 	height: 50px;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 
+	@include media("≥phone", "≤desktop") {
+		height: auto;
+		border: none;
+	}
+
 	#breadcrumb {
 		font-size: 1rem;
 		background: none;
 		margin: 0;
 
+		@include media("≥phone", "≤desktop") {
+			height: 40px;
+			margin-bottom: 30px;
+
+			display: flex;
+			flex-basis: initial;
+			align-items: center;
+			padding: 0 15px;
+			flex-wrap: initial;
+
+			&:before {
+				content: "";
+				width: calc(100% + 30px);
+				margin-left: -15px;
+				position: absolute;
+				height: 1px;
+				background: color(gray);
+				left: 0;
+				bottom: 0;
+			}
+		}
+
 		li {
+			@include media("≥phone", "≤desktop") {
+				font-size: 0.85rem;
+
+				&:last-child {
+					overflow: hidden;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+				}
+			}
+
 			a {
 				color: color(dark);
 			}
@@ -26,6 +63,10 @@
 
 					&:before {
 						font-size: 16px;
+
+						@include media("≥phone", "≤desktop") {
+							font-size: 12px;
+						}
 					}
 
 				}
@@ -35,6 +76,10 @@
 				margin: 0 15px;
 				color: color(gray);
 				font-size: 0.8rem;
+
+				@include media("≥phone", "≤desktop") {
+					margin: 0 8px;
+				}
 			}
 		}
 

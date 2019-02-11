@@ -38,7 +38,7 @@
 		-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
 		box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
 
-		width: 100%;
+		width: 100vw;
 		height: 50px;
 		line-height: 50px;
 		padding: 0;
@@ -56,49 +56,16 @@
 			bottom: 0px;
 		}
 
+		body.admin-bar & {
+			top: 46px !important;
+		}
+
 		#barra-brasil {
 			display: none;
 		}
 
 		.container {
 			padding: 0;
-
-			.menu-header {
-				padding: 60px 20px 20px;
-				background: color(secondary);
-				-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-				-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-				box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
-
-				h2 {
-					width: 200px;
-					display: block;
-					color: color(white);
-					margin-bottom: 15px;
-				}
-
-				.search-wrapper {
-					@include border-radius(30px);
-
-					outline: none;
-					position: relative;
-					overflow: hidden;
-
-					form {
-						margin: 0;
-						outline: none;
-
-						.input-group {
-							@include border-radius(2px);
-							outline: none;
-						}
-					}
-				}
-			}
-
-			.menu-body {
-				padding: 10px 0 0;
-			}
 
 			.row {
 				display: block;
@@ -123,7 +90,7 @@
 				.title-wrapper {
 					display: flex;
 					align-items: center;
-					width: calc(100% - 85px);
+					width: calc(100% - 80px);
 					height: 50px;
 					padding: 0;
 					margin: 0;

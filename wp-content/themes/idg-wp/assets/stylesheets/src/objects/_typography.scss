@@ -29,6 +29,11 @@
 		text-transform: uppercase;
 	}
 
+	@include media("≥phone", "≤desktop") {
+		font-size: 1.6em;
+		text-align: left !important;
+	}
+
 	@include high-contrast();
 }
 
@@ -36,6 +41,10 @@
 	font-size: 1.1em;
 	font-weight: normal;
 	color: color(silver);
+
+	@include media("≥phone", "≤desktop") {
+		text-align: left !important;
+	}
 
 	&:first-letter {
 		text-transform: uppercase;

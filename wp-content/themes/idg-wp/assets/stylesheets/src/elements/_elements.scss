@@ -3,12 +3,19 @@ html {
 }
 
 body {
+	max-width: 100%;
+	min-height: 100vh;
+
+	@include media("≥desktop") {
+		position: static !important;
+	}
+
 	@include media("≥phone", "≤desktop") {
 		padding-top: 50px;
 
 		&.menu-active {
-			position: relative;
 			overflow: hidden;
+			-webkit-overflow-scrolling: touch;
 		}
 	}
 }
@@ -50,6 +57,40 @@ img {
 .entry-content {
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+.entry-header {
+	@include media("≥phone", "≤desktop") {
+		display: -moz-box;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+
+		-moz-box-orient: vertical;
+		-webkit-box-orient: vertical;
+		-webkit-flex-flow: column;
+		-ms-flex-direction: column;
+		flex-flow: column;
+
+		.date-box {
+			order: 1;
+		}
+
+		.entry-title {
+			order: 2;
+		}
+
+		.subtitle-single {
+			order: 3;
+
+			margin: 0 !important;
+
+			p {
+				margin-bottom: 5px;
+			}
+		}
+	}
 }
 
 .type-post {
@@ -138,7 +179,7 @@ figure {
 
 	#secretarias {
 		@include media("≥phone", "≤desktop") {
-			padding: 20px 0 23px !important;
+			padding: 15px 0 !important;
 			margin: 0 !important;
 
 			.overflow-wrapper {
@@ -166,7 +207,7 @@ figure {
 
 	#participacao-social {
 		@include media("≥phone", "≤desktop") {
-			padding: 20px 0 23px !important;
+			padding: 15px 0 !important;
 			margin: 0 !important;
 
 			.overflow-wrapper {
@@ -220,6 +261,12 @@ figure {
 body.page {
 	#main {
 		background: color(white);
+	}
+}
+
+#main {
+	@include media("≥phone", "≤desktop") {
+		overflow: hidden;
 	}
 }
 
@@ -490,5 +537,19 @@ body.page {
 .hide-mobile {
 	@include media("≤desktop") {
 		display: none !important;
+	}
+}
+
+#wpadminbar {
+	@include media("≥phone", "≤desktop") {
+		@include transition(z-index 0.5s step-end);
+		position: fixed;
+		z-index: 100;
+
+		body.menu-active & {
+			@include transition(z-index 0.5s step-start);
+
+			z-index: 30;
+		}
 	}
 }
