@@ -2,7 +2,6 @@
 	overflow: hidden;
 	background: color(primary);
 	color: color(white);
-	padding-bottom: 15px;
 
 	.idg-menu {
 		margin-top: 60px;
@@ -50,8 +49,9 @@
 		}
 	}
 
-	#breadcrumb-wrapper {
-		display: none;
+	#breadcrumb-wrapper #breadcrumb li a,
+	#breadcrumb-wrapper #breadcrumb li.separator {
+		color: color(white);
 	}
 
 	.entry-content {

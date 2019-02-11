@@ -27,6 +27,12 @@
           padding-left: 55px;
           font-size: 1.5rem;
 
+          @include media("≥phone", "≤desktop") {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
           &.collapsed {
             &:before {
               content: map-get($icons, 'plus');
@@ -49,6 +55,29 @@
             top: 50%;
             color: color(primary);
           }
+        }
+      }
+    }
+
+    .card-body {
+      @include media("≥phone", "≤desktop") {
+        padding: 0;
+
+        h4 {
+          margin: 15px !important;
+          font-size: 1.2rem;
+        }
+
+        > p {
+          padding: 0 15px;
+
+          &:first-child {
+            padding-top: 15px;
+          }
+        }
+
+        > ul {
+          margin-top: 15px;
         }
       }
     }

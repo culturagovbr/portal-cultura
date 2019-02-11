@@ -119,6 +119,12 @@ img {
 			font-size: 1.1em;
 			line-height: 1.7em;
 		}
+
+		iframe,
+		img,
+		figure {
+			max-width: 100%;
+		}
 	}
 }
 
@@ -342,6 +348,10 @@ body.page {
 				color: color(white);
 				border-bottom: 1px solid #dee2e6;
 				font-weight: normal;
+
+				@include media("≥phone", "≤desktop") {
+					white-space: nowrap;
+				}
 			}
 		}
 
@@ -367,8 +377,18 @@ body.page {
 
 			td {
 				// width: 25%;
+
+				@include media("≥phone", "≤desktop") {
+					width: 50%;
+				}
 			}
 		}
+	}
+
+	iframe,
+	img,
+	figure {
+		max-width: 100%;
 	}
 }
 

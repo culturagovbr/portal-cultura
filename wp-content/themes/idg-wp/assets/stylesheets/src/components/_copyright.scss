@@ -52,6 +52,7 @@
 
       @include media("≥phone", "≤desktop") {
         display: inline-block;
+        margin-bottom: 15px;
       }
 
       &:after {
