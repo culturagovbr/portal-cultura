@@ -1,0 +1,77 @@
+#com-via-whatsapp-form {
+  padding: 30px;
+  background: color(seashell);
+  overflow: hidden;
+
+  .areas-title {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .checkbox-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 1rem;
+
+    @include media("≥tablet", "≤desktop") {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include media("≥phone", "≤tablet") {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .checkbox-item {
+      position: relative;
+      overflow: hidden;
+
+      input[type="checkbox"] {
+        @include transform(translateX(-100%));
+
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      label {
+        @include transition(all ease-in-out .2s);
+        @include border-radius(0.25rem);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: #FFF;
+        height: 50px;
+        border: 1px solid #ced4da;
+        font-weight: normal;
+        cursor: pointer;
+
+        &:hover {
+          color: color(secondary);
+          border-color: color(secondary);
+        }
+      }
+
+      input[type="checkbox"]:checked + label {
+        background: color(secondary);
+        color: color(white);
+      }
+    }
+  }
+
+  .submit-wrapper {
+    
+    .btn-primary {
+      margin-top: 15px;
+      float: right;
+      padding: 10px 30px;
+    }
+  }
+}

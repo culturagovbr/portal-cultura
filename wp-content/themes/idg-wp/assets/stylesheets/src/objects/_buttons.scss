@@ -32,6 +32,20 @@
 	}
 }
 
+.btn-primary {
+	margin: 0;
+	background-color: color(white);
+	border-color: color(dark);
+
+	&:hover {
+		opacity: 1;
+		border-color: color(secondary);
+		background-color: color(secondary);
+		color: color(white);
+	}
+}
+
+
 .edit-link {
 	display: block;
 	text-align: right;

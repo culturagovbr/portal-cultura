@@ -1,6 +1,66 @@
+.wp-block-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 1rem;
+
+  @include media("≥tablet", "≤desktop") {
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+  }
+
+  @include media("≥phone", "≤tablet") {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wp-block-column {
+    margin: 0;
+  }
+}
+
 .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-	background: #f3f4f5;
-	border: 2px solid #c1c1c1;
-	padding: 20px;
-	text-align: center;
+  padding-bottom: 100%;
+  position: relative;
+
+  a {
+    @include transition(all ease-in-out .2s);
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: color(seashell);
+    border: 4px solid color(dark);
+    color: color(dark);
+    text-decoration: none;
+
+    &[target="_blank"] {
+      background-image: url('../../img/external-link.svg');
+      background-repeat: no-repeat;
+      background-position: right 10px top 10px;
+    }
+
+    &:hover {
+      @include media("≥desktop") {
+        background-color: color(alabaster);
+        border-color: color(dodgerBlue);
+        color: color(dodgerBlue);
+
+        .card-title,
+        .card-desc,
+        .card-title a,
+        .icon:before {
+          color: color(dodgerBlue);
+        }
+
+        .btn {
+          border-color: color(dodgerBlue);
+          color: color(dodgerBlue);
+        }
+      }
+    }
+  }
 }
