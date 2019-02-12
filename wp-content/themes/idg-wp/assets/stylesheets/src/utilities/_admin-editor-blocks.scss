@@ -4,7 +4,7 @@
   grid-gap: 15px;
   margin-bottom: 1rem;
 
-  @include media("≤desktop") {
+  @include media("≥tablet", "≤desktop") {
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
   }
 

@@ -7861,6 +7861,16 @@ body.page #main-single {
     height: 50px;
     padding: 12px 20px; } }
 
+.btn-primary {
+  margin: 0;
+  background-color: #FFFFFF;
+  border-color: #222222; }
+  .btn-primary:hover {
+    opacity: 1;
+    border-color: #0094FF;
+    background-color: #0094FF;
+    color: #FFFFFF; }
+
 .edit-link {
   display: block;
   text-align: right; }
@@ -11144,9 +11154,10 @@ p img.alignright, p img.alignleft {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
   margin-bottom: 1rem; }
-  @media (max-width: 1150px) {
-    .wp-block-columns {
-      grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); } }
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  .wp-block-columns {
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); } }
 
 @media (min-width: 320px) and (max-width: 768px) {
   .wp-block-columns {
@@ -11191,3 +11202,66 @@ p img.alignright, p img.alignleft {
         .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .btn {
           border-color: #06ACFF;
           color: #06ACFF; } }
+
+#com-via-whatsapp-form {
+  padding: 30px;
+  background: #F1F1F1;
+  overflow: hidden; }
+  #com-via-whatsapp-form .areas-title {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold; }
+  #com-via-whatsapp-form label {
+    font-weight: bold; }
+  #com-via-whatsapp-form .checkbox-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 1rem; }
+
+@media (min-width: 768px) and (max-width: 1150px) {
+  #com-via-whatsapp-form .checkbox-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); } }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #com-via-whatsapp-form .checkbox-wrapper {
+    grid-template-columns: repeat(2, 1fr); } }
+    #com-via-whatsapp-form .checkbox-wrapper .checkbox-item {
+      position: relative;
+      overflow: hidden; }
+      #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"] {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        position: absolute;
+        left: 0;
+        top: 0; }
+      #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label {
+        transition: all ease-in-out 0.2s;
+        border-radius: 0.25rem;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        -ms-border-radius: 0.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background: #FFF;
+        height: 50px;
+        border: 1px solid #ced4da;
+        font-weight: normal;
+        cursor: pointer; }
+        @media screen and (prefers-reduced-motion: reduce) {
+          #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label {
+            transition: none; } }
+        #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label:hover {
+          color: #0094FF;
+          border-color: #0094FF; }
+      #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"]:checked + label {
+        background: #0094FF;
+        color: #FFFFFF; }
+  #com-via-whatsapp-form .submit-wrapper .btn-primary {
+    margin-top: 15px;
+    float: right;
+    padding: 10px 30px; }
