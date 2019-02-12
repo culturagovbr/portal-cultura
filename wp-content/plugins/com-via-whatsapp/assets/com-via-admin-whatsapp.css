@@ -1,0 +1,8 @@
+#com-via-whatsapp-table .tableexport-caption{
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+#com-via-whatsapp-table .tableexport-caption > button {
+	margin-right: 5px;
+}
