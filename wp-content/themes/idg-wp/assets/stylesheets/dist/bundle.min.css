@@ -7683,6 +7683,10 @@ body.page #main-single {
 .entry-content div.alignright {
   margin: 0 0 30px 30px; }
 
+@media (min-width: 320px) and (max-width: 1150px) {
+  .entry-content .table-responsive {
+    width: 100% !important; } }
+
 .entry-content .table-responsive table {
   border-left: 1px solid #dee2e6;
   border-right: 1px solid #dee2e6;
@@ -7721,48 +7725,6 @@ body.page #main-single {
 .entry-content img,
 .entry-content figure {
   max-width: 100%; }
-
-.wp-block-columns {
-  margin-top: 62px; }
-  .wp-block-columns .wp-block-column .feature-card {
-    margin-top: 62px; }
-    .wp-block-columns .wp-block-column .feature-card:first-child {
-      margin-top: 0; }
-
-.wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-  height: 300px !important; }
-  .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a {
-    transition: all ease-in-out 0.2s;
-    color: #222222;
-    display: block;
-    height: 300px;
-    width: 100%;
-    text-decoration: none;
-    padding: 130px 10px 0 !important;
-    font-weight: bold; }
-    @media screen and (prefers-reduced-motion: reduce) {
-      .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a {
-        transition: none; } }
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a[target="_blank"] {
-      background: url("../../img/external-link.svg") no-repeat;
-      background-position: right 10px top 10px; }
-      .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a[target="_blank"].btn {
-        background-position: right 10px center;
-        background-size: 20px; }
-  .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover {
-    background-color: #F8F8F8;
-    border-color: #06ACFF;
-    color: #06ACFF; }
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover a {
-      color: #06ACFF; }
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover .card-title,
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover .card-desc,
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover .card-title a,
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover .icon:before {
-      color: #06ACFF; }
-    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card:hover .btn {
-      border-color: #06ACFF;
-      color: #06ACFF; }
 
 .multimedia-archive .widget_idg_banner {
   display: none !important; }
@@ -8018,28 +7980,6 @@ body.page #main-single {
         .feature-card.card-2:hover .card-title a,
         .feature-card.card-2:hover .icon:before {
           color: #222222; } }
-
-.wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-  height: 260px;
-  padding: 0;
-  text-align: center;
-  margin-bottom: 30px;
-  transition: all ease-in-out .2s;
-  background-color: #F1F1F1;
-  position: relative;
-  cursor: pointer;
-  border: 4px solid #222222; }
-  .wp-block-column .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-    margin-right: -32px; }
-  .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card > * {
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -moz-transform: translateY(-50%) translateX(-50%);
-    -ms-transform: translateY(-50%) translateX(-50%);
-    width: calc(100% - 40px);
-    position: absolute;
-    top: 50%;
-    left: 50%; }
 
 .gallery .gallery-caption {
   text-align: center;
@@ -11198,3 +11138,56 @@ p img.alignright, p img.alignleft {
     width: 100%;
     margin: 0 0 1em 0;
     float: none; } }
+
+.wp-block-columns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 1rem; }
+  @media (max-width: 1150px) {
+    .wp-block-columns {
+      grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); } }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .wp-block-columns {
+    grid-template-columns: repeat(2, 1fr); } }
+  .wp-block-columns .wp-block-column {
+    margin: 0; }
+
+.wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
+  padding-bottom: 100%;
+  position: relative; }
+  .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a {
+    transition: all ease-in-out 0.2s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F1F1F1;
+    border: 4px solid #222222;
+    color: #222222;
+    text-decoration: none; }
+    @media screen and (prefers-reduced-motion: reduce) {
+      .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a {
+        transition: none; } }
+    .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a[target="_blank"] {
+      background-image: url("../../img/external-link.svg");
+      background-repeat: no-repeat;
+      background-position: right 10px top 10px; }
+    @media (min-width: 1150px) {
+      .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover {
+        background-color: #F8F8F8;
+        border-color: #06ACFF;
+        color: #06ACFF; }
+        .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .card-title,
+        .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .card-desc,
+        .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .card-title a,
+        .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .icon:before {
+          color: #06ACFF; }
+        .wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card a:hover .btn {
+          border-color: #06ACFF;
+          color: #06ACFF; } }

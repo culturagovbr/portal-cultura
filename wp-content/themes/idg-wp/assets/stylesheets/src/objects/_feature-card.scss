@@ -136,30 +136,3 @@
 		}
 	}
 }
-
-.wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-	height: 260px;
-	padding: 0;
-	text-align: center;
-	margin-bottom: 30px;
-	transition: all ease-in-out .2s;
-	background-color: color(seashell);
-	position: relative;
-	cursor: pointer;
-	border: 4px solid color(dark);
-
-	.wp-block-column & {
-		margin-right: -32px;
-	}
-
-	> * {
-		transform: translateY(-50%) translateX(-50%);
-		-webkit-transform: translateY(-50%) translateX(-50%);
-		-moz-transform: translateY(-50%) translateX(-50%);
-		-ms-transform: translateY(-50%) translateX(-50%);
-		width: calc(100% - 40px);
-		position: absolute;
-		top: 50%;
-		left: 50%;
-	}
-}
