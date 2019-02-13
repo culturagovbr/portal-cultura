@@ -13,6 +13,20 @@
     font-weight: bold;
   }
 
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    @include transition(all ease-in-out .2s);
+
+    border: 1px solid color(ghost);
+    outline: none;
+    box-shadow: none;
+
+    &:focus {
+      border-color: color(secondary);
+    }
+  }
+
   .checkbox-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,7 +63,7 @@
         margin: 0;
         background: #FFF;
         height: 50px;
-        border: 1px solid #ced4da;
+        border: 1px solid color(ghost);
         font-weight: normal;
         cursor: pointer;
 
@@ -66,12 +80,56 @@
     }
   }
 
+  .form-group {
+    position: relative;
+
+    &.has-error {
+      input,
+      label {
+        border-color: color(danger);
+      }
+    }
+
+    div.error {
+      @include border-radius(10px);
+
+      position: absolute;
+      color: white;
+      background: rgba(#222, .9);
+      padding: 10px;
+      font-size: 0.8rem;
+      bottom: -48px;
+      z-index: 10;
+      left: 0;
+
+      &:empty {
+        display: none !important;
+      }
+
+      &:before {
+        content: "";
+        width: 0; 
+        height: 0; 
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid rgba(#222, .9);
+        position: absolute;
+        top: -8px;
+        left: 15px;
+      }
+    }
+  }
+
   .submit-wrapper {
+    text-align: center;
     
     .btn-primary {
-      margin-top: 15px;
-      float: right;
-      padding: 10px 30px;
+      @include border-radius(0.25rem);
+      display: inline-block;
+      padding: 10px 90px;
+      margin-top: 30px;
+
+      border: 1px solid color(ghost);
     }
   }
 }

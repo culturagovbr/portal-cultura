@@ -160,8 +160,12 @@ function the_breadcrumb() {
 
 			} else {
 
-				// Just display current page if not parents
-				echo '<li class="item-current item-' . $post->ID . '"><strong class="bread-current bread-' . $post->ID . '"> ' . get_the_title() . '</strong></li>';
+				if ($post->post_name === 'receba-informacoes-no-seu-celular') {
+					echo '<li class="item-current item-' . $post->ID . '"><strong class="bread-current bread-' . $post->ID . '">Lista WhatsApp</strong></li>';
+				} else {
+					// Just display current page if not parents
+					echo '<li class="item-current item-' . $post->ID . '"><strong class="bread-current bread-' . $post->ID . '"> ' . get_the_title() . '</strong></li>';
+				}
 
 			}
 

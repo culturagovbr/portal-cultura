@@ -35,6 +35,7 @@ Utilities – utilities and helper classes with ability to override anything whi
   --primary: #2969BD;
   --secondary: #0094FF;
   --text: #363636;
+  --danger: #D9534F;
   --dark: #222222;
   --white: #FFFFFF;
   --black: #000000;
@@ -49,6 +50,7 @@ Utilities – utilities and helper classes with ability to override anything whi
   --dodgerBlue: #06ACFF;
   --lightGreen: #1FC86A;
   --brightRed: #A00A00;
+  --ghost: #CED4DA;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -11213,6 +11215,22 @@ p img.alignright, p img.alignleft {
     font-weight: bold; }
   #com-via-whatsapp-form label {
     font-weight: bold; }
+  #com-via-whatsapp-form input[type="text"],
+  #com-via-whatsapp-form input[type="email"],
+  #com-via-whatsapp-form input[type="tel"] {
+    transition: all ease-in-out 0.2s;
+    border: 1px solid #CED4DA;
+    outline: none;
+    box-shadow: none; }
+    @media screen and (prefers-reduced-motion: reduce) {
+      #com-via-whatsapp-form input[type="text"],
+      #com-via-whatsapp-form input[type="email"],
+      #com-via-whatsapp-form input[type="tel"] {
+        transition: none; } }
+    #com-via-whatsapp-form input[type="text"]:focus,
+    #com-via-whatsapp-form input[type="email"]:focus,
+    #com-via-whatsapp-form input[type="tel"]:focus {
+      border-color: #0094FF; }
   #com-via-whatsapp-form .checkbox-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -11221,7 +11239,7 @@ p img.alignright, p img.alignleft {
 
 @media (min-width: 768px) and (max-width: 1150px) {
   #com-via-whatsapp-form .checkbox-wrapper {
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 320px) and (max-width: 768px) {
   #com-via-whatsapp-form .checkbox-wrapper {
@@ -11249,7 +11267,7 @@ p img.alignright, p img.alignleft {
         margin: 0;
         background: #FFF;
         height: 50px;
-        border: 1px solid #ced4da;
+        border: 1px solid #CED4DA;
         font-weight: normal;
         cursor: pointer; }
         @media screen and (prefers-reduced-motion: reduce) {
@@ -11261,7 +11279,44 @@ p img.alignright, p img.alignleft {
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"]:checked + label {
         background: #0094FF;
         color: #FFFFFF; }
-  #com-via-whatsapp-form .submit-wrapper .btn-primary {
-    margin-top: 15px;
-    float: right;
-    padding: 10px 30px; }
+  #com-via-whatsapp-form .form-group {
+    position: relative; }
+    #com-via-whatsapp-form .form-group.has-error input,
+    #com-via-whatsapp-form .form-group.has-error label {
+      border-color: #D9534F; }
+    #com-via-whatsapp-form .form-group div.error {
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      position: absolute;
+      color: white;
+      background: rgba(34, 34, 34, 0.9);
+      padding: 10px;
+      font-size: 0.8rem;
+      bottom: -48px;
+      z-index: 10;
+      left: 0; }
+      #com-via-whatsapp-form .form-group div.error:empty {
+        display: none !important; }
+      #com-via-whatsapp-form .form-group div.error:before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid rgba(34, 34, 34, 0.9);
+        position: absolute;
+        top: -8px;
+        left: 15px; }
+  #com-via-whatsapp-form .submit-wrapper {
+    text-align: center; }
+    #com-via-whatsapp-form .submit-wrapper .btn-primary {
+      border-radius: 0.25rem;
+      -webkit-border-radius: 0.25rem;
+      -moz-border-radius: 0.25rem;
+      -ms-border-radius: 0.25rem;
+      display: inline-block;
+      padding: 10px 90px;
+      margin-top: 30px;
+      border: 1px solid #CED4DA; }
