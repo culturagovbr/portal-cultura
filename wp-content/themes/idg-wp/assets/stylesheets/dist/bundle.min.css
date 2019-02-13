@@ -10569,6 +10569,17 @@ body.page #main-single {
   line-height: 1;
   font-size: 32px; }
 
+.icon-checkmark:before {
+  content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
 .icon-clock:before {
   content: "";
   font-family: "icomoon" !important;
@@ -10604,6 +10615,17 @@ body.page #main-single {
 
 .icon-dados-br:before {
   content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
+.icon-double-checkmark:before {
+  content: "";
   font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
@@ -11246,6 +11268,16 @@ p img.alignright, p img.alignleft {
       overflow: hidden; }
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all {
         grid-column: span 2; }
+        #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all i {
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          display: flex;
+          line-height: 30px;
+          align-items: center;
+          justify-content: center; }
+          #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all i:before {
+            font-size: 26px; }
         #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all label {
           height: 60px; }
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"] {

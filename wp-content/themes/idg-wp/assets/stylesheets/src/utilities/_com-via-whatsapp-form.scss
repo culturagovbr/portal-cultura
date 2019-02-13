@@ -42,6 +42,20 @@
       &.select-all {
         grid-column: span 2;
 
+        i {
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          display: flex;
+          line-height: 30px;
+          align-items: center;
+          justify-content: center;
+
+          &:before {
+            font-size: 26px;
+          }
+        }
+
         label {
           height: 60px;
         }

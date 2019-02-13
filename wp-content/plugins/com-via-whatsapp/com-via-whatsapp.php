@@ -114,7 +114,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 
 						<div class="checkbox-item select-all">
 							<input id="check-all" type="checkbox" <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Todos" />
-							<label for="check-all">Selecionar Todos</label>
+							<label for="check-all"><i class="icon-double-checkmark"></i> Selecionar Todos</label>
 						</div>
 
 						<div class="checkbox-item">
