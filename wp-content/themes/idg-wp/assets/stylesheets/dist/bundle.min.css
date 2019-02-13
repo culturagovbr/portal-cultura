@@ -11385,4 +11385,5 @@ p img.alignright, p img.alignleft {
       -ms-border-radius: 0.25rem;
       display: inline-block;
       padding: 10px 90px;
-      border: 1px solid #E5E5E5; }
+      border: 1px solid #E5E5E5;
+      height: 60px; }

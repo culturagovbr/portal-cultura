@@ -139,7 +139,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 
 						<div class="checkbox-item">
 							<input id="checkbox-politica-cultural" type="checkbox" <?php echo in_array( 'Política cultural', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Política cultural" />
-							<label for="checkbox-politica-cultural">Política cultural</label>
+							<label for="checkbox-politica-cultural">Política Cultural</label>
 						</div>
 
 						<div class="checkbox-item">
@@ -164,7 +164,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 
 						<div class="checkbox-item">
 							<input id="checkbox-Cultura afro" type="checkbox" <?php echo in_array( 'Cultura afro', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Cultura afro" />
-							<label for="checkbox-Cultura afro">Cultura afro</label>
+							<label for="checkbox-Cultura afro">Cultura Afro</label>
 						</div>
 
 						<div class="checkbox-item">

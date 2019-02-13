@@ -77,38 +77,6 @@
 					}
 				}
 			});
-
-// $(document).ready(function () {
-// 	$("form").validate({
-// 		invalidHandler: function (e, validator) {
-// 			var errors = validator.numberOfInvalids();
-// 			if (errors) {
-// 				var message = errors == 1 ? 'You missed 1 field. It has been highlighted below' : 'You missed ' + errors + ' fields.  They have been highlighted below';
-// 				$("div.error span").html(message);
-// 				$("div.error").show();
-// 			} else {
-// 				$("div.error").hide();
-// 			}
-// 		},
-// 		onkeyup: false,
-// 		submitHandler: function () {
-// 			$("div.error").hide();
-// 			alert("submit! use link below to go to the other step");
-// 		},
-// 		messages: {
-// 			password2: {
-// 				required: " ",
-// 				equalTo: "Please enter the same password as above"
-// 			},
-// 			email: {
-// 				required: " ",
-// 				email: "Please enter a valid email address, example: you@yourdomain.com",
-// 				remote: $.validator.format("{0} is already taken, please enter a different address.")
-// 			}
-// 		},
-// 		debug: true
-// 	});
-
 		},
 
 		createAgendaCalendar: function () {
