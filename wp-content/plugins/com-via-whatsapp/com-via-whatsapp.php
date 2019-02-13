@@ -82,13 +82,13 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_fullname">Nome completo</label>
-							<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>">
+							<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>" required />
 						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-group">
-							<label for="user_email">Email</label>
-							<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>">
+							<label for="user_email">E-mail</label>
+							<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>" required>
 						</div>
 					</div>
 				</div>
@@ -96,17 +96,17 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_phone">Número de telefone</label>
-							<input type="tel" class="form-control" id="user_phone" name="user_phone" value="<?php echo isset( $_POST['user_phone'] ) ? $_POST['user_phone'] : ''; ?>">
+							<input type="tel" class="form-control" id="user_phone" name="user_phone" value="<?php echo isset( $_POST['user_phone'] ) ? $_POST['user_phone'] : ''; ?>" minlength="14" maxlength="15" required>
 						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_profession">Profissão</label>
-							<input type="text" class="form-control" id="user_profession" name="user_profession" value="<?php echo isset( $_POST['user_profession'] ) ? $_POST['user_profession'] : ''; ?>">
+							<input type="text" class="form-control" id="user_profession" name="user_profession" value="<?php echo isset( $_POST['user_profession'] ) ? $_POST['user_profession'] : ''; ?>" required>
 						</div>
 					</div>
 				</div>
-				<div class="form-group">
+				<div class="form-group checkbox-area">
 
 					<label class="areas-title">Área de interesse (selecione abaixo uma ou mais áreas de interesse)</label>
 
@@ -193,7 +193,7 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 				<?php wp_nonce_field( 'register_com_via_whatsapp', 'com_via_whatsapp_nonce' ); ?>
 
 				<div class="submit-wrapper">
-					<button type="submit" class="btn btn-primary">Enviar</button>
+					<button class="btn btn-primary" id="submit-button" type="submit">Enviar</button>
 				</div>
 			</form>
 
@@ -330,6 +330,8 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 		 */
 		public function register_scripts() {
 			wp_enqueue_script( 'com-via-whatsapp-scripts', plugin_dir_url( __FILE__ ) . 'assets/com-via-whatsapp.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'jquery-mask', plugin_dir_url( __FILE__ ) . 'assets/jquery.mask.min.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'jquery-validate', plugin_dir_url( __FILE__ ) . 'assets/jquery.validate.min.js', array( 'jquery' ), false, true );
 		}
 
 		/**
