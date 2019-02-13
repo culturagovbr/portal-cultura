@@ -1,7 +1,9 @@
 #com-via-whatsapp-form {
-  padding: 30px;
-  background: color(seashell);
+  @include border-radius(0.25rem);
+  padding: 30px 30px 0;
+  background: color(alabaster);
   overflow: hidden;
+  border: 1px solid color(gray);
 
   .areas-title {
     display: block;
@@ -122,14 +124,18 @@
 
   .submit-wrapper {
     text-align: center;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    border-top: 1px solid color(ghost);
+    padding: 20px;
+    margin-top: 40px;
     
     .btn-primary {
       @include border-radius(0.25rem);
+
       display: inline-block;
       padding: 10px 90px;
-      margin-top: 30px;
-
-      border: 1px solid color(ghost);
+      border: 1px solid color(gray);
     }
   }
 }
