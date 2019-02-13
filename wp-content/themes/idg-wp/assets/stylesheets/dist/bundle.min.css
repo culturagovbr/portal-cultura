@@ -11206,9 +11206,14 @@ p img.alignright, p img.alignleft {
           color: #06ACFF; } }
 
 #com-via-whatsapp-form {
-  padding: 30px;
-  background: #F1F1F1;
-  overflow: hidden; }
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  padding: 30px 30px 0;
+  background: #F8F8F8;
+  overflow: hidden;
+  border: 1px solid #E5E5E5; }
   #com-via-whatsapp-form .areas-title {
     display: block;
     margin-bottom: 1rem;
@@ -11310,7 +11315,12 @@ p img.alignright, p img.alignleft {
         top: -8px;
         left: 15px; }
   #com-via-whatsapp-form .submit-wrapper {
-    text-align: center; }
+    text-align: center;
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    border-top: 1px solid #CED4DA;
+    padding: 20px;
+    margin-top: 40px; }
     #com-via-whatsapp-form .submit-wrapper .btn-primary {
       border-radius: 0.25rem;
       -webkit-border-radius: 0.25rem;
@@ -11318,5 +11328,4 @@ p img.alignright, p img.alignleft {
       -ms-border-radius: 0.25rem;
       display: inline-block;
       padding: 10px 90px;
-      margin-top: 30px;
-      border: 1px solid #CED4DA; }
+      border: 1px solid #E5E5E5; }
