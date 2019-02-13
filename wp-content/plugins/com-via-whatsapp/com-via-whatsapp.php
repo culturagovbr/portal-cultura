@@ -111,6 +111,12 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 					<label class="areas-title">Área de interesse (selecione abaixo uma ou mais áreas de interesse)</label>
 
 					<div class="checkbox-wrapper">
+
+						<div class="checkbox-item select-all">
+							<input id="check-all" type="checkbox" <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Todos" />
+							<label for="check-all">Selecionar Todos</label>
+						</div>
+
 						<div class="checkbox-item">
 							<input id="checkbox-audiovisual" type="checkbox" <?php echo in_array( 'Audiovisual', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Audiovisual" />
 							<label for="checkbox-audiovisual"><span>Audiovisual</span></label>
@@ -179,11 +185,6 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 						<div class="checkbox-item">
 							<input id="checkbox-patrimonio-cultural" type="checkbox" <?php echo in_array( 'Patrimônio Cultural', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Patrimônio Cultural" />
 							<label for="checkbox-patrimonio-cultural">Patrimônio Cultural</label>
-						</div>
-
-						<div class="checkbox-item">
-							<input id="checkbox-todos" type="checkbox" <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Todos" />
-							<label for="checkbox-todos">Todos</label>
 						</div>
 					</div>
 				</div>
