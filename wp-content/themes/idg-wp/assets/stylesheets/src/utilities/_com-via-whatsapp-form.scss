@@ -58,6 +58,20 @@
 
         label {
           height: 60px;
+
+          &:after {
+            display: none;
+          }
+
+          &:hover {
+            color: color(primary);
+            border-color: color(primary);
+          }
+        }
+
+        input[type="checkbox"]:checked + label {
+          background: color(primary);
+          border-color: color(primary);
         }
       }
 
@@ -82,10 +96,31 @@
         border: 1px solid color(ghost);
         font-weight: normal;
         cursor: pointer;
+        position: relative;
 
         &:hover {
           color: color(secondary);
           border-color: color(secondary);
+        }
+
+        &:after {
+          @include transform(translateY(-50%));
+
+          content: map-get($icons, 'checkmark');
+          font-family: 'icomoon';
+          font-size: 19px;
+          color: #FFF;
+          width: 30px;
+          height: 30px;
+          margin-right: 0;
+          display: flex;
+          line-height: 30px;
+          align-items: center;
+          justify-content: center;
+          float: right;
+          position: absolute;
+          top: 50%;
+          left: 15px;
         }
       }
 
