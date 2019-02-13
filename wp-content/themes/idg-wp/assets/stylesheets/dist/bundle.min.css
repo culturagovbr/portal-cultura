@@ -11238,20 +11238,16 @@ p img.alignright, p img.alignleft {
       border-color: #0094FF; }
   #com-via-whatsapp-form .checkbox-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     margin-bottom: 1rem; }
-
-@media (min-width: 768px) and (max-width: 1150px) {
-  #com-via-whatsapp-form .checkbox-wrapper {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media (min-width: 320px) and (max-width: 768px) {
-  #com-via-whatsapp-form .checkbox-wrapper {
-    grid-template-columns: repeat(2, 1fr); } }
     #com-via-whatsapp-form .checkbox-wrapper .checkbox-item {
       position: relative;
       overflow: hidden; }
+      #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all {
+        grid-column: span 2; }
+        #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all label {
+          height: 60px; }
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"] {
         transform: translateX(-100%);
         -webkit-transform: translateX(-100%);

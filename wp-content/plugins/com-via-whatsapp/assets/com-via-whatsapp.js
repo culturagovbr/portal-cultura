@@ -6,6 +6,7 @@
 	var comViaWhatsApp = {
 		init: function () {
 
+			this.checkAll();
 			this.maskInputs();
 			this.validate();
 
@@ -14,6 +15,12 @@
 					$('#user_areas_of_interest option').prop('selected', true);
 				}
 			} )
+		},
+
+		checkAll: function() {
+			$("#check-all").click(function(){
+				$('#com-via-whatsapp-form input:checkbox').not(this).prop('checked', this.checked);
+			});
 		},
 
 		maskInputs: function() {

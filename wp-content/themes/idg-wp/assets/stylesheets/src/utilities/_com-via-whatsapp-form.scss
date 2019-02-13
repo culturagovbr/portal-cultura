@@ -31,21 +31,21 @@
 
   .checkbox-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     margin-bottom: 1rem;
-
-    @include media("≥tablet", "≤desktop") {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    @include media("≥phone", "≤tablet") {
-      grid-template-columns: repeat(2, 1fr);
-    }
 
     .checkbox-item {
       position: relative;
       overflow: hidden;
+
+      &.select-all {
+        grid-column: span 2;
+
+        label {
+          height: 60px;
+        }
+      }
 
       input[type="checkbox"] {
         @include transform(translateX(-100%));
