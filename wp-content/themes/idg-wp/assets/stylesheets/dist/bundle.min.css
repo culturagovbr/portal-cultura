@@ -11280,6 +11280,14 @@ p img.alignright, p img.alignleft {
             font-size: 26px; }
         #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all label {
           height: 60px; }
+          #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all label:after {
+            display: none; }
+          #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all label:hover {
+            color: #2969BD;
+            border-color: #2969BD; }
+        #com-via-whatsapp-form .checkbox-wrapper .checkbox-item.select-all input[type="checkbox"]:checked + label {
+          background: #2969BD;
+          border-color: #2969BD; }
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"] {
         transform: translateX(-100%);
         -webkit-transform: translateX(-100%);
@@ -11302,13 +11310,34 @@ p img.alignright, p img.alignleft {
         height: 50px;
         border: 1px solid #CED4DA;
         font-weight: normal;
-        cursor: pointer; }
+        cursor: pointer;
+        position: relative; }
         @media screen and (prefers-reduced-motion: reduce) {
           #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label {
             transition: none; } }
         #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label:hover {
           color: #0094FF;
           border-color: #0094FF; }
+        #com-via-whatsapp-form .checkbox-wrapper .checkbox-item label:after {
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          content: "";
+          font-family: 'icomoon';
+          font-size: 19px;
+          color: #FFF;
+          width: 30px;
+          height: 30px;
+          margin-right: 0;
+          display: flex;
+          line-height: 30px;
+          align-items: center;
+          justify-content: center;
+          float: right;
+          position: absolute;
+          top: 50%;
+          left: 15px; }
       #com-via-whatsapp-form .checkbox-wrapper .checkbox-item input[type="checkbox"]:checked + label {
         background: #0094FF;
         color: #FFFFFF; }
