@@ -1,0 +1,47 @@
+apiVersion: apps.openshift.io/v1
+kind: DeploymentConfig
+metadata:
+  name: {{ template "fullname" . }}
+  labels:
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}"
+spec:
+  replicas: {{ .Values.replicaCount }}
+  strategy:
+    type: Rolling
+    rollingParams:
+      intervalSeconds: {{ .Values.intervalSeconds }}
+      maxSurge: {{ .Values.maxSurge }}
+      maxUnavailable: {{ .Values.maxUnavailable }}
+      timeoutSeconds: {{ .Values.timeoutSeconds }}
+      updatePeriodSeconds: {{ .Values.updatePeriodSeconds }}
+  template:
+    metadata:
+      labels:
+        draft: {{ default "draft-app" .Values.draft }}
+        app: {{ template "fullname" . }}
+      annotations:
+    spec:
+      containers:
+      - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        name: {{ .Chart.Name }}
+        volumeMounts:
+        - mountPath: /var/www/html/wp-config.php
+          name: wordpress-config
+          subPath: wp-config.php
+        - mountPath: /var/www/html/.htaccess
+          name: wordpress-htaccess
+          subPath: .htaccess
+        - mountPath: /var/www/html/wp-content/uploads
+          name: uploads
+      volumes:
+      - name: wordpress-config
+        configMap:
+          name: wordpress-config
+      - name: wordpress-htaccess
+        configMap:
+          name: wordpress-htaccess
+      - name: uploads
+        persistentVolumeClaim:
+          claimName: {{ template "fullname" . }}
+      serviceAccountName: useroot

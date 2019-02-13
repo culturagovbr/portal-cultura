@@ -15,6 +15,6 @@
     <a href="http://instagram.com/culturagovbr" target="_blank">Instagram</a>
   </li>
   <li class="soundcloud">
-    <a href="https://soundcloud.com/culturagovbr" target="_blank">Soundcloud</a>
+    <a href="https://soundcloud.com/mincidadania" target="_blank">Soundcloud</a>
   </li>
 </ul>
