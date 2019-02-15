@@ -36,11 +36,14 @@ class Gov_Schedules_Shortcodes
 				<?php endfor; ?>
 			</div>
 			<div class="daypicker-wrapper">
+				<a href="#" class="daypicker-control-prev d-block d-md-none">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				</a>
+				<a href="#" class="daypicker-control-next d-block d-md-none">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				</a>
 				<ul class="daypicker">
 					<?php
-					//setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-					//date_default_timezone_set('America/Sao_Paulo');
-
 					for($i = 3; $i >= 1; $i--) {
 						$date = date_create();
 						date_sub($date, date_interval_create_from_date_string( $i . ' days')); ?>
@@ -71,7 +74,7 @@ class Gov_Schedules_Shortcodes
 				</ul>
 			</div>
 			<div class="monthpicker-wrapper text-center">
-				<a href="#" class="monthpicker"><span class="month-name text-uppercase">NOV</span> 2018</a>
+				<a href="#" class="monthpicker"><span class="month-name text-uppercase"><?php echo date_i18n('M', strtotime( date_format($date, 'M') ) ); ?></span> <?php echo date('Y'); ?></a>
 				<input type="text" id="datepicker" class="sr-only">
 			</div>
 			<div class="events row">

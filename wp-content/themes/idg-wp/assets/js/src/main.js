@@ -132,6 +132,8 @@
 					handleswipe = callback || function(swipedir){};
 
 			touchsurface.forEach( (element) => {
+				if (!element) return;
+
 				element.addEventListener('touchstart', function(e){
 
 					var touchobj = e.changedTouches[0];

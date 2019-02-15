@@ -335,6 +335,10 @@ body.page {
 	}
 
 	.table-responsive {
+		@include media("≥phone", "≤desktop") {
+			width: 100% !important;
+		}
+
 		table {
 			border-left: 1px solid #dee2e6;
 			border-right: 1px solid #dee2e6;
@@ -389,68 +393,6 @@ body.page {
 	img,
 	figure {
 		max-width: 100%;
-	}
-}
-
-.wp-block-columns {
-	margin-top: 62px;
-
-	.wp-block-column {
-		.feature-card {
-			margin-top: 62px;
-
-			&:first-child {
-				margin-top: 0;
-			}
-		}
-	}
-}
-
-.wp-block-gutenberg-boilerplate-es5-idgwp-gutenberg-block-card {
-	height: 300px !important;
-
-	a {
-		@include transition(all ease-in-out .2s);
-
-		color: color(dark);
-		display: block;
-		height: 300px;
-		width: 100%;
-		text-decoration: none;
-		padding: 130px 10px 0 !important;
-		font-weight: bold;
-
-		&[target="_blank"] {
-			background: url('../../img/external-link.svg') no-repeat;
-			background-position: right 10px top 10px;
-
-			&.btn {
-				background-position: right 10px center;
-				background-size: 20px;
-			}
-		}
-	}
-
-	&:hover {
-		background-color: color(alabaster);
-		border-color: color(dodgerBlue);
-		color: color(dodgerBlue);
-
-		a {
-			color: color(dodgerBlue);
-		}
-
-		.card-title,
-		.card-desc,
-		.card-title a,
-		.icon:before {
-			color: color(dodgerBlue);
-		}
-
-		.btn {
-			border-color: color(dodgerBlue);
-			color: color(dodgerBlue);
-		}
 	}
 }
 

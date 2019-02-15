@@ -59,32 +59,36 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 		 */
 		public function com_via_whatsapp_shortcode() {
 
-			if ( isset( $_POST['register_com_via_whatsapp_form'] ) ) :
-				if ( ! isset( $_POST['com_via_whatsapp_nonce'] ) || ! wp_verify_nonce( $_POST['com_via_whatsapp_nonce'], 'register_com_via_whatsapp' ) ) : ?>
-
-					<div class="alert alert-warning" role="alert">
-						Ocorreu um erro ao realizar o cadastro, por favor, tente novamente!
-					</div>
-
-				<?php else :
-					$this->register();
-				endif;
-			endif;
-
 			ob_start(); ?>
 
 			<form id="com-via-whatsapp-form" action="<?php the_permalink(); ?>" method="post">
+				<div class="messages-wrapper">
+					<?php
+						if ( isset( $_POST['register_com_via_whatsapp_form'] ) ) :
+							if ( ! isset( $_POST['com_via_whatsapp_nonce'] ) || ! wp_verify_nonce( $_POST['com_via_whatsapp_nonce'], 'register_com_via_whatsapp' ) ) : ?>
+
+								<div class="alert alert-warning" role="alert">
+									<strong>Ocorreu um erro ao realizar o cadastro, por favor, tente novamente!</strong>
+								</div>
+
+							<?php else :
+								$this->register();
+							endif;
+						endif;
+					?>
+				</div>
+
 				<div class="row">
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_fullname">Nome completo</label>
-							<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>">
+							<input type="text" class="form-control" id="user_fullname" name="user_fullname" value="<?php echo isset( $_POST['user_fullname'] ) ? $_POST['user_fullname'] : ''; ?>" required />
 						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-group">
-							<label for="user_email">Email</label>
-							<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>">
+							<label for="user_email">E-mail</label>
+							<input type="email" class="form-control" id="user_email" name="user_email" value="<?php echo isset( $_POST['user_email'] ) ? $_POST['user_email'] : ''; ?>" required>
 						</div>
 					</div>
 				</div>
@@ -92,40 +96,106 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_phone">Número de telefone</label>
-							<input type="tel" class="form-control" id="user_phone" name="user_phone" value="<?php echo isset( $_POST['user_phone'] ) ? $_POST['user_phone'] : ''; ?>">
+							<input type="tel" class="form-control" id="user_phone" name="user_phone" value="<?php echo isset( $_POST['user_phone'] ) ? $_POST['user_phone'] : ''; ?>" minlength="14" maxlength="15" required>
 						</div>
 					</div>
 					<div class="col-6">
 						<div class="form-group">
 							<label for="user_profession">Profissão</label>
-							<input type="text" class="form-control" id="user_profession" name="user_profession" value="<?php echo isset( $_POST['user_profession'] ) ? $_POST['user_profession'] : ''; ?>">
+							<input type="text" class="form-control" id="user_profession" name="user_profession" value="<?php echo isset( $_POST['user_profession'] ) ? $_POST['user_profession'] : ''; ?>" required>
 						</div>
 					</div>
 				</div>
-				<div class="form-group">
-					<label for="user_areas_of_interest">Área de interesse (selecione abaixo uma ou mais áreas de interesse)</label>
-					<select multiple class="form-control" id="user_areas_of_interest" name="user_areas_of_interest[]" style="height: 320px">
-						<option <?php echo in_array( 'Audiovisual', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Audiovisual">Audiovisual</option>
-						<option <?php echo in_array( 'Museus', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Museus">Museus</option>
-						<option <?php echo in_array( 'Pontos de Cultura', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Pontos de Cultura">Pontos de Cultura</option>
-						<option <?php echo in_array( 'Editais', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Editais">Editais</option>
-						<option <?php echo in_array( 'Política cultural', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Política cultural">Política cultural</option>
-						<option <?php echo in_array( 'Sistema Nacional de Cultura', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Sistema Nacional de Cultura">Sistema Nacional de Cultura</option>
-						<option <?php echo in_array( 'Lei Rouanet', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Lei Rouanet">Lei Rouanet</option>
-						<option <?php echo in_array( 'Patrimônio', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Patrimônio">Patrimônio</option>
-						<option <?php echo in_array( 'Literatura e Bibliotecas', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Literatura e Bibliotecas">Literatura e Bibliotecas</option>
-						<option <?php echo in_array( 'Cultura afro', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Cultura afro">Cultura afro</option>
-						<option <?php echo in_array( 'Direitos Autorais', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Direitos Autorais">Direitos Autorais</option>
-						<option <?php echo in_array( 'Serviços', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Serviços">Serviços</option>
-						<option <?php echo in_array( 'Cultura Popular', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Cultura Popular">Cultura Popular</option>
-						<option <?php echo in_array( 'Patrimônio Cultural', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Patrimônio Cultural">Patrimônio Cultural</option>
-						<option <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'selected' : ''; ?> value="Todos">Todos</option>
-					</select>
+				<div class="form-group checkbox-area">
+
+					<label class="areas-title">Área de interesse (selecione abaixo uma ou mais áreas de interesse)</label>
+
+					<div class="checkbox-wrapper">
+
+						<div class="checkbox-item select-all">
+							<input id="check-all" type="checkbox" <?php echo in_array( 'Todos', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Todos" />
+							<label for="check-all"><i class="icon-double-checkmark"></i> Selecionar Todos</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-audiovisual" type="checkbox" <?php echo in_array( 'Audiovisual', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Audiovisual" />
+							<label for="checkbox-audiovisual"><span>Audiovisual</span></label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-museus" type="checkbox" <?php echo in_array( 'Museus', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Museus" />
+							<label for="checkbox-museus">Museus</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-pontos-de-cultura" type="checkbox" <?php echo in_array( 'Pontos de Cultura', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Pontos de Cultura" />
+							<label for="checkbox-pontos-de-cultura">Pontos de Cultura</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-editais" type="checkbox" <?php echo in_array( 'Editais', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Editais" />
+							<label for="checkbox-editais">Editais</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-politica-cultural" type="checkbox" <?php echo in_array( 'Política cultural', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Política cultural" />
+							<label for="checkbox-politica-cultural">Política Cultural</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-Sistema Nacional de Cultura" type="checkbox" <?php echo in_array( 'Sistema Nacional de Cultura', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Sistema Nacional de Cultura" />
+							<label for="checkbox-Sistema Nacional de Cultura">Sistema Nacional de Cultura</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-lei-rouanet" type="checkbox" <?php echo in_array( 'Lei Rouanet', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Lei Rouanet" />
+							<label for="checkbox-lei-rouanet">Lei Rouanet</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-patrimonio" type="checkbox" <?php echo in_array( 'Patrimônio', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Patrimônio" />
+							<label for="checkbox-patrimonio">Patrimônio</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-literatura-e-bibliotecas" type="checkbox" <?php echo in_array( 'Literatura e Bibliotecas', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Literatura e Bibliotecas" />
+							<label for="checkbox-literatura-e-bibliotecas">Literatura e Bibliotecas</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-Cultura afro" type="checkbox" <?php echo in_array( 'Cultura afro', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Cultura afro" />
+							<label for="checkbox-Cultura afro">Cultura Afro</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-direitos-autorais" type="checkbox" <?php echo in_array( 'Direitos Autorais', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Direitos Autorais" />
+							<label for="checkbox-direitos-autorais">Direitos Autorais</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-servicos" type="checkbox" <?php echo in_array( 'Serviços', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Serviços" />
+							<label for="checkbox-servicos">Serviços</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-cultura-popular" type="checkbox" <?php echo in_array( 'Cultura Popular', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Cultura Popular" />
+							<label for="checkbox-cultura-popular">Cultura Popular</label>
+						</div>
+
+						<div class="checkbox-item">
+							<input id="checkbox-patrimonio-cultural" type="checkbox" <?php echo in_array( 'Patrimônio Cultural', $_POST['user_areas_of_interest'] ) ? 'checked' : ''; ?> name="user_areas_of_interest[]" value="Patrimônio Cultural" />
+							<label for="checkbox-patrimonio-cultural">Patrimônio Cultural</label>
+						</div>
+					</div>
 				</div>
+
 				<input type="hidden" name="user_is_government_employee" value="<?php echo $_GET['uge'] ? '1' : ''; ?>">
 				<input type="hidden" name="register_com_via_whatsapp_form" value="1">
 				<?php wp_nonce_field( 'register_com_via_whatsapp', 'com_via_whatsapp_nonce' ); ?>
-				<button type="submit" class="btn btn-primary">Enviar</button>
+
+				<div class="submit-wrapper">
+					<button class="btn btn-primary" id="submit-button" type="submit">Enviar</button>
+				</div>
 			</form>
 
 
@@ -173,11 +243,11 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 
 				if ( $registered ) : $_POST = array(); ?>
 					<div class="alert alert-success">
-						<p><strong>Cadastro realizado com sucesso</strong></p>
+						<strong>Cadastro realizado com sucesso</strong>
 					</div>
 				<?php else: ?>
 					<div class="alert alert-danger">
-						<p><strong>Houve um erro ao realizar seu cadastro, por favor, tente novamente</strong></p>
+						<strong>Houve um erro ao realizar seu cadastro, por favor, tente novamente</strong>
 					</div>
 				<?php endif;
 
@@ -261,6 +331,8 @@ if ( ! class_exists( 'comViaWhatsApp' ) ) :
 		 */
 		public function register_scripts() {
 			wp_enqueue_script( 'com-via-whatsapp-scripts', plugin_dir_url( __FILE__ ) . 'assets/com-via-whatsapp.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'jquery-mask', plugin_dir_url( __FILE__ ) . 'assets/jquery.mask.min.js', array( 'jquery' ), false, true );
+			wp_enqueue_script( 'jquery-validate', plugin_dir_url( __FILE__ ) . 'assets/jquery.validate.min.js', array( 'jquery' ), false, true );
 		}
 
 		/**
