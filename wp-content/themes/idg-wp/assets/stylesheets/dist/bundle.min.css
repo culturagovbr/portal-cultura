@@ -8780,7 +8780,8 @@ body.page #main-single {
   #agenda .agenda-cats a.active {
     background: none; } }
   #agenda .daypicker-wrapper {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    position: relative; }
 
 @media (min-width: 320px) and (max-width: 1150px) {
   #agenda .daypicker-wrapper {
@@ -8791,6 +8792,15 @@ body.page #main-single {
     align-items: center;
     width: calc(100% + 30px);
     margin-left: -15px; } }
+    #agenda .daypicker-wrapper .daypicker-control-prev,
+    #agenda .daypicker-wrapper .daypicker-control-next {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      margin-top: -13px; }
+    #agenda .daypicker-wrapper .daypicker-control-next {
+      left: inherit !important;
+      right: 0 !important; }
     #agenda .daypicker-wrapper .daypicker {
       margin: 0;
       padding: 0;

@@ -39,7 +39,23 @@
 				}
 
 				gs.getEvents( date, eventCat );
-			})
+			});
+
+			$(document).on('click', 'a.daypicker-control-prev', function (e) {
+				e.preventDefault();
+				var date = $('.daypicker li.selected').prev('li').find('a').data('day'),
+					eventCat = $('.agenda-cats a.active').data('event-cat');
+
+				gs.getEvents( date, eventCat );
+			});
+
+			$(document).on('click', 'a.daypicker-control-next', function (e) {
+				e.preventDefault();
+				var date = $('.daypicker li.selected').next('li').find('a').data('day'),
+					eventCat = $('.agenda-cats a.active').data('event-cat');
+
+				gs.getEvents( date, eventCat );
+			});
 		},
 
 		getEvents: function (d, c) {
