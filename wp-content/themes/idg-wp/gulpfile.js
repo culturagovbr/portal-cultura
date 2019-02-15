@@ -200,8 +200,8 @@ gulp.task('browser-sync', function () {
  */
 gulp.task('watch', function () {
 	livereload.listen();
-	gulp.watch('./assets/stylesheets/src/**/*.scss', ['styles', 'styles-admin', 'browser-sync-watch']);
-	gulp.watch('./assets/js/src/*.js', ['scripts', 'scripts-admin', 'scripts-customizer', 'browser-sync-watch']);
+	gulp.watch('./assets/stylesheets/src/**/*.scss', ['styles-dev', 'styles-admin', 'browser-sync-watch']);
+	gulp.watch('./assets/js/src/*.js', ['scripts-dev', 'scripts-admin', 'scripts-customizer', 'browser-sync-watch']);
 	gulp.watch('**/*.php', ['php', 'browser-sync-watch']);
 
 	// browserSync.reload();

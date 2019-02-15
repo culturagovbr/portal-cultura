@@ -70,6 +70,7 @@
 
 	.daypicker-wrapper {
 		margin-bottom: 30px;
+		position: relative;
 
 		@include media("≥phone", "≤desktop") {
 			margin: 0;
@@ -79,6 +80,19 @@
 			align-items: center;
 			width: calc(100% + 30px);
 			margin-left: -15px;
+		}
+
+		.daypicker-control-prev,
+		.daypicker-control-next {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			margin-top: -13px;
+		}
+
+		.daypicker-control-next {
+			left: inherit !important;
+			right: 0 !important;
 		}
 
 		.daypicker {
