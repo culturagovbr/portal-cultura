@@ -71,7 +71,7 @@ class Gov_Schedules_Shortcodes
 				</ul>
 			</div>
 			<div class="monthpicker-wrapper text-center">
-				<a href="#" class="monthpicker"><span class="month-name text-uppercase">NOV</span> 2018</a>
+				<a href="#" class="monthpicker"><span class="month-name text-uppercase"><?php echo date_i18n('M', strtotime( date_format($date, 'M') ) ); ?></span> <?php echo date('Y'); ?></a>
 				<input type="text" id="datepicker" class="sr-only">
 			</div>
 			<div class="events row">
