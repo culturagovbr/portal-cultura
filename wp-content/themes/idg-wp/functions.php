@@ -125,6 +125,9 @@ add_action( 'wp_enqueue_scripts', 'idg_wp_scripts' );
 function idg_wp_admin_scripts() {
 	wp_enqueue_style( 'idg-wp-admin-style', get_template_directory_uri() . '/assets/stylesheets/dist/admin.min.css' );
 	wp_enqueue_script( 'idg-wp-admin-scripts', get_template_directory_uri() . '/assets/js/dist/admin.min.js', array('jquery'), false, true );
+	wp_localize_script( 'idg-wp-admin-scripts', 'idg_admin', array(
+		'ajaxurl'       => admin_url( 'admin-ajax.php' )
+	) );
 }
 add_action( 'admin_enqueue_scripts', 'idg_wp_admin_scripts' );
 
@@ -416,3 +419,9 @@ function escritoriosRegionaisTemplate() {
 
 add_action('template_redirect', 'escritoriosRegionaisTemplate');
 remove_filter( 'pre_term_description', 'wp_filter_kses' );
+
+function idg_wp_get_option ( $option ) {
+	$theme_key = strtolower(get_stylesheet());
+	$option_key = $theme_key . '_theme_options';
+	return get_option($option_key . $option);
+}
