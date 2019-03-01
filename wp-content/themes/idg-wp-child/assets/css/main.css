@@ -1,0 +1,8 @@
+#menu-toggle,
+#breadcrumb-wrapper .subpages-menu{
+	display: none !important;
+}
+
+#featured-links ul {
+	padding-left: 0 !important;
+}
