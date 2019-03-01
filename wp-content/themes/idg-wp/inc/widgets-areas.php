@@ -81,17 +81,21 @@ function idg_wp_widgets_init() {
 
 		if ( $idg_wp_widgets_areas['areas'] ) {
 			foreach ( $idg_wp_widgets_areas['areas'] as $id => $area ) {
+
+				$classes = empty( $idg_wp_widgets_areas['areas'][$id]['section_before_widget_class'] ) ? 'container' : $idg_wp_widgets_areas['areas'][$id]['section_before_widget_class'];
+
 				register_sidebar( array(
 					'name' => sanitize_text_field( $area['name'] ),
 					'id' => sanitize_text_field( $id ),
 					'description'   => sanitize_text_field( $area['desc'] ),
-					'before_widget' => '<div id="%1$s" class="container %2$s">',
+					'before_widget' => '<div id="%1$s" class="%2$s '. $classes .'">',
 					'after_widget'  => '</div>',
 					'before_title'  => '<h4 class="section-title text-center">',
 					'after_title'   => '</h4>',
 				) );
 			}
 		}
+
 	}
 
 
@@ -173,3 +177,36 @@ function idg_wp_remove_widget_area(){
 	wp_send_json_success();
 }
 add_action( 'wp_ajax_idg_wp_remove_widget_area', 'idg_wp_remove_widget_area' );
+
+
+function idg_wp_update_custom_data_in_widget_area(){
+
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_send_json_error();
+	}
+
+	$idg_wp_widgets_areas = get_theme_mod( 'idg_wp_widgets_areas' );
+	$idg_wp_widgets_area_id = sanitize_text_field( $_POST['idg_wp_widgets_area_id'] );
+
+	$idg_wp_widgets_areas['areas'][ $idg_wp_widgets_area_id ]['section_title'] = $_POST['section_area_title'];
+	$idg_wp_widgets_areas['areas'][ $idg_wp_widgets_area_id ]['section_class'] = $_POST['section_area_classes'];
+	$idg_wp_widgets_areas['areas'][ $idg_wp_widgets_area_id ]['section_before_widget_class'] = $_POST['section_before_widget_class'];
+
+	set_theme_mod( 'idg_wp_widgets_areas', $idg_wp_widgets_areas );
+
+	wp_send_json_success();
+}
+add_action( 'wp_ajax_idg_wp_update_custom_data_in_widget_area', 'idg_wp_update_custom_data_in_widget_area' );
+
+function idg_wp_get_custom_data_in_widget_area(){
+
+	if ( ! current_user_can( 'manage_options' ) ) {
+		wp_send_json_error();
+	}
+
+	$idg_wp_widgets_areas = get_theme_mod( 'idg_wp_widgets_areas' );
+	$idg_wp_widgets_area_id = sanitize_text_field( $_POST['idg_wp_widgets_area_id'] );
+
+	wp_send_json_success( $idg_wp_widgets_areas['areas'][ $idg_wp_widgets_area_id ] );
+}
+add_action( 'wp_ajax_idg_wp_get_custom_data_in_widget_area', 'idg_wp_get_custom_data_in_widget_area' );
