@@ -11,7 +11,6 @@
 			this.menu();
 
 			this.carousel();
-			console.log('App here!');
 		},
 
 		/**
