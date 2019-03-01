@@ -15,23 +15,6 @@
 		wp.customize.widgetsPreview &&
 		wp.customize.widgetsPreview.WidgetPartial
 	);
-	if (hasSelectiveRefresh) {
-		console.log( 'hasSelectiveRefresh Ok, pode continuar');
-	} else {
-		console.log( 'hasSelectiveRefresh', hasSelectiveRefresh );
-	}
-
-	// Site title and description.
-	/*api( 'blogname', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-title a' ).text( to );
-		} );
-	} );
-	api( 'blogdescription', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-description' ).text( to );
-		} );
-	} );*/
 
 	// Header text color.
 	api( 'header_textcolor', function( value ) {
@@ -54,7 +37,6 @@
 	} );
 
 	api( 'customize_services_widgets_area', function( value ) {
-		// api.selectiveRefresh('customize_services_widgets_area');
 
 		value.bind( function( to ) {
 			console.log( to );
@@ -66,8 +48,6 @@
 
 	api( 'idg-wp_theme_options_main_carousel', function( value ) {
 		value.bind( function( to ) {
-			console.log( 'TO: ', to );
-
 			/*$.ajax( {
 				url: idgCustomizer.ajaxurl,
 				type: 'POST',
@@ -98,5 +78,12 @@
 			} );*/
 		} );
 	} );
+
+	/*api( 'idg-wp_theme_options_home_widgets_sections', function( value ) {
+		console.log('widgets-sections-selector: ', value );
+		value.bind( function( to ) {
+			console.log('TO: ', to);
+		} )
+	} );*/
 
 } )( jQuery, wp.customize );
