@@ -127,6 +127,19 @@
 				display: none;
 			}
 		}
+
+		&.highlight-video-player {
+			padding: 0;
+
+			&:before {
+				display: none;
+			}
+
+			iframe {
+				width: 100%;
+				height: 100%;
+			}
+		}
 	}
 
 	.highlight-box {
@@ -219,4 +232,8 @@
 			}
 		}
 	}
+}
+
+#play-multimedia-video {
+	display: none;
 }

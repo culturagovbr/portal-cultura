@@ -366,8 +366,6 @@ function embeded_youtube_video_id($url) {
 
 	if (!empty($matches[1])) {
 
-		var_dump( $post_content );
-
 		$post_content = '<object width="415" height="250">';
 		$post_content .= '<param name="movie" value="http://www.youtube.com/v/' . $matches[1] . '&hl=en_US&fs=1&"></param>';
 		$post_content .= '<param name="allowFullScreen" value="true"></param>';

@@ -1,0 +1,15 @@
+#menu-toggle,
+#breadcrumb-wrapper .subpages-menu{
+	display: none !important;
+}
+
+#featured-links ul {
+	padding-left: 0 !important;
+}
+
+#play-multimedia-video {
+	display: block !important;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+}
