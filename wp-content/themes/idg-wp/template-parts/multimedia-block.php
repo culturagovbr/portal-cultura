@@ -41,6 +41,11 @@ $multimedia_query = new WP_Query( $args ); ?>
 					</div>
 				</div>
 			</a>
+			<?php if( $video_id ) :
+				if (preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', get_the_content(), $match)) {
+					echo '<span id="play-multimedia-video" class="icon icon-play_btn position-absolute" data-video-src="'. $match[1] .'"></span>';
+				}
+			endif; ?>
 		</div>
 	<?php endwhile; ?>
 

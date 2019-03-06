@@ -7,10 +7,9 @@
 		init: function () {
 			this.accessibility();
 			this.utils();
-			// this.agenda();
 			this.menu();
-
 			this.carousel();
+			this.multimedia();
 		},
 
 		/**
@@ -174,6 +173,21 @@
 				e.preventDefault();
 				$('.monthpicker').datepicker('show');
 			});
+		},
+
+		multimedia: function () {
+			$('#play-multimedia-video').click(function (e) {
+				e.preventDefault();
+
+				var vID = $(this).data('video-src'),
+					vidWidth = 1150,
+					vidHeight = 530;
+
+				var iFrameCode = '<iframe class="idg-video-player" width="' + vidWidth + '" height="'+ vidHeight +'" scrolling="no" allowtransparency="true" allowfullscreen="true" src="https://www.youtube.com/embed/'+  vID +'?rel=0&wmode=transparent&showinfo=0&autoplay=1" frameborder="0"></iframe>';
+
+				$('#multimidia .highlight').addClass('highlight-video-player').html(iFrameCode);
+
+			})
 		}
 	};
 })(jQuery);
