@@ -7875,6 +7875,8 @@ body.page #main-single {
           -ms-transform: translateY(-50%) translateX(10px);
           right: auto;
           left: -55.5px; }
+    .image-and-text .container.no-border .col-image:after {
+      display: none; }
     .image-and-text .container .col-image {
       flex: 0 0 400px;
       padding: 30px 0 30px;
@@ -7896,6 +7898,13 @@ body.page #main-single {
         top: 30px; }
     .image-and-text .container .col-text {
       flex-grow: 1; }
+
+.child-theme .menu-item-home a {
+  font-size: 0; }
+  .child-theme .menu-item-home a:before {
+    content: "";
+    font-size: 17px;
+    font-family: 'icomoon'; }
 
 .btn,
 .wpcf7-submit {
