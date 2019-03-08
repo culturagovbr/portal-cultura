@@ -72,7 +72,7 @@
 			<div class="col-image text-center">
 				<div class="box">
 					<div class="img-wrapper mb-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sav.png" />
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/SAV.png" />
 					</div>
 
 					<h3>Secretaria do Audiovisual</h3>

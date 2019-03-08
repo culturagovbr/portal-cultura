@@ -591,6 +591,14 @@ body.page {
 			}
 		}
 
+		&.no-border {
+			.col-image {
+				&:after {
+					display: none;
+				}
+			}
+		}
+
 		.col-image {
 			flex: 0 0 400px;
 			padding: 30px 0 30px;

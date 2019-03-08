@@ -15,6 +15,10 @@
   font-size: 21px;
 }
 
+#multimidia .highlight.highlight-video-player {
+  margin-bottom: 0;
+}
+
 /*
 #main-footer .menus:after {
   transform: translateY(-50%);
