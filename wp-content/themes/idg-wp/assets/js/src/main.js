@@ -183,7 +183,7 @@
 					vidWidth = 1150,
 					vidHeight = 530;
 
-				var iFrameCode = '<iframe class="idg-video-player" width="' + vidWidth + '" height="'+ vidHeight +'" scrolling="no" allowtransparency="true" allowfullscreen="true" src="https://www.youtube.com/embed/'+  vID +'?rel=0&wmode=transparent&showinfo=0&autoplay=1" frameborder="0"></iframe>';
+				var iFrameCode = '<iframe class="idg-video-player" width="' + vidWidth + '" height="'+ vidHeight +'" scrolling="no" allowtransparency="true" allowfullscreen="true" src="https://www.youtube.com/embed/'+  vID +'?rel=0&wmode=transparent&showinfo=0&autoplay=1" frameborder="0" allow="autoplay"></iframe>';
 
 				$('#multimidia .highlight').addClass('highlight-video-player').html(iFrameCode);
 

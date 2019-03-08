@@ -32,18 +32,19 @@ $multimedia_query = new WP_Query( $args ); ?>
 			endif;
 		}
 		?>
-		<div class="highlight" style="background-image: url('<?php echo $multimedia_thumb; ?>');">
+		<div class="highlight <?php echo $taxonomy_names[0]->slug ?>" style="background-image: url('<?php echo $multimedia_thumb; ?>');">
 			<a href="<?php the_permalink(); ?>">
 				<div class="align">
 					<div class="text">
 						<h3><?php the_title(); ?></h3>
 						<span><?php echo idg_excerpt(30); ?></span>
+						<span><u>Ver Mais</u></span>
 					</div>
 				</div>
 			</a>
-			<?php if( $video_id ) :
+			<?php if( $taxonomy_names[0]->slug == 'video' ) :
 				if (preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', get_the_content(), $match)) {
-					echo '<span id="play-multimedia-video" class="icon icon-play_btn position-absolute" data-video-src="'. $match[1] .'"></span>';
+					echo '<div id="play-multimedia-video" data-video-src="'. $match[1] .'"><i class="icon icon-play_btn"></i></div>';
 				}
 			endif; ?>
 		</div>
