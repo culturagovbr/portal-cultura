@@ -10,6 +10,11 @@
 #main-footer .menus {
   position: relative;
 }
+
+#main-footer .menus .section-title {
+  font-size: 21px;
+}
+
 /*
 #main-footer .menus:after {
   transform: translateY(-50%);
@@ -21,11 +26,9 @@
   right: 0;
   background: #CCC;
 }*/
-/*
 
-#main-footer .menus .section-title {
-  font-size: 21px;
-}
+
+/*
 
 #main-footer .menus ul {
   /*text-align: center;
@@ -61,4 +64,4 @@
 
 #main-footer .menus ul li a {
   font-size: 16px !important;
-}*/
+}
