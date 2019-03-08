@@ -127,11 +127,11 @@
 			<div class="col-image text-center">
 				<div class="box">
 					<div class="img-wrapper mb-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sav.png" />
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sic.png" />
 					</div>
 
-					<h3>Secretaria do Audiovisual</h3>
-					<p>Responsável pela coordenação de todos os projetos de audiovisual. Projetos de audiovisual são coordenados pelo Departamento de Políticas Audiovisuais, da Secretaria do Audiovisual do MinC, e possui, entre outras, três coordenações que realizam atividades de rotina relacionadas ao Incentivo Fiscal.</p>
+					<h3>Serviço de Informação ao Cidadão</h3>
+					<p>Serviço eletrônico que permite a qualquer pessoa, física ou jurídica, encaminhar pedidos de acesso à informação para órgãos e entidades do Executivo Federal.</p>
 				</div>
 			</div>
 
