@@ -7826,6 +7826,77 @@ body.page #main-single {
       body.menu-active #wpadminbar {
         transition: none; } }
 
+.horizontal-links {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .horizontal-links li {
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 0px; }
+    .horizontal-links li:before {
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      content: "";
+      width: 1px;
+      height: 60%;
+      left: -0.5px;
+      top: 50%;
+      position: absolute;
+      background: #222222; }
+    .horizontal-links li:first-child {
+      padding: 0;
+      margin: 0; }
+      .horizontal-links li:first-child:before {
+        display: none; }
+    .horizontal-links li a {
+      font-size: 1rem; }
+
+.image-and-text {
+  padding: 60px 0; }
+  .image-and-text .container {
+    display: flex; }
+    .image-and-text .container.image-left {
+      flex-direction: row; }
+      .image-and-text .container.image-left .col-image {
+        margin-right: 100px; }
+    .image-and-text .container.image-right {
+      flex-direction: row-reverse; }
+      .image-and-text .container.image-right .col-image {
+        margin-left: 100px; }
+        .image-and-text .container.image-right .col-image:after {
+          transform: translateY(-50%) translateX(10px);
+          -webkit-transform: translateY(-50%) translateX(10px);
+          -moz-transform: translateY(-50%) translateX(10px);
+          -ms-transform: translateY(-50%) translateX(10px);
+          right: auto;
+          left: -55.5px; }
+    .image-and-text .container .col-image {
+      flex: 0 0 400px;
+      padding: 30px 0 30px;
+      position: relative; }
+      .image-and-text .container .col-image:after {
+        transform: translateY(-50%) translateX(-10px);
+        -webkit-transform: translateY(-50%) translateX(-10px);
+        -moz-transform: translateY(-50%) translateX(-10px);
+        -ms-transform: translateY(-50%) translateX(-10px);
+        content: "";
+        width: 1px;
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        background: rgba(34, 34, 34, 0.2);
+        right: -55.5px; }
+      .image-and-text .container .col-image .box {
+        position: sticky;
+        top: 30px; }
+    .image-and-text .container .col-text {
+      flex-grow: 1; }
+
 .btn,
 .wpcf7-submit {
   transition: all ease 0.2s;
@@ -9245,7 +9316,7 @@ body.page #main-single {
     max-height: 400px; } }
       .carousel-wrapper #jumbotron-carousel .carousel-item img {
         display: block;
-        height: 100%;
+        height: 680px;
         object-fit: cover; }
 
 @media (min-width: 320px) and (max-width: 1150px) {
@@ -10052,6 +10123,7 @@ body.page #main-single {
 
 @media (min-width: 320px) and (max-width: 1150px) {
   #multimidia {
+    border-top: 1px solid #222222;
     padding: 0;
     background-size: 30px auto;
     font-size: 0; }
@@ -10091,6 +10163,35 @@ body.page #main-single {
     display: block;
     height: 350px;
     margin-bottom: 0; } }
+    #multimidia .highlight.video {
+      display: flex; }
+      #multimidia .highlight.video #play-multimedia-video {
+        display: block;
+        cursor: pointer; }
+        #multimidia .highlight.video #play-multimedia-video i {
+          transform: translateY(-60%) translateX(-50%);
+          -webkit-transform: translateY(-60%) translateX(-50%);
+          -moz-transform: translateY(-60%) translateX(-50%);
+          -ms-transform: translateY(-60%) translateX(-50%);
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          z-index: 2; }
+          #multimidia .highlight.video #play-multimedia-video i:before {
+            font-size: 120px;
+            display: block; }
+      #multimidia .highlight.video > a {
+        padding: 0 0 20px;
+        align-self: flex-end;
+        position: relative;
+        z-index: 1;
+        cursor: pointer; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  #multimidia .highlight.video > a {
+    padding: 0; } }
     #multimidia .highlight > a {
       display: table-cell;
       vertical-align: middle;
@@ -10141,6 +10242,13 @@ body.page #main-single {
 @media (min-width: 320px) and (max-width: 1150px) {
   #multimidia .highlight:before {
     display: none; } }
+    #multimidia .highlight.highlight-video-player {
+      padding: 0; }
+      #multimidia .highlight.highlight-video-player:before {
+        display: none; }
+      #multimidia .highlight.highlight-video-player iframe {
+        width: 100%;
+        height: 100%; }
   #multimidia .highlight-box {
     height: 215px;
     background-position: center center;
@@ -10205,6 +10313,9 @@ body.page #main-single {
       .multimedia-archive #social-media .highlight-box a span {
         font-weight: bold;
         font-size: 1.2rem; }
+
+#play-multimedia-video {
+  display: none; }
 
 #posts-list {
   padding: 0;
@@ -10678,6 +10789,17 @@ body.page #main-single {
   line-height: 1;
   font-size: 32px; }
 
+.icon-eye:before {
+  content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
 .icon-fale-conosco:before {
   content: "";
   font-family: "icomoon" !important;
@@ -10887,8 +11009,41 @@ body.page #main-single {
   line-height: 1;
   font-size: 32px; }
 
+.icon-search_b:before {
+  content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
 .icon-secretarias:before {
   content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
+.icon-settings:before {
+  content: "";
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 32px; }
+
+.icon-smartphone:before {
+  content: "";
   font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
