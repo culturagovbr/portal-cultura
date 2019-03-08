@@ -626,3 +626,18 @@ body.page {
 		}
 	}
 }
+
+.child-theme {
+	.menu-item-home {
+		a {
+			font-size: 0;
+
+			&:before {
+				content: map-get($icons, 'home');
+				font-size: 17px;
+				font-family: 'icomoon';
+			}
+		}
+
+	}
+}
