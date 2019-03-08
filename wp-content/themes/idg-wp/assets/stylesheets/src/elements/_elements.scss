@@ -562,3 +562,59 @@ body.page {
 		}
 	}
 }
+
+.image-and-text {
+	padding: 60px 0;
+
+	.container {
+		display: flex;
+
+		&.image-left {
+			flex-direction: row;
+
+			.col-image {
+				margin-right: 100px;
+			}
+		}
+
+		&.image-right {
+			flex-direction: row-reverse;
+
+			.col-image {
+				margin-left: 100px;
+
+				&:after {
+					@include transform(translateY(-50%) translateX(10px));
+					right: auto;
+					left: -55.5px;
+				}
+			}
+		}
+
+		.col-image {
+			flex: 0 0 400px;
+			padding: 30px 0 30px;
+			position: relative;
+
+			&:after {
+				@include transform(translateY(-50%) translateX(-10px));
+				content: "";
+				width: 1px;
+				height: 80%;
+				position: absolute;
+				top: 50%;
+				background: rgba(color(dark), .2);
+				right: -55.5px;
+			}
+
+			.box {
+				position: sticky;
+				top: 30px;
+			}
+		}
+
+		.col-text {
+			flex-grow: 1;
+		}
+	}
+}
