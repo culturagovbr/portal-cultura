@@ -83,7 +83,29 @@
     background: #EEE;
     border-radius: 15px;
     clear: both;
+}
 
+#ferramentas .img-wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+#ferramentas .image-and-text {
+  padding: 30px 0;
+}
+
+#ferramentas .image-and-text .container .col-image {
+  flex: 0 0 360px;
+}
+
+#ferramentas .image-and-text .container .col-image .box {
+  position: static;
 }
 
 /*
