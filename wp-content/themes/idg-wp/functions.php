@@ -41,7 +41,7 @@ if ( ! function_exists( 'idg_wp_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
-		add_image_size('carousel-feature', 1280, 680, true);
+		add_image_size('carousel-feature', 1920, 1080, true);
 		add_image_size('highlight-box', 350, 350, true);
 		add_image_size('multimedia-feature', 1080, 500, true);
 
