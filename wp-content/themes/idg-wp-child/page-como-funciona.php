@@ -15,21 +15,20 @@
 
   <section class="image-and-text">
 
-    <div class="container image-right no-border">
-      <div class="col-image text-center">
-        <div class="box">
-          <div class="img-wrapper mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/como-funciona-1.png'); border: 1px solid #CCC;">
-          </div>
+    <div class="container image-right align-center no-border">
+      <div class="col-text">
+        <div class="box-cnic">
+          <h3>CNIC</h3>
+
+          <p>A Comissão Nacional de Incentivo à Cultura (CNIC) é um colegiado de assessoramento de caráter paritário, formado por representantes dos setores artísticos, culturais e empresariais, em paridade da sociedade civil e do poder público. Ela analisa os projetos culturais, inclusive sob seus aspectos orçamentários, podendo para tanto solicitar informações adicionais, diligenciando o proponente, emitindo parecer conclusivo pela aprovação, total ou parcial, ou rejeição do projeto cultural.</p>
+
+
         </div>
       </div>
 
       <div class="col-text">
         <h2 class="section-title mb-5">Como Funciona?</h2>
         <p>Um produtor cultural, artista ou instituição, como um museu ou teatro, por exemplo, planeja fazer um evento cultural – um festival, uma exposição, uma feira de livros, entre outros. Se o próprio produtor não tiver os recursos necessários para fazer esse evento, ele pode recorrer à Secretaria Especial da Cultura do Ministério da Cidadania, por meio da Lei de Incentivo à Cultura, para buscar apoio na realização desse projeto. A proposta apresentada pode, então, ser aprovada para captar o dinheiro junto à iniciativa privada. Ainda que a proposta tenha sido aprovada, isso não significa que a pessoa ou instituição que a propôs, ou seja, o proponente, vá receber o valor necessário para sua execução. É importante ressaltar que a Secretaria Especial da Cultura não distribui verba para a realização dos projetos. Ou seja, os projetos incentivados não recebem recursos originários do orçamento do Ministério da Cidadania.</p>
-
-        <ul class="horizontal-links">
-          <li><a href="#incentivo">Tutoriais</a></li>
-        </ul>
       </div>
     </div>
   </section>
@@ -41,8 +40,6 @@
 
     <div class="container">
       <div class="text pb-5">
-        <hr/>
-        <h2 class="section-title mb-3">Passo a Passo</h2>
         <p>1) Apresentação de proposta: O proponente (responsável pelo projeto) insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.</p>
 
         <p> 2) Análise de admissibilidade: O Ministério da Cidadania realiza a análise de admissibilidade da proposta a partir de critérios objetivos estabelecidos pela Lei 8.313/91 e pela Instrução Normativa em vigor. Se admitida, a proposta se transforma em projeto e recebe autorização para captação de recursos incentivados, a partir de publicação no Diário Oficial da União (DOU). </p>
@@ -62,21 +59,6 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="ficart">
-    <div class="container image-right align-center">
-      <div class="col-image pt-0 pb-0">
-        <div class="box">
-          <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/05.jpg');"></div>
-        </div>
-      </div>
-
-      <div class="col-text">
-        <h3>Cenic</h3>
-        <p>A Comissão Nacional de Incentivo à Cultura (CNIC) é um colegiado de assessoramento de caráter paritário, formado por representantes dos setores artísticos, culturais e empresariais, em paridade da sociedade civil e do poder público. Ela analisa os projetos culturais, inclusive sob seus aspectos orçamentários, podendo para tanto solicitar informações adicionais, diligenciando o proponente, emitindo parecer conclusivo pela aprovação, total ou parcial, ou rejeição do projeto cultural.</p>
-      </div>
-    </div>
-  </section>
-
   <section class="image-and-text" id="ficart">
     <div class="container image-left align-center">
       <div class="col-text">
@@ -88,7 +70,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Novo Cadastro e Primeiros Passos da Nova Proposta</h3>
                   </div>
                 </a>
@@ -98,7 +80,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Corpo da Proposta</h3>
                   </div>
                 </a>
@@ -108,7 +90,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Local de Realização e Plano de Distribuição</h3>
                   </div>
                 </a>
@@ -118,7 +100,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Planilha Orçamentária</h3>
                   </div>
                 </a>
@@ -130,7 +112,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Envio da Proposta</h3>
                   </div>
                 </a>
@@ -140,7 +122,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Minhas Solicitações</h3>
                   </div>
                 </a>
@@ -150,7 +132,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Relatório de Comprovação do Objeto</h3>
                   </div>
                 </a>
@@ -160,7 +142,7 @@
               <div class="feature-card text-center card-1">
                 <a href="http://hmg.cultura.gov.br/acesso-a-informacao/acoes-e-programas/">
                   <div class="align">
-                    <div class="icon icon-acoes-programadas"></div>
+                    <div class="icon icon-legislacao"></div>
                     <h3 class="card-title">Comprovação Financeira</h3>
                   </div>
                 </a>

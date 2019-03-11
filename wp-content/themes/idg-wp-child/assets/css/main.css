@@ -75,6 +75,17 @@
   margin: 0 auto 30px;
 }
 
+#como-funciona .box-cnic {
+    width: 400px;
+    text-align: left;
+    padding: 30px;
+    margin-left: 50px;
+    background: #EEE;
+    border-radius: 15px;
+    clear: both;
+
+}
+
 /*
 #main-footer .menus:after {
   transform: translateY(-50%);

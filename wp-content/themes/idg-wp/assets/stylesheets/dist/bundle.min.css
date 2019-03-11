@@ -7906,6 +7906,9 @@ body.page #main-single {
     font-size: 17px;
     font-family: 'icomoon'; }
 
+.align-center {
+  align-items: center; }
+
 .btn,
 .wpcf7-submit {
   transition: all ease 0.2s;
