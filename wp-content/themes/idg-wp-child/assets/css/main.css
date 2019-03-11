@@ -46,6 +46,35 @@
   background-size: cover;
 }
 
+#page-o-que-e h5 {
+  font-size: 1.1rem;
+}
+
+#como-funciona .img-wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#como-funciona #info-graphic {
+  background: #FFF;
+}
+
+#como-funciona #info-graphic img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#como-funciona #info-graphic hr {
+  display: none;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+
 /*
 #main-footer .menus:after {
   transform: translateY(-50%);
