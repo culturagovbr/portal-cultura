@@ -18,7 +18,14 @@ get_header();
 	<main id="main" class="site-main">
 
 		<section class="carousel-wrapper">
-			<?php get_template_part('template-parts/jumbotron-carousel'); ?>
+			<?php
+			if( idg_wp_get_option('_main_carousel_custom') ){
+				if ( is_active_sidebar( idg_wp_get_option('_home_widgets_carousel_sidebar') ) ) :
+					dynamic_sidebar( idg_wp_get_option('_home_widgets_carousel_sidebar') );
+				endif;
+			} else {
+				get_template_part('template-parts/jumbotron-carousel');
+			} ?>
 		</section>
 
 		<?php if ( !idg_wp_get_option('_home_widgets_sections_disable') ):  ?>
