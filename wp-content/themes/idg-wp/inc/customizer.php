@@ -140,6 +140,32 @@ class IDGWP_Customize
 			// 'render_callback' =>  array( $this, 'idg_wp_customize_partial_main_carousel' ),
 		));
 
+		$wp_customize->add_setting($this->option_key . '_main_carousel_custom', array(
+			'default' => false,
+			'type' => 'option',
+			'capability' => 'edit_theme_options',
+		));
+
+		$wp_customize->add_control($this->option_key . '_main_carousel_custom', array(
+			'label' => esc_attr__('Use custom widget to handle carousel', 'idg-wp'),
+			'section' => 'static_front_page',
+			'settings' => $this->option_key . '_main_carousel_custom',
+			'type' => 'checkbox'
+		));
+
+		$wp_customize->add_setting($this->option_key . '_home_widgets_carousel_sidebar', array(
+			'default' => '',
+			'type' => 'option',
+			'capability' => 'edit_theme_options',
+		));
+
+		$wp_customize->add_control(new Simple_Sidebar_Dropdown_Custom_Control($wp_customize, $this->option_key . '_home_widgets_carousel_sidebar', array(
+			'label' => false,
+			'description' => esc_html__('Choose a sidebar to override the theme', 'idg-wp'),
+			'settings' => $this->option_key . '_home_widgets_carousel_sidebar',
+			'section' => 'static_front_page',
+		)));
+
 		$wp_customize->add_setting($this->option_key . '_main_carousel_slides', array(
 			'default' => $defaults['_main_carousel_slides'],
 			'type' => 'option',
@@ -207,7 +233,7 @@ class IDGWP_Customize
 		$wp_customize->add_control(new Sidebar_Dropdown_Custom_Control($wp_customize, $this->option_key . '_home_widgets_sections', array(
 			'type' => 'textarea',
 			'label' => esc_html__('Front page sections', 'idg-wp'),
-			'description' => esc_html__('Choose a section on the list available below, and rearrange as you please.', 'mytheme'),
+			'description' => esc_html__('Choose a section on the list available below, and rearrange as you please.', 'idg-wp'),
 			'settings' => $this->option_key . '_home_widgets_sections',
 			'section' => 'static_front_page',
 		)));
@@ -306,4 +332,35 @@ if (is_customize_preview()) :
 			<?php
 		}
 	}
+
+	class Simple_Sidebar_Dropdown_Custom_Control extends WP_Customize_Control
+	{
+		public $type = 'sidebar_dropdown';
+
+		public function render_content()
+		{
+			?>
+			<label class="customize_dropdown_input">
+				<span class="customize-control-title"><?php echo esc_html($this->label); ?></span>
+				<p><?php echo wp_kses_post($this->description); ?></p>
+				<?php
+				global $wp_registered_sidebars;
+				?>
+				<select id="<?php echo esc_attr($this->id); ?>" name="<?php echo esc_attr($this->id); ?>"
+						data-customize-setting-link="<?php echo esc_attr($this->id); ?>">
+					<?php
+					$sidebar_shop = $wp_registered_sidebars;
+					if (is_array($sidebar_shop) && !empty($sidebar_shop)) {
+						foreach ($sidebar_shop as $sidebar) {
+							echo '<option value="' . $sidebar['id'] . '" ' . selected($this->value(), $sidebar['id'], false) . '>' . $sidebar['name'] . '</option>';
+						}
+					}
+					?>
+				</select>
+				<br>
+			</label>
+			<?php
+		}
+	}
 endif;
+

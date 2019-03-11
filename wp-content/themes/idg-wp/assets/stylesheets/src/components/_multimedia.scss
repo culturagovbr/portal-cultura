@@ -6,6 +6,7 @@
 	color: color(white);
 
 	@include media("≥phone", "≤desktop") {
+		border-top: 1px solid color(dark);
 		padding: 0;
 		background-size: 30px auto;
 		font-size: 0;
@@ -60,6 +61,43 @@
 			display: block;
 			height: 350px;
 			margin-bottom: 0;
+		}
+
+		&.video {
+			display: flex;
+
+
+			#play-multimedia-video {
+				display: block;
+				cursor: pointer;
+
+				i {
+					@include transform(translateY(-60%) translateX(-50%));
+					width: 120px;
+					height: 120px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					z-index: 2;
+
+					&:before {
+						font-size: 120px;
+						display: block;
+					}
+				}
+			}
+
+			> a {
+				padding: 0 0 20px;
+				align-self: flex-end;
+				position: relative;
+				z-index: 1;
+				cursor: pointer;
+
+				@include media("≥phone", "≤desktop") {
+					padding: 0;
+				}
+			}
 		}
 
 		> a {
