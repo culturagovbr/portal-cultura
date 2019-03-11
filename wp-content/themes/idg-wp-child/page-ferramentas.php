@@ -23,8 +23,9 @@
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-5">Salic</h2>
+        <h2 class="section-title mb-4">Salic</h2>
         <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) é o local de cadastro das propostas. No Salic, são transitadas todas as fases do projeto, desde o cadastramento, passando pela aprovação, execução e prestação de contas. É também o principal veículo de comunicação entre o proponente e a equipe da Secretaria de Fomento e Incentivo à Cultura (Sefic) da Secretaria da Cultura, responsável pela gestão da Lei de Incentivo à Cultura.</p>
+        <a href="#this" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>
@@ -39,8 +40,9 @@
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-5">Versalic</h2>
+        <h2 class="section-title mb-4">Versalic</h2>
         <p>Todas as informações sobre propostas apresentadas e projetos aprovados pela Lei de Incentivo à Cultura estão disponíveis ao público no Versalic. São disponibilizados dados básicos sobre a captação e execução dos projetos, que podem ser consultados a partir do nome do projeto, do proponente ou do incentivador, por exemplo.</p>
+        <a href="#this" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>
@@ -55,8 +57,9 @@
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-5">Salic Comparar</h2>
+        <h2 class="section-title mb-4">Salic Comparar</h2>
         <p>Aqui estão os principais indicadores da Lei de Incentivo à Cultura, que podem ser organizados de diversas formas: projetos apresentados e aprovados por ano e mês, por estado e região, ou até mesmo por área – como audiovisual, patrimônio e música. Valores e dados sobre captadores e incentivadores são atualizados diariamente.</p>
+        <a href="#this" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>
@@ -71,8 +74,9 @@
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-5">Salic Mobile</h2>
+        <h2 class="section-title mb-4">Salic Mobile</h2>
         <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) conta com a versão para acesso remoto. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de ter a possibilidade de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema.</p>
+        <a href="#this" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>

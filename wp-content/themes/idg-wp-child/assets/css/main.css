@@ -108,6 +108,11 @@
   position: static;
 }
 
+#ferramentas .btn-acesse {
+  margin: 0;
+  cursor: pointer;
+}
+
 /*
 #main-footer .menus:after {
   transform: translateY(-50%);
