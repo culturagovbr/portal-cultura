@@ -16,13 +16,10 @@
   <section class="image-and-text">
 
     <div class="container image-right align-center no-border">
-      <div class="col-text">
-        <div class="box-cnic">
-          <h3>CNIC</h3>
-
-          <p>A Comissão Nacional de Incentivo à Cultura (CNIC) é um colegiado de assessoramento de caráter paritário, formado por representantes dos setores artísticos, culturais e empresariais, em paridade da sociedade civil e do poder público. Ela analisa os projetos culturais, inclusive sob seus aspectos orçamentários, podendo para tanto solicitar informações adicionais, diligenciando o proponente, emitindo parecer conclusivo pela aprovação, total ou parcial, ou rejeição do projeto cultural.</p>
-
-
+      <div class="col-image text-center">
+        <div class="box">
+          <div class="img-wrapper mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/como-funciona-1.png'); border: 1px solid #CCC;">
+          </div>
         </div>
       </div>
 
@@ -34,27 +31,25 @@
   </section>
 
   <section id="info-graphic">
-    <!-- <div class="container"> -->
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/info-caminho-rouanet-2.png" />
-    <!-- </div> -->
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/info-caminho-rouanet-2.png" />
 
     <div class="container">
       <div class="text pb-5">
-        <p>1) Apresentação de proposta: O proponente (responsável pelo projeto) insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.</p>
+        <p><strong>1) Apresentação de proposta:</strong> O proponente (responsável pelo projeto) insere uma proposta cultural no Sistema de Apoio às Leis de Incentivo à Cultura (Salic), de forma eletrônica.</p>
 
-        <p> 2) Análise de admissibilidade: O Ministério da Cidadania realiza a análise de admissibilidade da proposta a partir de critérios objetivos estabelecidos pela Lei 8.313/91 e pela Instrução Normativa em vigor. Se admitida, a proposta se transforma em projeto e recebe autorização para captação de recursos incentivados, a partir de publicação no Diário Oficial da União (DOU). </p>
+        <p><strong> 2) Análise de admissibilidade:</strong> O Ministério da Cidadania realiza a análise de admissibilidade da proposta a partir de critérios objetivos estabelecidos pela Lei 8.313/91 e pela Instrução Normativa em vigor. Se admitida, a proposta se transforma em projeto e recebe autorização para captação de recursos incentivados, a partir de publicação no Diário Oficial da União (DOU). </p>
 
-        <p>3) Análise técnica: o projeto é encaminhado à análise técnica por parecerista da área cultural do projeto. </p>
+        <p><strong>3) Análise técnica:</strong> o projeto é encaminhado à análise técnica por parecerista da área cultural do projeto. </p>
 
-        <p>4) Análise pela CNIC: Após emissão do parecer técnico, o projeto cultural é apreciado pela Comissão Nacional de Incentivo à Cultura (CNIC), que homologa a execução do projeto.</p>
+        <p><strong>4) Análise pela CNIC:</strong> Após emissão do parecer técnico, o projeto cultural é apreciado pela Comissão Nacional de Incentivo à Cultura (CNIC), que homologa a execução do projeto.</p>
 
-        <p> 5) Decisão final: o ministro de Estado da Cidadania, em última instância, decide quanto à aprovação ou rejeição do projeto cultural. Historicamente, por convenção, o Ministério acompanha a decisão do órgão consultivo. </p>
+        <p><strong> 5) Decisão final:</strong> o ministro de Estado da Cidadania, em última instância, decide quanto à aprovação ou rejeição do projeto cultural. Historicamente, por convenção, o Ministério acompanha a decisão do órgão consultivo. </p>
 
-        <p>6) Captação: após a aprovação do projeto, cabe ao proponente encontrar as empresas para patrocinar sua ideia. Quando conseguir captar 20% do valor total aprovado, pode iniciar a execução da proposta conforme detalhado no projeto.</p>
+        <p><strong>6) Captação:</strong> após a aprovação do projeto, cabe ao proponente encontrar as empresas para patrocinar sua ideia. Quando conseguir captar 20% do valor total aprovado, pode iniciar a execução da proposta conforme detalhado no projeto.</p>
 
-        <p>7) Execução: é a realização do projeto, quando o proponente entra em contato com fornecedores, artistas e outros prestadores de serviço que irão ajudar a executar a proposta. Também envolve a realização em si do espetáculo, show, festival, montagem e visitação de exposições, impressão de livros, etc.</p>
+        <p><strong>7) Execução:</strong> é a realização do projeto, quando o proponente entra em contato com fornecedores, artistas e outros prestadores de serviço que irão ajudar a executar a proposta. Também envolve a realização em si do espetáculo, show, festival, montagem e visitação de exposições, impressão de livros, etc.</p>
 
-        <p>8) Prestação de contas: após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados dos projetos foram alcançados, quantas pessoas foram atingidas pela proposta – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, etc.</p>
+        <p><strong>8) Prestação de contas:</strong> após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados dos projetos foram alcançados, quantas pessoas foram atingidas pela proposta – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, etc.</p>
       </div>
     </div>
   </section>
