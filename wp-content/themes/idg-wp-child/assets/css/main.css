@@ -1,3 +1,15 @@
+#main-single .btn {
+  margin: 0 !important;
+}
+
+#multimidia .btn-ver-mais {
+    margin: 0 auto;
+    cursor: pointer;
+    border-color: #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
 #menu-toggle,
 #breadcrumb-wrapper .subpages-menu{
 	display: none !important;
