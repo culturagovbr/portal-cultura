@@ -9377,8 +9377,6 @@ body.page #main-single {
       .carousel-wrapper #jumbotron-carousel .carousel-item:before {
         content: " ";
         background-color: transparent;
-        background-image: -o-radial-gradient(transparent, #000);
-        background-image: radial-gradient(transparent, #000);
         white-space: nowrap;
         display: block;
         position: absolute;

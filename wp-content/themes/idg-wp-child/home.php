@@ -186,7 +186,7 @@ get_header();
 				<div class="row">
 					<?php get_template_part('template-parts/multimedia-block'); ?>
 
-					<a href="<?php echo get_bloginfo('url'); ?>/multimedia" class="btn btn-ver-mais">Ver Mais Vídeos</a>
+					<a href="<?php echo get_bloginfo('url'); ?>/multimedia" class="btn btn-ver-mais">Mais Vídeos</a>
 				</div>
 			</div>
 		</section>
