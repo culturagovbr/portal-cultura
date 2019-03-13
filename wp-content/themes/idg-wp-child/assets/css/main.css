@@ -120,53 +120,85 @@
   position: static;
 }
 
-/*
-#main-footer .menus:after {
-  transform: translateY(-50%);
-  content: "";
-  width: 1px;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  background: #CCC;
-}*/
-
-
-/*
-
-#main-footer .menus ul {
-  /*text-align: center;
+#ferramentas .btn-acesse {
+  margin: 0;
+  cursor: pointer;
 }
 
-#main-footer .menus ul li {
-  display: inline-block;
-  font-size: 0;
-  padding-left: 10px;
-  margin-left: 10px;
+#legislacao .img-wrapper {
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#legislacao .image-and-text {
+  padding: 30px 0;
+}
+
+#legislacao .image-and-text .container .col-image {
+  flex: 0 0 360px;
+}
+
+#legislacao .btn-acesse {
+  margin: 0;
+  cursor: pointer;
+}
+
+#legislacao-wrapper .row {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#legislacao-wrapper .row:first-child {
+  margin-top: 0;
+}
+
+#legislacao-wrapper .box {
+  display: block;
+  height: 100%;
+  text-align: center;
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-bottom: 100px;
   position: relative;
 }
 
-#main-footer .menus ul li:before {
-  transform: translateY(-50%);
-  content: "";
-  width: 1px;
-  height: 50%;
-  background: #222;
-  position: absolute;
-  left: -0.5px;
-  top: 50%;
+#legislacao-wrapper .box h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 0 20px;
+  display: block;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #CCC;
 }
 
-#main-footer .menus ul li:first-child {
-  padding-left: 0px;
-  margin-left: 0px;
+#legislacao-wrapper .box a {
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    width: 110px;
+    cursor: pointer;
 }
 
-#main-footer .menus ul li:first-child:before {
-  display: none;
-}
-
-#main-footer .menus ul li a {
-  font-size: 16px !important;
+#legislacao-wrapper .box p {
+  margin: 0;
+  padding: 0 20px;
+  text-align: left;
 }

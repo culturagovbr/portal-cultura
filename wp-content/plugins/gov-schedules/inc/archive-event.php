@@ -76,7 +76,8 @@ get_header();
 												<option value="<?php echo $cat->slug; ?>"
 													<?php echo ! empty( $has_child ) ? 'data-has-children="true"' : '';
 													echo 'data-term-id="' . $cat->term_id . '"';
-													echo ( ! empty( $event_cat_selected_parents ) && in_array( $cat->slug, $event_cat_selected_parents ) || $event_cat_param === $cat->slug ) ? 'selected' : ''; ?>
+													echo ( ! empty( $event_cat_selected_parents ) && in_array( $cat->slug, $event_cat_selected_parents ) || $event_cat_param === $cat->slug ) ? 'selected' : ''; 
+													echo $cat->slug == 'agenda-do-ministro' ? 'selected' : ''; ?>
 												><?php echo $cat->name; ?></option>
 											<?php endif; ?>
 
@@ -205,7 +206,7 @@ get_header();
 											array(
 												'taxonomy' => 'event-category',
 												'field'    => 'slug',
-												'terms'    => $event_cat_param ? $event_cat_param : 'agenda-cultural',
+												'terms'    => $event_cat_param ? $event_cat_param : 'agenda-do-ministro',
 											)
 										),
 										'meta_query' => array(

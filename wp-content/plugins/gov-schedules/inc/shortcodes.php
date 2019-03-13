@@ -15,12 +15,12 @@ class Gov_Schedules_Shortcodes
 	public function gs_agenda_shortcode($atts)
 	{
 		$atts = shortcode_atts(array(
-			'event-cats' => ''
+			'event-cats' => '',
+			'cat-active' => ''
 		), $atts);
 
 		$event_cats = array_map( 'trim', explode(',', $atts['event-cats'] ) );
-		$initial_cat_pick = $event_cats[0];
-
+		$initial_cat_pick = empty( $atts['cat-active'] ) ? $event_cats[0] : $event_cats[array_search( $atts['cat-active'], $event_cats )];
 		ob_start(); ?>
 
 		<div id="agenda" class="gs-agenda-container">
@@ -30,7 +30,15 @@ class Gov_Schedules_Shortcodes
 					$tax = get_term_by('slug', $event_cats[$i], 'event-category'); ?>
 
 					<div class="col">
-						<h2 class="section-title mb-5 text-center"><a href="#" <?php echo $i === 0 ? 'class="active"' : ''; ?> data-event-cat="<?php echo $tax->slug; ?>"><?php echo $tax->name; ?></a></h2>
+						<?php
+							$active_cat = false;
+							if( !empty( $atts['cat-active'] ) && $atts['cat-active'] === $tax->slug  ){
+								$active_cat = true;
+							} else if( empty( $atts['cat-active'] ) && $i === 0 ) {
+								$active_cat = true;
+							}
+						?>
+						<h2 class="section-title mb-5 text-center"><a href="#" <?php echo $active_cat ? 'class="active"' : ''; ?> data-event-cat="<?php echo $tax->slug; ?>"><?php echo $tax->name; ?></a></h2>
 					</div>
 
 				<?php endfor; ?>
