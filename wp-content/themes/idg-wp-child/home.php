@@ -28,7 +28,7 @@ get_header();
 			} ?>
 		</section>
 
-		<section id="news" class="pb-5 pt-5 bg-grey-2">
+		<section id="news" class="pb-5 pt-5">
 			<div class="container">
 				<div class="row">
 					<div class="overflow-wrapper">
@@ -157,7 +157,7 @@ get_header();
 			$sections = explode( ',', $sections );
 
 			foreach ($sections as $section) : ?>
-			<section id="<?php echo $section; ?>" class="<?php echo $idg_wp_widgets_areas['areas'][$section]['section_class']; ?> mt-5 mb-5 pt-4">
+			<section id="<?php echo $section; ?>" class="<?php echo empty( $idg_wp_widgets_areas['areas'][$section]['section_class'] ) ? 'mt-5 mb-5 pt-4' : $idg_wp_widgets_areas['areas'][$section]['section_class']; ?>">
 				<div class="container">
 					<div class="row">
 
