@@ -512,7 +512,7 @@ class Text_Image_Box extends WP_Widget
 				</div>
 				<div class="col-4">
 					<?php
-					$img_src = wp_get_attachment_image_src($instance['image'], 'thumbnail');
+					$img_src = wp_get_attachment_image_src($instance['image'], array(350, 350));
 					if ($img_src) : ?>
 						<img width="100%" class="banner-img-preview" src="<?php echo $img_src[0]; ?>">
 					<?php endif; ?>
@@ -520,7 +520,7 @@ class Text_Image_Box extends WP_Widget
 			<?php else: ?>
 				<div class="col-4">
 					<?php
-					$img_src = wp_get_attachment_image_src($instance['image'], 'thumbnail');
+					$img_src = wp_get_attachment_image_src($instance['image'], array(350, 350));
 					if ($img_src) : ?>
 						<img width="100%" class="banner-img-preview" src="<?php echo $img_src[0]; ?>">
 					<?php endif; ?>
