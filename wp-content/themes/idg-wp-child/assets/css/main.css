@@ -198,3 +198,24 @@
   padding: 0 20px;
   text-align: left;
 }
+
+
+#page-faq .accordion .card .card-header h3 a {
+  height: auto;
+  line-height: normal;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding-left: 60px;
+}
+
+#page-faq .accordion .card .card-header h3 a:before {
+/*  transform: none;
+  top: 15px;*/
+}
+
+#page-faq .accordion .card .card-header h3 a span {
+  padding: 15px 0;
+}
+
