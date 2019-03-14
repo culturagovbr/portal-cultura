@@ -623,6 +623,14 @@ body.page {
 
 		.col-text {
 			flex-grow: 1;
+
+			&.small-font {
+
+				p, a {
+				font-size: 14px;
+
+				}
+			}
 		}
 	}
 }
