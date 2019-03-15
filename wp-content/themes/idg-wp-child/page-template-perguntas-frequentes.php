@@ -1,4 +1,4 @@
-<?php /* Template Name: Perguntas Frequentes */ ?>
+<?php /* Template Name: FAQ CATEGORIAS */ ?>
 
 <?php get_header(); ?>
 
@@ -19,7 +19,73 @@
             <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
           </header>
 
-          <div class="entry-content mb-5">
+          <div class="entry-content">
+
+            <div class="row mb-4">
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/novo-cadastro-e-primeiros-passos-da-proposta/">
+                    <div class="align">
+                      <h3 class="card-title">Perguntas gerais</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/corpo-da-proposta/">
+                    <div class="align">
+                      <h3 class="card-title">Apresentação de projetos</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/local-de-realizacao-e-plano-de-distribuicao/">
+                    <div class="align">
+                      <h3 class="card-title">Aprovação de projetos</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-5">
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/planilha-orcamentaria/">
+                    <div class="align">
+                      <h3 class="card-title">Captação de recursos</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/envio-da-proposta/">
+                    <div class="align">
+                      <h3 class="card-title">Execução dos projetos</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="feature-card text-center card-1">
+                  <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/clonagem-da-proposta/">
+                    <div class="align">
+                      <h3 class="card-title">Promoção do Patrocinador</h3>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+<!--           <div class="entry-content mb-5">
             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-1" class="card-header">
@@ -1188,9 +1254,7 @@
                   </div>
                </div>
             </div>
-
-
-          </div>
+          </div> -->
 
         </article>
 

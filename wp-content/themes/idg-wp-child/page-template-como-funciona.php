@@ -56,7 +56,7 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="ficart">
+  <section class="image-and-text bg-grey-2" id="inscricao">
     <div class="container image-left align-center">
       <div class="col-text">
         <h3>Como inscrever seu projeto?</h3>
@@ -218,7 +218,7 @@
               </a>
             </div>
           </div>
-      </div>
+        </div>
     </div>
   </section>
 </main>
