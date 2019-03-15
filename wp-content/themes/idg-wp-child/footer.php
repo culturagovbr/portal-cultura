@@ -12,25 +12,22 @@
 ?>
   <footer id="main-footer">
     <div class="container">
-      <div class="row">
 
-
-        <div class="menus col-lg-6">
-          <?php if ( is_active_sidebar( 'footer-widgets-area' ) ) :
-            dynamic_sidebar( 'footer-widgets-area' );
-          endif; ?>
-        </div>
-
-        <div class="col-lg-6">
-          <h3 class="social-title text-uppercase">Redes sociais</h3>
-
-          <?php get_template_part( 'template-parts/social-medias' ); ?>
-        </div>
+      <div class="menus">
+        <?php if ( is_active_sidebar( 'footer-widgets-area' ) ) :
+          dynamic_sidebar( 'footer-widgets-area' );
+        endif; ?>
       </div>
-      <div class="row footer-brasil">
-        <div class="col-lg-12">
-          <a class="logo-acesso-footer" target="_blank" href="http://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação"></a>
-        </div>
+
+      <div class="social-network">
+        <h3 class="social-title text-uppercase">Redes sociais</h3>
+
+        <?php get_template_part( 'template-parts/social-medias' ); ?>
+      </div>
+
+      <div class="footer-brasil">
+        <a class="logo-acesso-footer" target="_blank" href="http://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação"></a>
+        <a class="logo-governo-federal" target="_blank" href="http://www.brasil.gov.br/" alt="Governo Federal" title="Governo Federal"></a>
       </div>
     </div>
   </footer>

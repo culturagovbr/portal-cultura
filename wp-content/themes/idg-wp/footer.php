@@ -27,6 +27,7 @@
 			<div class="row footer-brasil">
 				<div class="col-lg-12">
 					<a class="logo-acesso-footer" target="_blank" href="http://www.acessoainformacao.gov.br/" alt="Acesso à informação" title="Acesso à informação"></a>
+					<a class="logo-governo-federal" target="_blank" href="http://www.brasil.gov.br/" alt="Governo Federal" title="Governo Federal"></a>
 				</div>
 			</div>
 		</div>
