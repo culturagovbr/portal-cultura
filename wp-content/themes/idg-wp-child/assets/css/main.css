@@ -1,5 +1,5 @@
 .carousel-wrapper #jumbotron-carousel .carousel-item:before {
-  display: none !important;
+  opacity: 0.5 !important;
 }
 
 #main-single .btn {
@@ -95,6 +95,12 @@
     background: #EEE;
     border-radius: 15px;
     clear: both;
+}
+
+#como-funciona #tutoriais {
+  background: #222222;
+  color: #FFF;
+  background-image: url('../img/arrow-pattern.svg');
 }
 
 #ferramentas .img-wrapper {
