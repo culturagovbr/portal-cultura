@@ -49,7 +49,7 @@
         </div>
       </div>
 
-      <div class="col-text">
+      <div class="col-text small-font">
         <h5>Está na lei:</h5>
 
         <p><a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Do Incentivo a Projetos Culturais</a></p>
@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <div class="col-text">
+      <div class="col-text small-font">
         <h5>Está na lei:</h5>
 
         <p><a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Do Fundo Nacional da Cultura (FNC)</a></p>
@@ -105,7 +105,7 @@
         </div>
       </div>
 
-      <div class="col-text">
+      <div class="col-text small-font">
         <h5>Está na lei:</h5>
         <p><a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Dos Fundos de Investimento Cultural e Artístico (Ficart)</a></p>
         <p>Art. 8° Fica autorizada a constituição de Fundos de Investimento Cultural e Artístico (Ficart), sob a forma de condomínio, sem personalidade jurídica, caracterizando comunhão de recursos destinados à aplicação em projetos culturais e artísticos.</p>
