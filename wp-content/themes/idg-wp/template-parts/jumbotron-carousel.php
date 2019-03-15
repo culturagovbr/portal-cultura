@@ -1,10 +1,11 @@
 <?php
 	$args = [];
-	if( get_option('idg-wp_theme_options_main_carousel') ){
-		$args['category_name'] = get_option('idg-wp_theme_options_main_carousel');
+	if( idg_wp_get_option('_main_carousel') ){
+		$args['category_name'] = idg_wp_get_option('_main_carousel');
 	}
-	if( get_option('idg-wp_theme_options_main_carousel_slides') ){
-		$args['posts_per_page'] = get_option('idg-wp_theme_options_main_carousel_slides');
+	
+	if( idg_wp_get_option('_main_carousel_slides') ){
+		$args['posts_per_page'] = idg_wp_get_option('_main_carousel_slides');
 	} else {
 		$args['posts_per_page'] = 3;
 	}
