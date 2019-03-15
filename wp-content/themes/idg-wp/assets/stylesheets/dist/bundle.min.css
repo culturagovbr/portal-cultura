@@ -7899,7 +7899,7 @@ body.page #main-single {
     .image-and-text .container .col-text {
       flex-grow: 1; }
       .image-and-text .container .col-text.small-font p, .image-and-text .container .col-text.small-font a {
-        font-size: 14px; }
+        font-size: 12px; }
 
 .child-theme .menu-item-home a {
   font-size: 0; }
