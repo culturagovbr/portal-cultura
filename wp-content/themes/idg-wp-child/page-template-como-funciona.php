@@ -177,6 +177,19 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
+              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/clonagem-da-proposta/">
+                <div class="align">
+                  <div class="icon icon-legislacao"></div>
+                  <h3 class="card-title">Clonagem da Proposta</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="feature-card text-center card-1">
               <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/minhas-solicitacoes/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
@@ -185,9 +198,6 @@
               </a>
             </div>
           </div>
-        </div>
-
-        <div class="row">
           <div class="col">
             <div class="feature-card text-center card-1">
               <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/relatorio-de-comprovacao-do-objeto/">
@@ -204,16 +214,6 @@
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Comprovação Financeira</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col">
-            <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/clonagem-da-proposta/">
-                <div class="align">
-                  <div class="icon icon-legislacao"></div>
-                  <h3 class="card-title">Clonagem da Proposta</h3>
                 </div>
               </a>
             </div>

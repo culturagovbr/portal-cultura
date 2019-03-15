@@ -2,6 +2,10 @@
   opacity: 0.5 !important;
 }
 
+.social-medias {
+  display: inline-block;
+}
+
 #main-single .btn {
   margin: 0 !important;
 }
@@ -23,12 +27,34 @@
 	padding-left: 0 !important;
 }
 
+#main-footer .container {
+  overflow: hidden;
+  position: relative;
+}
+
+#main-footer {
+  overflow: hidden;
+  position: relative;
+}
+
 #main-footer .menus {
   position: relative;
+  float: left;
+  margin-bottom: 0 !important;
 }
 
 #main-footer .menus .section-title {
   font-size: 21px;
+}
+
+#main-footer .social-network {
+  float: right;
+}
+
+#main-footer .footer-brasil {
+  position: absolute;
+  right: 0;
+  bottom: 23px;
 }
 
 #page-o-que-e .img-wrapper {
