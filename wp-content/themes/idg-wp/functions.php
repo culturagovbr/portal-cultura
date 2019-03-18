@@ -101,15 +101,15 @@ function idg_wp_app_env() {
  */
 function idg_wp_scripts() {
 	if( idg_wp_app_env() === 'development' ){
-		wp_enqueue_style( 'idg-wp-style', get_template_directory_uri() . '/assets/stylesheets/dist/bundle.css', false, '1.3' );
+		wp_enqueue_style( 'idg-wp-style', get_template_directory_uri() . '/assets/stylesheets/dist/bundle.css', false, '1.6' );
 	} else {
-		wp_enqueue_style( 'idg-wp-style', get_template_directory_uri() . '/assets/stylesheets/dist/bundle.min.css', false, '1.3'  );
+		wp_enqueue_style( 'idg-wp-style', get_template_directory_uri() . '/assets/stylesheets/dist/bundle.min.css', false, '1.6'  );
 	}
 
 	if( idg_wp_app_env() === 'development' ){
-		wp_enqueue_script( 'idg-wp-scripts', get_template_directory_uri() . '/assets/js/dist/bundle.js', array('jquery'), '1.3', true );
+		wp_enqueue_script( 'idg-wp-scripts', get_template_directory_uri() . '/assets/js/dist/bundle.js', array('jquery'), '1.6', true );
 	} else {
-		wp_enqueue_script( 'idg-wp-scripts', get_template_directory_uri() . '/assets/js/dist/bundle.min.js', array('jquery'), '1.3', true );
+		wp_enqueue_script( 'idg-wp-scripts', get_template_directory_uri() . '/assets/js/dist/bundle.min.js', array('jquery'), '1.6', true );
 	}
 	wp_enqueue_script( 'barra-brasil-script', 'http://barra.brasil.gov.br/barra_2.0.js', false, false, true );
 

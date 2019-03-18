@@ -31,10 +31,7 @@ class Feature_Card extends WP_Widget
 		<div
 			class="feature-card text-center <?php echo !empty($instance['card-model']) ? $instance['card-model'] : ''; ?>">
 
-			<?php// if ( $instance['card-model'] !== 'card-3' ){ ?>
 			<a href="<?php echo !empty($instance['link']) ? $instance['link'] : ''; ?>" <?php echo !empty($instance['target']) ? 'target="_blank"' : ''; ?>>
-				<?php// } ?>
-
 				<div class="align">
 					<div class="icon <?php echo $instance['icon']; ?>">
 						<?php if ($instance['icon'] === 'upload-custom-icon'): ?>
@@ -54,10 +51,7 @@ class Feature_Card extends WP_Widget
 						<button type="button" class="card-btn btn"><?php echo $instance['btn-text']; ?></button>
 					<?php endif; ?>
 				</div>
-
-				<?php // if ( $instance['card-model'] !== 'card-3' ){ ?>
 			</a>
-			<?php // } ?>
 
 		</div>
 
@@ -642,7 +636,7 @@ class IDG_Carousel extends WP_Widget
 						<div class="carousel-caption d-md-block">
 							<div class="container">
 								<h2><a href="<?php echo $instance['link_url'][$i]; ?>" <?php echo $instance['target'][$i] ? 'target="_blank"' : ''; ?>><?php echo $instance['link_title'][$i]; ?></a></h2>
-								<?php echo $instance['description'][$i]; ?>
+								<p><?php echo $instance['desc'][$i]; ?></p>
 							</div>
 						</div>
 					</div>
@@ -749,7 +743,7 @@ class IDG_Carousel extends WP_Widget
 				$n = $number_of_banners ? intval($number_of_banners) : 1;
 				for ($i = 0; $i < $n; $i++) : ?>
 					<div class="banner">
-						<p><b>Banner #<?php echo($i + 1); ?></b> <a href="#" class="remove-banner-item">Excluir</a></p>
+						<p><b>Slide #<?php echo($i + 1); ?></b> <a href="#" class="remove-banner-item">Excluir</a></p>
 						<p>
 							<label
 								for="<?php echo $this->get_field_name('link_url') . '[' . $i . ']'; ?>"><?php _e('Link URL:'); ?></label>
