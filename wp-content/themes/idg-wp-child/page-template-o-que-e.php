@@ -29,16 +29,47 @@
         <p>Principal ferramenta de fomento à Cultura do Brasil, a Lei de Incentivo à Cultura contribui para que milhares de projetos culturais aconteçam, todos os anos, em todas as regiões do país. Por meio dela, empresas e pessoas físicas podem patrocinar espetáculos – exposições, shows, livros, museus, galerias e várias outras formas de expressão cultural – e abater o valor total ou parcial do apoio do Imposto de Renda. A Lei também contribui para ampliar o acesso dos cidadãos à Cultura, já que os projetos patrocinados são obrigados a oferecer uma contrapartida social, ou seja, eles têm que distribuir parte dos ingressos gratuitamente e promover ações de formação e capacitação junto às comunidades. Criado em 1991 pela Lei 8.313, o mecanismo do incentivo à cultura é um dos pilares do Programa Nacional de Apoio à Cultura (Pronac), que também conta com o Fundo Nacional de Cultura (FNC) e os Fundos de Investimento Cultural e Artístico (Ficarts).</p>
 
         <ul class="horizontal-links">
+          <li><a href="#pronac">Pronac</a></li>
           <li><a href="#incentivo">Incentivo</a></li>
           <li><a href="#fnc">FNC</a></li>
           <li><a href="#ficart">Ficart</a></li>
-          <li><a href="#pronac">Pronac</a></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="incentivo">
+  <section class="image-and-text bg-grey-2" id="pronac">
+    <div class="container image-left">
+      <div class="col-image pt-0 pb-0">
+        <div class="box">
+          <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/06.jpg');"></div>
+          <h3 class="text-center">Pronac</h3>
+          <p>A Lei 8.313, de 23 de dezembro de 1991, instituiu o Programa Nacional de Apoio à Cultura (Pronac) com o objetivo de ampliar o acesso à cultura e a produção cultural em todas as regiões; apoiar, valorizar e difundir as manifestações artísticas brasileiras; proteger nossas expressões culturais e preservar o patrimônio; além de estimular a produção cultural como geradora de renda, emprego e desenvolvimento para o país. Três mecanismos fazem parte do Programa: o Incentivo à Cultura, o Fundo Nacional de Cultura (FNC) e os Fundos de Investimento Cultural e Artístico (Ficarts). </p>
+        </div>
+      </div>
+
+      <div class="col-text small-font">
+        <h5>Está na lei:</h5>
+        <p>Disposições preliminares</p>
+        <p>Art. 1° Fica instituído o Programa Nacional de Apoio à Cultura (Pronac), com a finalidade de captar e canalizar recursos para o setor de modo a:</p>
+        <p>I - contribuir para facilitar, a todos, os meios para o livre acesso às fontes da cultura e o pleno exercício dos direitos culturais;</p>
+        <p>II - promover e estimular a regionalização da produção cultural e artística brasileira, com valorização de recursos humanos e conteúdos locais;</p>
+        <p>III - apoiar, valorizar e difundir o conjunto das manifestações culturais e seus respectivos criadores;</p>
+        <p>IV - proteger as expressões culturais dos grupos formadores da sociedade brasileira e responsáveis pelo pluralismo da cultura nacional;</p>
+        <p>V - salvaguardar a sobrevivência e o florescimento dos modos de criar, fazer e viver da sociedade brasileira;</p>
+        <p>VI - preservar os bens materiais e imateriais do patrimônio cultural e histórico brasileiro;</p>
+        <p>VII - desenvolver a consciência internacional e o respeito aos valores culturais de outros povos ou nações;</p>
+        <p>VIII - estimular a produção e difusão de bens culturais de valor universal, formadores e informadores de conhecimento, cultura e memória;</p>
+        <p>IX - priorizar o produto cultural originário do País.</p>
+        <p>Art. 2° O Pronac será implementado através dos seguintes mecanismos:</p>
+        <p>I - Fundo Nacional da Cultura (FNC);</p>
+        <p>II - Fundos de Investimento Cultural e Artístico (Ficart);</p>
+        <p>III - Incentivo a projetos culturais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-and-text" id="incentivo">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
@@ -70,7 +101,7 @@
     </div>
   </section>
 
-  <section class="image-and-text" id="fnc">
+  <section class="image-and-text bg-grey-2" id="fnc">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
@@ -94,7 +125,7 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="ficart">
+  <section class="image-and-text" id="ficart">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
@@ -115,37 +146,6 @@
         <p>IV - construção, restauração, reparação ou equipamento de salas e outros ambientes destinados a atividades com objetivos culturais, de propriedade de entidades com fins lucrativos;</p>
         <p>V - outras atividades comerciais ou industrias, de interesse cultural, assim considerados pela SEC/PR, ouvida a CNIC.</p>
         <p>VI - outras atividades comerciais ou industriais, de interesse cultural, assim consideradas pelo Ministério da Cultura.  </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="image-and-text" id="pronac">
-    <div class="container image-left">
-      <div class="col-image pt-0 pb-0">
-        <div class="box">
-          <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/06.jpg');"></div>
-          <h3 class="text-center">Pronac</h3>
-          <p>A Lei 8.313, de 23 de dezembro de 1991, instituiu o Programa Nacional de Apoio à Cultura (Pronac) com o objetivo de ampliar o acesso à cultura e a produção cultural em todas as regiões; apoiar, valorizar e difundir as manifestações artísticas brasileiras; proteger nossas expressões culturais e preservar o patrimônio; além de estimular a produção cultural como geradora de renda, emprego e desenvolvimento para o país. Três mecanismos fazem parte do Programa: o Incentivo à Cultura, o Fundo Nacional de Cultura (FNC) e os Fundos de Investimento Cultural e Artístico (Ficarts). </p>
-        </div>
-      </div>
-
-      <div class="col-text small-font">
-        <h5>Está na lei:</h5>
-        <p>Disposições preliminares</p>
-        <p>Art. 1° Fica instituído o Programa Nacional de Apoio à Cultura (Pronac), com a finalidade de captar e canalizar recursos para o setor de modo a:</p>
-        <p>I - contribuir para facilitar, a todos, os meios para o livre acesso às fontes da cultura e o pleno exercício dos direitos culturais;</p>
-        <p>II - promover e estimular a regionalização da produção cultural e artística brasileira, com valorização de recursos humanos e conteúdos locais;</p>
-        <p>III - apoiar, valorizar e difundir o conjunto das manifestações culturais e seus respectivos criadores;</p>
-        <p>IV - proteger as expressões culturais dos grupos formadores da sociedade brasileira e responsáveis pelo pluralismo da cultura nacional;</p>
-        <p>V - salvaguardar a sobrevivência e o florescimento dos modos de criar, fazer e viver da sociedade brasileira;</p>
-        <p>VI - preservar os bens materiais e imateriais do patrimônio cultural e histórico brasileiro;</p>
-        <p>VII - desenvolver a consciência internacional e o respeito aos valores culturais de outros povos ou nações;</p>
-        <p>VIII - estimular a produção e difusão de bens culturais de valor universal, formadores e informadores de conhecimento, cultura e memória;</p>
-        <p>IX - priorizar o produto cultural originário do País.</p>
-        <p>Art. 2° O Pronac será implementado através dos seguintes mecanismos:</p>
-        <p>I - Fundo Nacional da Cultura (FNC);</p>
-        <p>II - Fundos de Investimento Cultural e Artístico (Ficart);</p>
-        <p>III - Incentivo a projetos culturais.</p>
       </div>
     </div>
   </section>
