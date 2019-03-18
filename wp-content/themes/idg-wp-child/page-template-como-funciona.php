@@ -80,7 +80,14 @@
         <p>Há duas formas de financiar um projeto: por meio de doação ou de patrocínio. A doação é um repasse sem retorno de imagem para o incentivador. É um apoio que resulta apenas da decisão de aplicar parcela do imposto de renda devido em um projeto cultural para o qual a pessoa ou empresa queira contribuir. O patrocínio é um repasse com retorno de imagem. Além de viabilizar a realização de um projeto, o patrocinador se beneficia de estratégias de comunicação, assinando o patrocínio com sua marca e inserindo sua imagem associada ao projeto selecionado, conforme Artigo 23, da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei 8.313/91</a>. A doação ou patrocínio não pode ser feita a projeto de pessoa ou instituição vinculada ao apoiador, de acordo com o Artigo 27 da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei 8.313/91</a>.</p>
 
         <p>Ao escolher o projeto que será apoiado, o apoiador precisa estar atento às faixas de renúncia. Os projetos podem ser enquadrados no Artigo 18 da Lei 8.313/91, que permite restituição de 100% do valor financiado dentro do limite de 6% ou 4% do imposto devido, ou podem estar enquadrados no Artigo 26 da Lei e, neste caso, o percentual de restituição vai variar conforme a natureza do apoio (doação ou patrocínio) e o tipo de pessoa (física ou jurídica).</p>
+      </div>
+    </div>
+  </section>
 
+
+  <section class="image-and-text bg-grey-2" id="inscricao">
+    <div class="container image-left align-center">
+      <div class="col-text">
         <h3>Faixas de Renúncia</h3>
 
         <p>Os projetos enquadrados no Artigo 18 da Lei 8.313/91 permitem abatimento de 100% do valor efetivamente despendido pelo patrocinador ou apoiador. São eles:</p>
@@ -109,12 +116,11 @@
           <li>Para doação, os percentuais a serem deduzidos variam entre 65% e 70%.</li>
           <li>Para patrocínio, entre 55% e 60%.</li>
         </ul>
-
       </div>
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="tutoriais">
+  <section class="image-and-text" id="tutoriais">
     <div class="container image-left align-center">
       <div class="col-text">
         <h3>Tutoriais</h3>
