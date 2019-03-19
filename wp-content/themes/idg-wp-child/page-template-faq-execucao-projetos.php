@@ -61,7 +61,7 @@
                   </div>
                   <div id="collapse-faq-20" class="collapse" aria-labelledby="faq-20" data-parent="#accordionExample">
                      <div class="card-body">
-                        <p>Do total dos ingressos de um projeto cultural, a Instrução Normativa da Lei de Incentivo à Cultura estabelece que:</p>
+                        <p>Do total dos ingressos de um projeto cultural, a Instrução Normativa da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a> estabelece que:</p>
                         <p>40% dos ingressos devem ser comercializados a uma média de preço de R$ 225;</p>
                         <p>Mínimo de 20% deve ser distribuído gratuitamente, com caráter social;</p>
                         <p>Até 10% deve ser disponibilizado gratuitamente para os patrocinadores;</p>

@@ -225,7 +225,7 @@
             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-6" class="card-header">
-                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-6" aria-expanded="false" aria-controls="collapse-faq-6"><span>Qual é a diferença entre doação e patrocínio via incentivo fiscal da Lei de Incentivo à Cultura?</span></a></h3>
+                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-6" aria-expanded="false" aria-controls="collapse-faq-6"><span>Qual é a diferença entre doação e patrocínio via incentivo fiscal da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>?</span></a></h3>
                   </div>
                   <div id="collapse-faq-6" class="collapse" aria-labelledby="faq-6" data-parent="#accordionExample">
                      <div class="card-body">

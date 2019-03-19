@@ -56,7 +56,7 @@
             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-26" class="card-header">
-                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-26" aria-expanded="false" aria-controls="collapse-faq-26"><span>É possível produzir com recursos próprios brindes do projeto que recebe incentivo via Lei de Incentivo à Cultura, para distribuição exclusiva a públicos de interesse do patrocinador? Tendo em vista que nem todo material promocional permite a inclusão de várias marcas, qual a orientação do MinC no que diz respeito à aplicação das logos nesses brindes?</span></a></h3>
+                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-26" aria-expanded="false" aria-controls="collapse-faq-26"><span>É possível produzir com recursos próprios brindes do projeto que recebe incentivo via <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>, para distribuição exclusiva a públicos de interesse do patrocinador? Tendo em vista que nem todo material promocional permite a inclusão de várias marcas, qual a orientação do MinC no que diz respeito à aplicação das logos nesses brindes?</span></a></h3>
                   </div>
                   <div id="collapse-faq-26" class="collapse" aria-labelledby="faq-26" data-parent="#accordionExample">
                      <div class="card-body">

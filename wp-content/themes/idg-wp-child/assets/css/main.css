@@ -255,3 +255,25 @@
   padding: 15px 0;
 }
 
+#page-cnic .table-responsive,
+#page-cnic .table-responsive table {
+  height: 100%;
+  margin: 0;
+}
+
+#page-cnic .table-responsive {
+  background: #f0f0f0;
+}
+
+#page-cnic .table-responsive table th {
+  text-align: center;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: inherit;
+}
+

@@ -7685,16 +7685,21 @@ body.page #main-single {
 .entry-content div.alignright {
   margin: 0 0 30px 30px; }
 
+.entry-content iframe,
+.entry-content img,
+.entry-content figure {
+  max-width: 100%; }
+
 @media (min-width: 320px) and (max-width: 1150px) {
-  .entry-content .table-responsive {
+  .table-responsive {
     width: 100% !important; } }
 
-.entry-content .table-responsive table {
+.table-responsive table {
   border-left: 1px solid #dee2e6;
   border-right: 1px solid #dee2e6;
   border-bottom: 1px solid #dee2e6; }
 
-.entry-content .table-responsive thead th {
+.table-responsive thead th {
   width: 25%;
   background: #2969BD;
   color: #FFFFFF;
@@ -7702,31 +7707,26 @@ body.page #main-single {
   font-weight: normal; }
 
 @media (min-width: 320px) and (max-width: 1150px) {
-  .entry-content .table-responsive thead th {
+  .table-responsive thead th {
     white-space: nowrap; } }
 
-.entry-content .table-responsive tbody th {
+.table-responsive tbody th {
   font-weight: normal; }
-  .entry-content .table-responsive tbody th[colspan] {
+  .table-responsive tbody th[colspan] {
     background: #E5E5E5;
     font-size: 1rem; }
 
-.entry-content .table-responsive tbody td,
-.entry-content .table-responsive tbody th {
+.table-responsive tbody td,
+.table-responsive tbody th {
   font-size: .85rem; }
-  .entry-content .table-responsive tbody td a,
-  .entry-content .table-responsive tbody th a {
+  .table-responsive tbody td a,
+  .table-responsive tbody th a {
     font-weight: normal;
     text-decoration: none; }
 
 @media (min-width: 320px) and (max-width: 1150px) {
-  .entry-content .table-responsive tbody td {
+  .table-responsive tbody td {
     width: 50%; } }
-
-.entry-content iframe,
-.entry-content img,
-.entry-content figure {
-  max-width: 100%; }
 
 .multimedia-archive .widget_idg_banner {
   display: none !important; }
