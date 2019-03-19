@@ -13,7 +13,7 @@
   </div>
 
 
-  <section class="image-and-text">
+  <section class="image-and-text" id="salic">
 
     <div class="container image-right no-border align-center">
       <div class="col-image text-center">
@@ -24,13 +24,13 @@
 
       <div class="col-text">
         <h2 class="section-title mb-4">Salic</h2>
-        <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) é o local de cadastro das propostas. No Salic, são transitadas todas as fases do projeto, desde o cadastramento, passando pela aprovação, execução e prestação de contas. É também o principal veículo de comunicação entre o proponente e a equipe da Secretaria de Fomento e Incentivo à Cultura (Sefic) da Secretaria da Cultura, responsável pela gestão da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>.</p>
+        <p>O Sistema de Apoio às Leis de Incentivo à Cultura (Salic) é o local de cadastro das propostas. No Salic, são transitadas todas as fases do projeto, desde o cadastramento, passando pela aprovação, execução e prestação de contas. É também o principal veículo de comunicação entre o proponente e a equipe da Secretaria de Fomento e Incentivo à Cultura (Sefic) da Secretaria Especial da Cultura, responsável pela gestão da Lei.</p>
         <a href="http://salic.cultura.gov.br/autenticacao/index/index" target="_blank" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2">
+  <section class="image-and-text bg-grey-2" id="versalic">
 
     <div class="container image-left no-border align-center">
       <div class="col-image text-center">
@@ -47,7 +47,7 @@
     </div>
   </section>
 
-  <section class="image-and-text">
+  <section class="image-and-text" id="comparar">
 
     <div class="container image-right no-border align-center">
       <div class="col-image text-center">
@@ -64,7 +64,7 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2">
+  <section class="image-and-text bg-grey-2" id="salic-mobile">
 
     <div class="container image-left no-border align-center">
       <div class="col-image text-center">
@@ -75,7 +75,7 @@
 
       <div class="col-text">
         <h2 class="section-title mb-4">Salic Mobile</h2>
-        <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) conta com a versão para acesso remoto. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de ter a possibilidade de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema.</p>
+        <p>O Sistema de Apoio às Leis de Incentivo à Cultura (Salic) conta com a versão mobile. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema. Disponível para os sistemas Apple e Android. Clique abaixo para fazer o download.</p>
         <a href="https://play.google.com/store/apps/details?id=com.ionicframework.salicmobile804600&hl=pt_BR" target="_blank" class="btn btn-acesse">Google Play</a>
         <a href="https://itunes.apple.com/us/app/salic/id1224617502?mt=8" target="_blank" class="btn btn-acesse">Apple Store</a>
       </div>
