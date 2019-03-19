@@ -115,14 +115,16 @@
 
                         <div class="table-responsive">
                            <table class="table">
-                              <tbody>
+                              <thead>
                                 <tr>
-                                  <td>Situação</td>
-                                  <td>Descrição</td>
-                                  <td>Fase</td>
-                                  <td>Base Legal (Normativo + Artigo)</td>
-                                  <td>Quando utilizar?</td>
+                                  <th>Situação</th>
+                                  <th>Descrição</th>
+                                  <th>Fase</th>
+                                  <th>Base Legal (Normativo + Artigo)</th>
+                                  <th>Quando utilizar?</th>
                                 </tr>
+                              </thead>
+                              <tbody>
                                 <tr>
                                   <td>A12</td>
                                   <td>Aguarda complementação de documentos</td>

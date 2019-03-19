@@ -25,7 +25,7 @@
   </section>
 
 
-  <section class="image-and-text">
+  <section class="image-and-text" id="o-que-e">
 
     <div class="container image-right align-center no-border">
       <div class="col-text">
@@ -43,7 +43,7 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="inscricao">
+  <section class="image-and-text bg-grey-2" id="o-que-faz-a-comissao">
     <div class="container image-left align-center">
       <div class="col-text">
         <h2 class="section-title">O que faz a Comissão?</h2>
@@ -55,10 +55,10 @@
     </div>
   </section>
 
-  <section class="image-and-text" id="patrocinio">
+  <section class="image-and-text" id="quem-e-quem">
     <div class="container image-left align-center">
       <div class="col-text">
-        <h2 class="section-title">O que faz a Comissão?</h2>
+        <h2 class="section-title">Quem é quem</h2>
 
         <p class="mb-5">Comissão empossada em 18/03/2019, para o biênio 2019/2020:</p>
 

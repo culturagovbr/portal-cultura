@@ -1,3 +1,7 @@
+#posts-list li .categories {
+  display: none;
+}
+
 .carousel-wrapper #jumbotron-carousel .carousel-item:before {
   opacity: 0.5 !important;
 }
