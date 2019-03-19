@@ -57,7 +57,7 @@
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-4">Salic Comparar</h2>
+        <h2 class="section-title mb-4">Comparar</h2>
         <p>Aqui estão os principais indicadores da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>, que podem ser organizados de diversas formas: projetos apresentados e aprovados por ano e mês, por estado e região, ou até mesmo por área – como audiovisual, patrimônio e música. Valores e dados sobre captadores e incentivadores são atualizados diariamente.</p>
         <a href="http://sistemas.cultura.gov.br/comparar/salicnet/salicnet.php" target="_blank" class="btn btn-acesse">Acesse</a>
       </div>

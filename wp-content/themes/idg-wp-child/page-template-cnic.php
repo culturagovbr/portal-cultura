@@ -46,7 +46,7 @@
   <section class="image-and-text bg-grey-2" id="inscricao">
     <div class="container image-left align-center">
       <div class="col-text">
-        <h3>O que faz a Comissão?</h3>
+        <h2 class="section-title">O que faz a Comissão?</h2>
 
         <p>As reuniões da CNIC ocorrem mensalmente. Cabe à comissão dar parecer favorável ou não aos projetos apresentados à Secretaria Especial da Cultura como candidatos ao incentivo fiscal oferecido pela <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>. As decisões precisam ser referendadas pelo Secretário Especial da Cultura, que preside a Comissão.</p>
 
@@ -58,9 +58,9 @@
   <section class="image-and-text" id="patrocinio">
     <div class="container image-left align-center">
       <div class="col-text">
-        <h3>Quem é quem</h3>
+        <h2 class="section-title">O que faz a Comissão?</h2>
 
-        <p>Comissão empossada em 18/03/2019, para o biênio 2019/2020:</p>
+        <p class="mb-5">Comissão empossada em 18/03/2019, para o biênio 2019/2020:</p>
 
         <div class="row mb-4">
           <div class="col">
@@ -76,17 +76,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Maricene Aparecida Gregorut - Associação dos Produtores de Teatro Independente
+                           <strong>Titular:</strong> Maricene Aparecida Gregorut - Associação dos Produtores de Teatro Independente
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Celio Rodrigues de Lima Pontes - Rede de Teatros e Produtores Independentes
+                           <strong>1º Suplente:</strong> Celio Rodrigues de Lima Pontes - Rede de Teatros e Produtores Independentes
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Getúlio Lima - Escola de Teatro Bolshoi no Brasil
+                           <strong>2º Suplente:</strong> Getúlio Lima - Escola de Teatro Bolshoi no Brasil
                         </td>
                      </tr>
                   </tbody>
@@ -107,17 +107,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Paula Sulmonetti Tavares de Azevedo - Associação Nacional das Entidades Não Lucrativas
+                           <strong>Titular:</strong> Paula Sulmonetti Tavares de Azevedo - Associação Nacional das Entidades Não Lucrativas
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Anete Abarno&nbsp;
+                           <strong>1º Suplente:</strong> Anete Abarno&nbsp;
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Maria de Fátima da Silva - Associação da Rede de Produtores Culturais em Brasília
+                           <strong>2º Suplente:</strong> Maria de Fátima da Silva - Associação da Rede de Produtores Culturais em Brasília
                         </td>
                      </tr>
                   </tbody>
@@ -140,12 +140,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Sérgio Luiz Ferreira de Figueiredo&nbsp;
+                           <strong>Titular:</strong> Sérgio Luiz Ferreira de Figueiredo&nbsp;
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Cláudio Alano Cohen Bezerra&nbsp;
+                           <strong>2º Suplente:</strong> Cláudio Alano Cohen Bezerra&nbsp;
                         </td>
                      </tr>
                   </tbody>
@@ -166,12 +166,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Bruno Luis Margraf Gehring - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
+                           <strong>Titular:</strong> Bruno Luis Margraf Gehring - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Thiago Wanderley de Freitas - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
+                           <strong>1º Suplente:</strong> Thiago Wanderley de Freitas - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
                         </td>
                      </tr>
                   </tbody>
@@ -195,17 +195,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Adriana Mortara Almeida - Comitê Brasileiro do ICOM-BR
+                           <strong>Titular:</strong> Adriana Mortara Almeida - Comitê Brasileiro do ICOM-BR
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Fabiano de Melo Duarte Rocha - Diretoria Nacional do Instituto dos Arquitetos do Brasil
+                           <strong>1º Suplente:</strong> Fabiano de Melo Duarte Rocha - Diretoria Nacional do Instituto dos Arquitetos do Brasil
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Marcelo Nascimento Bernardo da Cunha - Comitê Brasileiro do ICOM-BR
+                           <strong>2º Suplente:</strong> Marcelo Nascimento Bernardo da Cunha - Comitê Brasileiro do ICOM-BR
                         </td>
                      </tr>
                   </tbody>
@@ -226,17 +226,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Luís Antônio Torelli - Câmara Brasileiro do Livro
+                           <strong>Titular:</strong> Luís Antônio Torelli - Câmara Brasileiro do Livro
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Márcio Teixeira Tupinambá - Associação Brasileira de Difusão do Livro
+                           <strong>1º Suplente:</strong> Márcio Teixeira Tupinambá - Associação Brasileira de Difusão do Livro
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Larissa Pereira Mundim - Fundação Dorina Nowill
+                           <strong>2º Suplente:</strong> Larissa Pereira Mundim - Fundação Dorina Nowill
                         </td>
                      </tr>
                   </tbody>
@@ -259,17 +259,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           Titular: Caroline Soares de Souza - Confederação Nacional do Comércio de Bens, Serviços e Turismo
+                           <strong>Titular:</strong> Caroline Soares de Souza - Confederação Nacional do Comércio de Bens, Serviços e Turismo
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           1º Suplente: Maria Angélica Ribeiro Santos - Confederação Nacional do Comércio de Bens, Serviços e Turismo
+                           <strong>1º Suplente:</strong> Maria Angélica Ribeiro Santos - Confederação Nacional do Comércio de Bens, Serviços e Turismo
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           2º Suplente: Carlos Eugênio Trevi - Confederação Nacional das Indústrias Financeiras
+                           <strong>2º Suplente:</strong> Carlos Eugênio Trevi - Confederação Nacional das Indústrias Financeiras
                         </td>
                      </tr>
                   </tbody>

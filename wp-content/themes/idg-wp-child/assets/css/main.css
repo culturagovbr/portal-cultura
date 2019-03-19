@@ -262,11 +262,15 @@
 }
 
 #page-cnic .table-responsive {
-  background: #f0f0f0;
+  /*background: #f0f0f0;*/
 }
 
 #page-cnic .table-responsive table th {
   text-align: center;
+}
+
+#page-cnic .table-responsive table td {
+  vertical-align: middle;
 }
 
 h1 a,
