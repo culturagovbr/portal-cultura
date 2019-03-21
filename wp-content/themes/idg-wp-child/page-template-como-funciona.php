@@ -31,7 +31,7 @@
   </section>
 
   <section id="info-graphic">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/info-caminho-rouanet-2.png?2" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/info-caminho-rouanet-2.png?4" />
 
     <div class="container">
       <div class="text pb-5">

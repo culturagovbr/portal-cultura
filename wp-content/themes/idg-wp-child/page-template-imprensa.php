@@ -34,7 +34,7 @@
 		</div>
 	</div>
 
-	<section class="image-and-text">
+	<section class="image-and-text bg-grey-2">
 
 		<div class="container image-left">
 			<div class="col-image text-center">
@@ -63,38 +63,12 @@
 				<p>É responsável pela análise do cumprimento do objeto e avaliação financeira da prestação de contas, envio de diligências, a elaboração de relatórios técnico-financeiros e outros procedimentos.</p>
 
 				<p>Informações complementares e esclarecimentos de dúvidas afetas ao projeto cultural, poderão ser encaminhados por meio da funcionalidade “Minhas Solicitações” no Salic, sendo que as orientações para utilizá-la encontram-se no Portal da Rouanet, <a href="http://rouanet.cultura.gov.br">http://rouanet.cultura.gov.br</a> , no menu “Tutoriais”. Telefone: <a href="tel:+556120242090">2024-2090</a>.</p>
-			</div>
-		</div>
-	</section>
 
-	<section class="image-and-text bg-grey-2">
-		<div class="container image-right">
-			<div class="col-image text-center">
-				<div class="box">
-					<div class="img-wrapper mb-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/SAV.png" />
-					</div>
+				<hr/>
 
-					<h3>Secretaria do Audiovisual</h3>
-					<p>Responsável pela coordenação de todos os projetos de audiovisual. Projetos de audiovisual são coordenados pelo Departamento de Políticas Audiovisuais, da Secretaria do Audiovisual do MinC, e possui, entre outras, três coordenações que realizam atividades de rotina relacionadas ao Incentivo Fiscal.</p>
-				</div>
-			</div>
-
-			<div class="col-text">
-				<strong>Coordenação de Análise e Aprovação (Audiovisual)</strong>
-				<p>Monitora a admissibilidade, ou seja, a entrada do projeto cultural com o apoio do mecanismo de incentivo fiscal. Orienta sobre como efetuar a inserção da proposta no Salic, assim como as diligências das Unidades Técnicas, avaliação da Comissão Nacional de Incentivo à Cultura (CNIC), aprovação e publicação no Diário Oficial da União.</p>
-
-				<p>Email: <a href="mailto:cultura.gov.br" target="_blank">coaap@cultura.gov.br</a></p>
-
-				<strong>Coordenação de Acompanhamento (Audiovisual)</strong>
-				<p>Monitora a execução do projeto (mecanismos de incentivo fiscal e FNC), envolvendo movimentações financeiras, ajustes diversos, avaliação técnica do cumprimento do objeto e vistorias in loco.</p>
-
-				<p>Email: <a href="mailto:acompanhamentomecenato.sav@cultura.gov.br" target="_blank">acompanhamentomecenato.sav@cultura.gov.br</a></p>
-
-				<strong>Coordenação de Prestação de Contas (Audiovisual)</strong>
-				<p>Analisa a fase de prestação de contas, instruindo sobre preenchimento de formulários, resposta a diligências, elaboração de relatórios técnicos financeiros e outros procedimentos.</p>
-
-				<p>Email: dpcsav@<a href="mailto:cultura.gov.br" target="_blank">cultura.gov.br</a></p>
+				<p><strong>Endereço:</strong> Esplanada dos Ministérios, Bloco B, 1º andar </p>
+				<p><strong>CEP:</strong> 70068-900 – Brasília/DF</p>
+				<p><strong>Fone:</strong> +55 <a href="tel:+556120242113">61 2024-2113</a></p>
 			</div>
 		</div>
 	</section>
@@ -118,34 +92,6 @@
 				<p>Para acessar: <a href="http://ouvidoria.cultura.gov.br/ouvidoria/login.jsp" target="_blank">http://ouvidoria.cultura.gov.br/ouvidoria/login.jsp</a></p>
 
 				<p>Atendimento por telefone: (61) 2024-2245</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="image-and-text bg-grey-2">
-		<div class="container image-right">
-			<div class="col-image text-center">
-				<div class="box">
-					<div class="img-wrapper mb-3">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/sic.png" />
-					</div>
-
-					<h3>Serviço de Informação ao Cidadão</h3>
-					<p>Serviço eletrônico que permite a qualquer pessoa, física ou jurídica, encaminhar pedidos de acesso à informação para órgãos e entidades do Executivo Federal.</p>
-				</div>
-			</div>
-
-			<div class="col-text">
-				<strong>Serviço de Informações ao Cidadão – SIC</strong>
-
-				<p>Horário de Atendimento<br/>
-				Segunda a sexta-feira, das 8h às 12h e das 14h às 18h.</p>
-
-				<p>Para acessar: <a href="https://esic.cgu.gov.br/sistema/" target="_blank">https://esic.cgu.gov.br/sistema/</a></p>
-
-				<p>Atendimento por telefone: <a href="+556120242317">(61) 2024-2317</a></p>
-
-				<p>E-mail: <a href="mailto:sic@cultura.gov.br" target="_blank">sic@cultura.gov.br</a></p>
 			</div>
 		</div>
 	</section>

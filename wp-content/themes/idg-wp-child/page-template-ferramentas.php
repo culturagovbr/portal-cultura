@@ -35,6 +35,24 @@
     <div class="container image-left no-border align-center">
       <div class="col-image text-center">
         <div class="box">
+          <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/salic_mobile.jpg'); border: 1px solid #CCC;"></div>
+        </div>
+      </div>
+
+      <div class="col-text">
+        <h2 class="section-title mb-4">Salic Mobile</h2>
+        <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) conta com a versão para acesso remoto. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de ter a possibilidade de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.ionicframework.salicmobile804600&hl=pt_BR" target="_blank" class="btn btn-acesse">Google Play</a>
+        <a href="https://itunes.apple.com/us/app/salic/id1224617502?mt=8" target="_blank" class="btn btn-acesse">Apple Store</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-and-text">
+
+    <div class="container image-right no-border align-center">
+      <div class="col-image text-center">
+        <div class="box">
           <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/salic_versalic.jpg'); border: 1px solid #CCC;"></div>
         </div>
       </div>
@@ -47,9 +65,9 @@
     </div>
   </section>
 
-  <section class="image-and-text">
+  <section class="image-and-text bg-grey-2">
 
-    <div class="container image-right no-border align-center">
+    <div class="container image-left no-border align-center">
       <div class="col-image text-center">
         <div class="box">
           <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/salic_compara.jpg'); border: 1px solid #CCC;"></div>
@@ -64,20 +82,20 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2">
+  <section class="image-and-text">
 
-    <div class="container image-left no-border align-center">
+    <div class="container image-right no-border align-center">
       <div class="col-image text-center">
         <div class="box">
-          <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/salic_mobile.jpg'); border: 1px solid #CCC;"></div>
+          <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/manuais.jpg'); border: 1px solid #CCC;"></div>
         </div>
       </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-4">Salic Mobile</h2>
-        <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) conta com a versão para acesso remoto. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de ter a possibilidade de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.ionicframework.salicmobile804600&hl=pt_BR" target="_blank" class="btn btn-acesse">Google Play</a>
-        <a href="https://itunes.apple.com/us/app/salic/id1224617502?mt=8" target="_blank" class="btn btn-acesse">Apple Store</a>
+        <h2 class="section-title mb-4">Manual de Marcas</h2>
+        <p>O artigo 47 do <a href="http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5761.htm" target="_blank">Decreto 5.761/2006</a>, que regulamenta o Programa Nacional de Apoio à Cultura (Pronac), diz que é obrigatória a inserção das logos relacionadas ao Programa e da logo do Ministério da Cidadania: I - nos produtos resultantes de programas, projetos e ações culturais realizados com recursos do Fundo Nacional de Cultura e/ou da Lei de Incentivo à Cultura; II - nas atividades relacionadas à difusão, divulgação, promoção e distribuição destes projetos e ações culturais, incluindo placa de obra e placa permanente de edificação, sempre com visibilidade pelo menos igual à da marca do patrocinador majoritário; III - em peças promocionais e campanhas institucionais dos patrocinadores que façam referência a programas, projetos e ações culturais beneficiados com incentivos fiscais. Os modelos e critérios de inserção, segundo o decreto, devem ser definidos em manual elaborado e aprovado pelo Ministério. Clique e acesse o Manual de Marcas.</p>
+
+        <a href="#this" target="_blank" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>

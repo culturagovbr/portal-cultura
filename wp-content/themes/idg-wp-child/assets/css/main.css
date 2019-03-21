@@ -1,3 +1,9 @@
+body.home .widget_text_image_box .banner-img-preview {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #CCC;
+}
+
 #posts-list li .categories {
   display: none;
 }
@@ -275,6 +281,11 @@
 
 #page-cnic .table-responsive table td {
   vertical-align: middle;
+}
+
+.type-post .entry-content iframe {
+    width: 100%;
+    height: 500px;
 }
 
 h1 a,
