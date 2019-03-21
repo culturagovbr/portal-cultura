@@ -278,7 +278,7 @@
           </div>
         </div>
 
-        <p class="text-center m-0"><a href="http://antigo.cultura.gov.br/documents/10883/1544337/Calend%C3%A1rio+das+reuni%C3%B5es+da+CNIC+-+2019.pdf/e8bb3613-646f-4b83-b9ed-120d34b5d4e0" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
+        <p class="text-center m-0"><a href="http://cultura.gov.br/wp-content/uploads/2019/03/Calend%C3%A1rio-das-reuni%C3%B5es-da-CNIC-2019-atualizado-em-19-02.pdf" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
       </div>
     </div>
   </section>
