@@ -68,9 +68,9 @@
 			</div>
 
 			<div class="col-text">
-<p>Reclamações, sugestões, elogios, denúncias ou solicitação de informações pode ser encaminhados pela Ouvidoria.</p>
-<p>Acesse <a href="http://ouvidoria.cultura.gov.br/ouvidoria/login.jsp" target="_blank">aqui</a>.</p>
-<p>Fone: <a href= "tel:+55612024224">(61) 2024-2245</a>.</p>
+				<p>Reclamações, sugestões, elogios, denúncias ou solicitação de informações pode ser encaminhados pela Ouvidoria.</p>
+				<p><strong>Acesse:</strong> <a href="http://ouvidoria.cultura.gov.br/ouvidoria/login.jsp" target="_blank">aqui</a>.</p>
+				<p><strong>Fone:</strong> <a href= "tel:+55612024224">(61) 2024-2245</a>.</p>
 
 			</div>
 		</div>

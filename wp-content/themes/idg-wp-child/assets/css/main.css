@@ -269,6 +269,7 @@ body.home .widget_text_image_box .banner-img-preview {
 #page-cnic .table-responsive table {
   height: 100%;
   margin: 0;
+  background: #FFF;
 }
 
 #page-cnic .table-responsive {
