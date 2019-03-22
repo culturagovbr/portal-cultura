@@ -20,16 +20,17 @@
     </div>
   </section>
 
-  <section id="info-graphic">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cnic.jpg?2" />
-  </section>
 
-
-  <section class="image-and-text" id="o-que-e">
+  <section class="image-and-text bg-grey-2" id="o-que-e">
 
     <div class="container image-right align-center no-border">
       <div class="col-text">
         <h2 class="section-title mb-5">O que é?</h2>
+
+          <div class="align-right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cnic.jpg?2" />
+          </div>
+
           <p>A Comissão Nacional de Incentivo à Cultura é um colegiado formado por 21 membros da sociedade civil, sendo sete titulares e 14 suplentes. Também integram a Comissão o secretário especial da Cultura, que a preside, os presidentes das sete entidades culturais vinculadas ao Ministério da Cidadania (Agência Nacional do Cinema – Ancine, Instituto do Patrimônio Histórico e Artístico Nacional – Iphan, Instituto Brasileiro de Museus – Ibram, Fundação Biblioteca Nacional, Fundação Casa de Rui Barbosa, Fundação Nacional de Artes – Funarte e Fundação Cultural Palmares) e o presidente da entidade nacional que congrega os Secretários de Cultura das unidades federativas. No total, são 16 membros titulares, com dois suplentes cada.</p>
 
           <p>A principal função da CNIC é a de subsidiar as decisões sobre a aprovação de projetos culturais que pleiteiam incentivo fiscal por meio da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>.</p>
@@ -43,7 +44,7 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="o-que-faz-a-comissao">
+  <section class="image-and-text" id="o-que-faz-a-comissao">
     <div class="container image-left align-center">
       <div class="col-text">
         <h2 class="section-title">O que faz a Comissão?</h2>
@@ -55,7 +56,7 @@
     </div>
   </section>
 
-  <section class="image-and-text" id="quem-e-quem">
+  <section class="image-and-text bg-grey-2" id="quem-e-quem">
     <div class="container image-left align-center">
       <div class="col-text">
         <h2 class="section-title">Quem é quem</h2>
