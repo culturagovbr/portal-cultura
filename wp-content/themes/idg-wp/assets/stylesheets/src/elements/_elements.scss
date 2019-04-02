@@ -334,65 +334,65 @@ body.page {
 		}
 	}
 
-	.table-responsive {
-		@include media("≥phone", "≤desktop") {
-			width: 100% !important;
-		}
-
-		table {
-			border-left: 1px solid #dee2e6;
-			border-right: 1px solid #dee2e6;
-			border-bottom: 1px solid #dee2e6;
-		}
-
-		thead {
-			th {
-				width: 25%;
-				background: color(primary);
-				color: color(white);
-				border-bottom: 1px solid #dee2e6;
-				font-weight: normal;
-
-				@include media("≥phone", "≤desktop") {
-					white-space: nowrap;
-				}
-			}
-		}
-
-		tbody {
-			th {
-				font-weight: normal;
-
-				&[colspan] {
-					background: color(gray);
-					font-size: 1rem;
-				}
-			}
-
-			td,
-			th {
-				font-size: .85rem;
-
-				a {
-					font-weight: normal;
-					text-decoration: none;
-				}
-			}
-
-			td {
-				// width: 25%;
-
-				@include media("≥phone", "≤desktop") {
-					width: 50%;
-				}
-			}
-		}
-	}
-
 	iframe,
 	img,
 	figure {
 		max-width: 100%;
+	}
+}
+
+.table-responsive {
+	@include media("≥phone", "≤desktop") {
+		width: 100% !important;
+	}
+
+	table {
+		border-left: 1px solid #dee2e6;
+		border-right: 1px solid #dee2e6;
+		border-bottom: 1px solid #dee2e6;
+	}
+
+	thead {
+		th {
+			width: 25%;
+			background: color(primary);
+			color: color(white);
+			border-bottom: 1px solid #dee2e6;
+			font-weight: normal;
+
+			@include media("≥phone", "≤desktop") {
+				white-space: nowrap;
+			}
+		}
+	}
+
+	tbody {
+		th {
+			font-weight: normal;
+
+			&[colspan] {
+				background: color(gray);
+				font-size: 1rem;
+			}
+		}
+
+		td,
+		th {
+			font-size: .85rem;
+
+			a {
+				font-weight: normal;
+				text-decoration: none;
+			}
+		}
+
+		td {
+			// width: 25%;
+
+			@include media("≥phone", "≤desktop") {
+				width: 50%;
+			}
+		}
 	}
 }
 
@@ -627,7 +627,7 @@ body.page {
 			&.small-font {
 
 				p, a {
-				font-size: 14px;
+				font-size: 12px;
 
 				}
 			}

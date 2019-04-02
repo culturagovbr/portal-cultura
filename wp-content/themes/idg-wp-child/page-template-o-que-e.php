@@ -16,36 +16,51 @@
   <section class="image-and-text">
 
     <div class="container image-right no-border">
-      <div class="col-image text-center">
-        <div class="box">
-          <div class="img-wrapper mb-3 mt-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/03.jpg" />
-          </div>
-        </div>
-      </div>
 
       <div class="col-text">
-        <h2 class="section-title mb-5">O que é a Lei de Incentivo?</h2>
-        <p>Principal ferramenta de fomento à Cultura do Brasil, a <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a> facilita, a todos, os meios para o livre acesso às fontes da Cultura e o pleno exercício dos Direitos Culturais. A partir do Programa Nacional de Apoio à Cultura (Pronac), a lei atua por meio de diferentes mecanismos, como o Incentivo a projetos culturais e o Fundo Nacional da Cultura (FNC).</p>
-
-        <p>O Incentivo a projetos culturais é um mecanismo em que a União faculta às pessoas, físicas ou jurídicas, a opção pela aplicação de parcelas do Imposto sobre a Renda em projetos vinculados à Cultura. Ou seja, trata-se de uma ferramenta, oferecida pelo governo federal, para que a sociedade possa decidir aplicar parte do dinheiro de seus impostos em ações culturais.</p>
-
-        <ul class="horizontal-links">
-          <li><a href="#incentivo">Incentivo</a></li>
-          <li><a href="#fnc">FNC</a></li>
-          <li><a href="#ficart">Ficart</a></li>
-        </ul>
+        <h2 class="section-title text-center">O que é a Lei de Incentivo?</h2>
       </div>
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="incentivo">
+  <section class="image-and-text bg-grey-2" id="pronac">
+    <div class="container image-left">
+      <div class="col-image pt-0 pb-0">
+        <div class="box">
+          <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/06.jpg');"></div>
+          <h3 class="text-center">Pronac</h3>
+          <p>A Lei 8.313, de 23 de dezembro de 1991, instituiu o Programa Nacional de Apoio à Cultura (Pronac) com o objetivo de ampliar o acesso à cultura e a produção cultural em todas as regiões; apoiar, valorizar e difundir as manifestações artísticas brasileiras; proteger nossas expressões culturais e preservar o patrimônio; além de estimular a produção cultural como geradora de renda, emprego e desenvolvimento para o país. Três mecanismos fazem parte do Programa: o Incentivo à Cultura, o Fundo Nacional de Cultura (FNC) e os Fundos de Investimento Cultural e Artístico (Ficarts). </p>
+        </div>
+      </div>
+
+      <div class="col-text small-font">
+        <h5>Está na lei:</h5>
+        <p>Disposições preliminares</p>
+        <p>Art. 1° Fica instituído o Programa Nacional de Apoio à Cultura (Pronac), com a finalidade de captar e canalizar recursos para o setor de modo a:</p>
+        <p>I - contribuir para facilitar, a todos, os meios para o livre acesso às fontes da cultura e o pleno exercício dos direitos culturais;</p>
+        <p>II - promover e estimular a regionalização da produção cultural e artística brasileira, com valorização de recursos humanos e conteúdos locais;</p>
+        <p>III - apoiar, valorizar e difundir o conjunto das manifestações culturais e seus respectivos criadores;</p>
+        <p>IV - proteger as expressões culturais dos grupos formadores da sociedade brasileira e responsáveis pelo pluralismo da cultura nacional;</p>
+        <p>V - salvaguardar a sobrevivência e o florescimento dos modos de criar, fazer e viver da sociedade brasileira;</p>
+        <p>VI - preservar os bens materiais e imateriais do patrimônio cultural e histórico brasileiro;</p>
+        <p>VII - desenvolver a consciência internacional e o respeito aos valores culturais de outros povos ou nações;</p>
+        <p>VIII - estimular a produção e difusão de bens culturais de valor universal, formadores e informadores de conhecimento, cultura e memória;</p>
+        <p>IX - priorizar o produto cultural originário do País.</p>
+        <p>Art. 2° O Pronac será implementado através dos seguintes mecanismos:</p>
+        <p>I - Fundo Nacional da Cultura (FNC);</p>
+        <p>II - Fundos de Investimento Cultural e Artístico (Ficart);</p>
+        <p>III - Incentivo a projetos culturais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-and-text" id="incentivo">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
           <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/01.jpg');"></div>
           <h3 class="text-center">Incentivo</h3>
-          <p>O Incentivo a projetos culturais é um mecanismo em que a União faculta às pessoas, físicas ou jurídicas, a opção pela aplicação de parcelas do Imposto sobre a Renda em projetos vinculados à Cultura. Ou seja, trata-se de uma ferramenta, oferecida pelo governo federal, para que a sociedade possa decidir aplicar parte do dinheiro de seus impostos em ações culturais. Desta maneira, o incentivo fiscal estimula a participação dos cidadãos, da iniciativa privada e do mercado empresarial no aporte de recursos para o campo da Cultura, diversificando possibilidades de financiamento, ampliando o volume de recursos destinados ao setor, atribuindo a ele mais potência e mais estratégia econômica. O incentivo ainda cumpre interesse público ao promover maior democratização do acesso aos produtos culturais gerados pelos projetos, no âmbito da efetivação dos direitos culturais.</p>
+          <p>Qualquer cidadão que realize a declaração e de imposto de renda ou qualquer empresa tributada com base no lucro real pode apoiar projetos culturais utilizando o mecanismo do incentivo fiscal previsto em Lei. Pessoas físicas terão desconto de até 6% do imposto devido e pessoas jurídicas, de até 4%. O patrocínio pode ser dado a qualquer projeto que tenha sido previamente aprovado pela Secretaria Especial da Cultura do Ministério da Cidadania. Desde a criação da Lei até agora (1991-2018), mais de 53 mil projetos foram realizados com apoio deste mecanismo, resultado de um investimento total de cerca de R$ 17 bilhões. De acordo com estudo feito pela Fundação Getúlio Vargas em 2018, cada R$ 1 de renúncia de imposto concedida pela <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a> gera R$ 1,59 de retorno para a economia brasileira.</p>
         </div>
       </div>
 
@@ -71,13 +86,13 @@
     </div>
   </section>
 
-  <section class="image-and-text" id="fnc">
+  <section class="image-and-text bg-grey-2" id="fnc">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
           <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/02.jpg');"></div>
           <h3 class="text-center">FNC</h3>
-          <p>O Fundo Nacional da Cultura representa o investimento direto do Estado no fomento à Cultura, já que o apoio a projetos decorre de recursos do orçamento da União. O apoio via FNC promove, por exemplo, a distribuição regional dos recursos de forma equilibrada. O fomento ocorre, principalmente, por meio de editais de seleção – o que proporciona aderência às políticas da Secretaria Especial da Cultura do Ministério da Cidadania, promovendo um equilíbrio regional, social e econômico.</p>
+          <p>O Fundo Nacional da Cultura representa o investimento direto do Estado no fomento à Cultura. Nele, o apoio a projetos é feito mediante a aplicação direta de recursos do orçamento da União em projetos específicos, selecionados, principalmente, por meio de editais. O apoio via FNC promove uma distribuição dos recursos de forma mais equilibrada entre as diferentes regiões do país. A parcela do orçamento destinada ao Fundo, entretanto, é alvo de constantes contingenciamentos (quando a destinação de recursos para determinado Fundo ou setor é adiada ou deixa de acontecer por conta da insuficiência de receita ou da destinação da mesma para outra área estratégica).  </p>
         </div>
       </div>
 
@@ -95,13 +110,13 @@
     </div>
   </section>
 
-  <section class="image-and-text bg-grey-2" id="ficart">
+  <section class="image-and-text" id="ficart">
     <div class="container image-left">
       <div class="col-image pt-0 pb-0">
         <div class="box">
           <div class="img-wrapper square mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/05.jpg');"></div>
           <h3 class="text-center">Ficart</h3>
-          <p>Os Fundos de Investimento Cultural e Artístico (Ficart) são fundos de captação no mercado, idealizados para apoiar projetos culturais de alta viabilidade econômica e reputacional. No mecanismo, o financiamento do projeto cultural prevê lucro para o investidor. O Ficart, apesar de previsto na legislação que instituiu o Pronac, não está implementado.</p>
+          <p>Os Fundos de Investimento Cultural e Artístico (Ficart) são fundos de captação no mercado, idealizados para apoiar projetos culturais de alta viabilidade econômica e reputacional. No mecanismo, o financiamento do projeto cultural prevê lucro para o investidor. O Ficart, apesar de previsto na legislação que instituiu o Pronac, não foi implementado.</p>
         </div>
       </div>
 

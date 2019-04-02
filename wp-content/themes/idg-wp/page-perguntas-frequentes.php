@@ -19,13 +19,11 @@
           ?>
         </div>
 
-        BLAHHH
-
         <div class="entry-content">
           <?php get_template_part('template-parts/copyright'); ?>
         </div>
       </div>
-    </div>
+  </div>
   </main>
 <?php
 get_footer();
