@@ -97,54 +97,121 @@ class Feature_Card extends WP_Widget
 				<select class="widefat icon-selector" id="<?php echo esc_attr($this->get_field_id('icon')); ?>"
 						name="<?php echo esc_attr($this->get_field_name('icon')); ?>">
 
-					<option <?php echo $icon == 'icon-acoes-programadas' ? 'selected' : ''; ?> value="icon-acoes-programadas">acoes-programadas</option>
-					<option <?php echo $icon == 'icon-angle_down' ? 'selected' : ''; ?> value="icon-angle_down">angle_down</option>
-					<option <?php echo $icon == 'icon-angle_left' ? 'selected' : ''; ?> value="icon-angle_left">angle_left</option>
-					<option <?php echo $icon == 'icon-angle_right' ? 'selected' : ''; ?> value="icon-angle_right">angle_right</option>
-					<option <?php echo $icon == 'icon-angle_up' ? 'selected' : ''; ?> value="icon-angle_up">angle_up</option>
+					<option <?php echo $icon == 'icon-acoes-programadas' ? 'selected' : ''; ?>
+						value="icon-acoes-programadas">acoes-programadas
+					</option>
+					<option <?php echo $icon == 'icon-angle_down' ? 'selected' : ''; ?> value="icon-angle_down">
+						angle_down
+					</option>
+					<option <?php echo $icon == 'icon-angle_left' ? 'selected' : ''; ?> value="icon-angle_left">
+						angle_left
+					</option>
+					<option <?php echo $icon == 'icon-angle_right' ? 'selected' : ''; ?> value="icon-angle_right">
+						angle_right
+					</option>
+					<option <?php echo $icon == 'icon-angle_up' ? 'selected' : ''; ?> value="icon-angle_up">angle_up
+					</option>
 					<option <?php echo $icon == 'icon-apoio' ? 'selected' : ''; ?> value="icon-apoio">apoio</option>
-					<option <?php echo $icon == 'icon-arrow_down' ? 'selected' : ''; ?> value="icon-arrow_down">arrow_down</option>
-					<option <?php echo $icon == 'icon-arrow_left' ? 'selected' : ''; ?> value="icon-arrow_left">arrow_left</option>
-					<option <?php echo $icon == 'icon-arrow_right' ? 'selected' : ''; ?> value="icon-arrow_right">arrow_right</option>
-					<option <?php echo $icon == 'icon-arrow_top' ? 'selected' : ''; ?> value="icon-arrow_top">arrow_top</option>
-					<option <?php echo $icon == 'icon-assessoria' ? 'selected' : ''; ?> value="icon-assessoria">assessoria</option>
-					<option <?php echo $icon == 'icon-calendar' ? 'selected' : ''; ?> value="icon-calendar">calendar</option>
-					<option <?php echo $icon == 'icon-centros-culturais' ? 'selected' : ''; ?> value="icon-centros-culturais">centros-culturais</option>
-					<option <?php echo $icon == 'icon-checkmark' ? 'selected' : ''; ?> value="icon-checkmark">checkmark</option>
+					<option <?php echo $icon == 'icon-arrow_down' ? 'selected' : ''; ?> value="icon-arrow_down">
+						arrow_down
+					</option>
+					<option <?php echo $icon == 'icon-arrow_left' ? 'selected' : ''; ?> value="icon-arrow_left">
+						arrow_left
+					</option>
+					<option <?php echo $icon == 'icon-arrow_right' ? 'selected' : ''; ?> value="icon-arrow_right">
+						arrow_right
+					</option>
+					<option <?php echo $icon == 'icon-arrow_top' ? 'selected' : ''; ?> value="icon-arrow_top">
+						arrow_top
+					</option>
+					<option <?php echo $icon == 'icon-assessoria' ? 'selected' : ''; ?> value="icon-assessoria">
+						assessoria
+					</option>
+					<option <?php echo $icon == 'icon-calendar' ? 'selected' : ''; ?> value="icon-calendar">calendar
+					</option>
+					<option <?php echo $icon == 'icon-centros-culturais' ? 'selected' : ''; ?>
+						value="icon-centros-culturais">centros-culturais
+					</option>
+					<option <?php echo $icon == 'icon-checkmark' ? 'selected' : ''; ?> value="icon-checkmark">
+						checkmark
+					</option>
 					<option <?php echo $icon == 'icon-clock' ? 'selected' : ''; ?> value="icon-clock">clock</option>
-					<option <?php echo $icon == 'icon-consultas-publicas' ? 'selected' : ''; ?> value="icon-consultas-publicas">consultas-publicas</option>
-					<option <?php echo $icon == 'icon-contrast' ? 'selected' : ''; ?> value="icon-contrast">contrast</option>
-					<option <?php echo $icon == 'icon-dados-br' ? 'selected' : ''; ?> value="icon-dados-br">dados-br</option>
-					<option <?php echo $icon == 'icon-double-checkmark' ? 'selected' : ''; ?> value="icon-double-checkmark">double-checkmark</option>
-					<option <?php echo $icon == 'icon-economia-criativa' ? 'selected' : ''; ?> value="icon-economia-criativa">economia-criativa</option>
-					<option <?php echo $icon == 'icon-editais' ? 'selected' : ''; ?> value="icon-editais">editais</option>
-					<option <?php echo $icon == 'icon-escritorios-regionais' ? 'selected' : ''; ?> value="icon-escritorios-regionais">escritorios-regionais</option>
+					<option <?php echo $icon == 'icon-consultas-publicas' ? 'selected' : ''; ?>
+						value="icon-consultas-publicas">consultas-publicas
+					</option>
+					<option <?php echo $icon == 'icon-contrast' ? 'selected' : ''; ?> value="icon-contrast">contrast
+					</option>
+					<option <?php echo $icon == 'icon-dados-br' ? 'selected' : ''; ?> value="icon-dados-br">dados-br
+					</option>
+					<option <?php echo $icon == 'icon-double-checkmark' ? 'selected' : ''; ?>
+						value="icon-double-checkmark">double-checkmark
+					</option>
+					<option <?php echo $icon == 'icon-economia-criativa' ? 'selected' : ''; ?>
+						value="icon-economia-criativa">economia-criativa
+					</option>
+					<option <?php echo $icon == 'icon-editais' ? 'selected' : ''; ?> value="icon-editais">editais
+					</option>
+					<option <?php echo $icon == 'icon-escritorios-regionais' ? 'selected' : ''; ?>
+						value="icon-escritorios-regionais">escritorios-regionais
+					</option>
 					<option <?php echo $icon == 'icon-eye' ? 'selected' : ''; ?> value="icon-eye">eye</option>
-					<option <?php echo $icon == 'icon-fale-conosco' ? 'selected' : ''; ?> value="icon-fale-conosco">fale-conosco</option>
+					<option <?php echo $icon == 'icon-fale-conosco' ? 'selected' : ''; ?> value="icon-fale-conosco">
+						fale-conosco
+					</option>
 					<option <?php echo $icon == 'icon-home' ? 'selected' : ''; ?> value="icon-home">home</option>
-					<option <?php echo $icon == 'icon-internacional' ? 'selected' : ''; ?> value="icon-internacional">internacional</option>
-					<option <?php echo $icon == 'icon-legislacao' ? 'selected' : ''; ?> value="icon-legislacao">legislacao</option>
-					<option <?php echo $icon == 'icon-lei-rouanet' ? 'selected' : ''; ?> value="icon-lei-rouanet">lei-rouanet</option>
+					<option <?php echo $icon == 'icon-internacional' ? 'selected' : ''; ?> value="icon-internacional">
+						internacional
+					</option>
+					<option <?php echo $icon == 'icon-legislacao' ? 'selected' : ''; ?> value="icon-legislacao">
+						legislacao
+					</option>
+					<option <?php echo $icon == 'icon-lei-rouanet' ? 'selected' : ''; ?> value="icon-lei-rouanet">
+						lei-rouanet
+					</option>
 					<option <?php echo $icon == 'icon-less' ? 'selected' : ''; ?> value="icon-less">less</option>
 					<option <?php echo $icon == 'icon-libras' ? 'selected' : ''; ?> value="icon-libras">libras</option>
-					<option <?php echo $icon == 'icon-location' ? 'selected' : ''; ?> value="icon-location">location</option>
-					<option <?php echo $icon == 'icon-ministerio' ? 'selected' : ''; ?> value="icon-ministerio">ministerio</option>
-					<option <?php echo $icon == 'icon-ministro' ? 'selected' : ''; ?> value="icon-ministro">ministro</option>
-					<option <?php echo $icon == 'icon-multimidia' ? 'selected' : ''; ?> value="icon-multimidia">multimidia</option>
-					<option <?php echo $icon == 'icon-noticias' ? 'selected' : ''; ?> value="icon-noticias">noticias</option>
-					<option <?php echo $icon == 'icon-ouvidoria' ? 'selected' : ''; ?> value="icon-ouvidoria">ouvidoria</option>
-					<option <?php echo $icon == 'icon-patrimonio' ? 'selected' : ''; ?> value="icon-patrimonio">patrimonio</option>
-					<option <?php echo $icon == 'icon-play_btn' ? 'selected' : ''; ?> value="icon-play_btn">play_btn</option>
+					<option <?php echo $icon == 'icon-location' ? 'selected' : ''; ?> value="icon-location">location
+					</option>
+					<option <?php echo $icon == 'icon-ministerio' ? 'selected' : ''; ?> value="icon-ministerio">
+						ministerio
+					</option>
+					<option <?php echo $icon == 'icon-ministro' ? 'selected' : ''; ?> value="icon-ministro">ministro
+					</option>
+					<option <?php echo $icon == 'icon-multimidia' ? 'selected' : ''; ?> value="icon-multimidia">
+						multimidia
+					</option>
+					<option <?php echo $icon == 'icon-noticias' ? 'selected' : ''; ?> value="icon-noticias">noticias
+					</option>
+					<option <?php echo $icon == 'icon-ouvidoria' ? 'selected' : ''; ?> value="icon-ouvidoria">
+						ouvidoria
+					</option>
+					<option <?php echo $icon == 'icon-patrimonio' ? 'selected' : ''; ?> value="icon-patrimonio">
+						patrimonio
+					</option>
+					<option <?php echo $icon == 'icon-play_btn' ? 'selected' : ''; ?> value="icon-play_btn">play_btn
+					</option>
 					<option <?php echo $icon == 'icon-plus' ? 'selected' : ''; ?> value="icon-plus">plus</option>
-					<option <?php echo $icon == 'icon-pontos-cultura' ? 'selected' : ''; ?> value="icon-pontos-cultura">pontos-cultura</option>
-					<option <?php echo $icon == 'icon-publicacoes' ? 'selected' : ''; ?> value="icon-publicacoes">publicacoes</option>
+					<option <?php echo $icon == 'icon-pontos-cultura' ? 'selected' : ''; ?> value="icon-pontos-cultura">
+						pontos-cultura
+					</option>
+					<option <?php echo $icon == 'icon-publicacoes' ? 'selected' : ''; ?> value="icon-publicacoes">
+						publicacoes
+					</option>
 					<option <?php echo $icon == 'icon-search' ? 'selected' : ''; ?> value="icon-search">search</option>
-					<option <?php echo $icon == 'icon-search_b' ? 'selected' : ''; ?> value="icon-search_b">search_b</option>
-					<option <?php echo $icon == 'icon-secretarias' ? 'selected' : ''; ?> value="icon-secretarias">secretarias</option>
-					<option <?php echo $icon == 'icon-settings' ? 'selected' : ''; ?> value="icon-settings">settings</option>
-					<option <?php echo $icon == 'icon-smartphone' ? 'selected' : ''; ?> value="icon-smartphone">smartphone</option>
+					<option <?php echo $icon == 'icon-search_b' ? 'selected' : ''; ?> value="icon-search_b">search_b
+					</option>
+					<option <?php echo $icon == 'icon-secretarias' ? 'selected' : ''; ?> value="icon-secretarias">
+						secretarias
+					</option>
+					<option <?php echo $icon == 'icon-settings' ? 'selected' : ''; ?> value="icon-settings">settings
+					</option>
+					<option <?php echo $icon == 'icon-smartphone' ? 'selected' : ''; ?> value="icon-smartphone">
+						smartphone
+					</option>
 					<option <?php echo $icon == 'icon-snc' ? 'selected' : ''; ?> value="icon-snc">snc</option>
-					<option <?php echo $icon == 'icon-vinculada' ? 'selected' : ''; ?> value="icon-vinculada">vinculada</option>
+					<option <?php echo $icon == 'icon-vinculada' ? 'selected' : ''; ?> value="icon-vinculada">
+						vinculada
+					</option>
 
 					<option <?php echo $icon == 'upload-custom-icon' ? 'selected' : ''; ?> value="upload-custom-icon">
 						personalizado
@@ -574,7 +641,8 @@ class Text_Image_Box extends WP_Widget
 			<p>
 				<label
 					for="<?php echo esc_attr($this->get_field_id('text')); ?>"><?php esc_attr_e('Text:', 'idg-wp'); ?></label>
-				<textarea class="widefat idg-text hidden" id="<?php echo esc_attr($this->get_field_id('text')); ?>" name="<?php echo esc_attr($this->get_field_name('text')); ?>"><?php echo $text; ?></textarea>
+				<textarea class="widefat idg-text hidden" id="<?php echo esc_attr($this->get_field_id('text')); ?>"
+						  name="<?php echo esc_attr($this->get_field_name('text')); ?>"><?php echo $text; ?></textarea>
 				<textarea class="idg-rich-text"><?php echo esc_attr($text); ?></textarea>
 			</p>
 		</div>
@@ -632,13 +700,21 @@ class IDG_Carousel extends WP_Widget
 				$n = $instance['number_of_banners'] ? intval($instance['number_of_banners']) : 1;
 				for ($i = 0; $i < $n; $i++) : ?>
 					<div class="carousel-item <?php echo $i == 0 ? 'active' : ''; ?>">
-						<img class="d-block w-100" src="<?php echo wp_get_attachment_url($instance['image'][$i]); ?>" alt="Second slide">
-						<div class="carousel-caption d-md-block">
-							<div class="container">
-								<h2><a href="<?php echo $instance['link_url'][$i]; ?>" <?php echo $instance['target'][$i] ? 'target="_blank"' : ''; ?>><?php echo $instance['link_title'][$i]; ?></a></h2>
-								<p><?php echo $instance['desc'][$i]; ?></p>
+						<?php if( $instance['banner_with_no_text'][$i] ) : ?>
+							<a href="<?php echo $instance['link_url'][$i]; ?>" <?php echo $instance['target'][$i] ? 'target="_blank"' : ''; ?>><?php echo $instance['link_title'][$i]; ?>
+								<img class="d-block w-100" src="<?php echo wp_get_attachment_url($instance['image'][$i]); ?>" alt="Second slide">
+							</a>
+						<?php else: ?>
+							<img class="d-block w-100" src="<?php echo wp_get_attachment_url($instance['image'][$i]); ?>" alt="Second slide">
+							<div class="carousel-caption d-md-block">
+								<div class="container">
+									<h2>
+										<a href="<?php echo $instance['link_url'][$i]; ?>" <?php echo $instance['target'][$i] ? 'target="_blank"' : ''; ?>><?php echo $instance['link_title'][$i]; ?></a>
+									</h2>
+									<p><?php echo $instance['desc'][$i]; ?></p>
+								</div>
 							</div>
-						</div>
+						<?php endif; ?>
 					</div>
 				<?php endfor; ?>
 			</div>
@@ -652,7 +728,7 @@ class IDG_Carousel extends WP_Widget
 			</a>
 			<ol class="carousel-indicators">
 				<?php
-				for ( $indicators = 0; $indicators < $i; $indicators ++ ) {
+				for ($indicators = 0; $indicators < $i; $indicators++) {
 					$class = $indicators == 0 ? 'active' : '';
 					echo '<li data-target="#jumbotron-carousel" data-slide-to="' . $indicators . '" class="' . $class . '"></li>';
 				}
@@ -691,6 +767,11 @@ class IDG_Carousel extends WP_Widget
 			$target = $instance['target'];
 		}
 
+		$banner_with_no_text = '';
+		if (!empty($instance['banner_with_no_text'])) {
+			$banner_with_no_text = $instance['banner_with_no_text'];
+		}
+
 		$link_title = '';
 		if (!empty($instance['link_title'])) {
 			$link_title = array_values($instance['link_title']);
@@ -715,18 +796,28 @@ class IDG_Carousel extends WP_Widget
 		<div class="idg-banners-widget">
 
 			<!--<p>
-				<label for="<?php /*echo $this->get_field_name('title'); */?>"><?php /*_e('Title:', 'idg-wp'); */?></label>
-				<input class="widefat" id="<?php /*echo $this->get_field_id('title'); */?>"
-					   name="<?php /*echo $this->get_field_name('title'); */?>" type="text"
-					   value="<?php /*echo esc_attr($title); */?>"/>
+				<label for="<?php /*echo $this->get_field_name('title'); */
+			?>"><?php /*_e('Title:', 'idg-wp'); */
+			?></label>
+				<input class="widefat" id="<?php /*echo $this->get_field_id('title'); */
+			?>"
+					   name="<?php /*echo $this->get_field_name('title'); */
+			?>" type="text"
+					   value="<?php /*echo esc_attr($title); */
+			?>"/>
 			</p>
 
 			<p>
 				<label
-					for="<?php /*echo $this->get_field_name('description'); */?>"><?php /*_e('Description:', 'idg-wp'); */?></label>
-				<textarea class="widefat" id="<?php /*echo $this->get_field_id('description'); */?>"
-						  name="<?php /*echo $this->get_field_name('description'); */?>"
-						  type="text"><?php /*echo esc_attr($description); */?></textarea>
+					for="<?php /*echo $this->get_field_name('description'); */
+			?>"><?php /*_e('Description:', 'idg-wp'); */
+			?></label>
+				<textarea class="widefat" id="<?php /*echo $this->get_field_id('description'); */
+			?>"
+						  name="<?php /*echo $this->get_field_name('description'); */
+			?>"
+						  type="text"><?php /*echo esc_attr($description); */
+			?></textarea>
 			</p>-->
 
 			<p>
@@ -763,6 +854,14 @@ class IDG_Carousel extends WP_Widget
 
 						<p>
 							<label
+								for="<?php echo $this->get_field_id('banner_with_no_text') . '[' . $i . ']'; ?>"><?php esc_attr_e('Banner without text:', 'idg-wp'); ?></label>
+							<input id="<?php echo $this->get_field_id('banner_with_no_text') . '[' . $i . ']'; ?>"
+								   name="<?php echo $this->get_field_name('banner_with_no_text') . '[' . $i . ']'; ?>"
+								   type="checkbox" value="1" <?php checked('1', $banner_with_no_text [$i], true); ?>>
+						</p>
+
+						<p>
+							<label
 								for="<?php echo $this->get_field_name('link_title') . '[' . $i . ']'; ?>"><?php _e('Link Title:'); ?></label>
 							<input class="widefat"
 								   id="<?php echo $this->get_field_id('link_title') . '[' . $i . ']'; ?>"
@@ -774,8 +873,8 @@ class IDG_Carousel extends WP_Widget
 							<label
 								for="<?php echo $this->get_field_name('desc') . '[' . $i . ']'; ?>"><?php _e('Description:'); ?></label>
 							<textarea class="widefat"
-								id="<?php echo $this->get_field_id('desc') . '[' . $i . ']'; ?>"
-								name="<?php echo $this->get_field_name('desc') . '[' . $i . ']'; ?>"><?php echo esc_attr($desc[$i]); ?></textarea>
+									  id="<?php echo $this->get_field_id('desc') . '[' . $i . ']'; ?>"
+									  name="<?php echo $this->get_field_name('desc') . '[' . $i . ']'; ?>"><?php echo esc_attr($desc[$i]); ?></textarea>
 						</p>
 
 						<p>
@@ -813,6 +912,7 @@ class IDG_Carousel extends WP_Widget
 		$instance['number_of_banners'] = (!empty($new_instance['number_of_banners'])) ? sanitize_text_field($new_instance['number_of_banners']) : '';
 		$instance['link_url'] = (!empty($new_instance['link_url'])) ? $new_instance['link_url'] : '';
 		$instance['target'] = (!empty($new_instance['target'])) ? $new_instance['target'] : '';
+		$instance['banner_with_no_text'] = (!empty($new_instance['banner_with_no_text'])) ? $new_instance['banner_with_no_text'] : '';
 		$instance['link_title'] = (!empty($new_instance['link_title'])) ? $new_instance['link_title'] : '';
 		$instance['desc'] = (!empty($new_instance['desc'])) ? $new_instance['desc'] : '';
 		$instance['order'] = (!empty($new_instance['order'])) ? $new_instance['order'] : '';
