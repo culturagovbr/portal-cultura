@@ -25,6 +25,12 @@ body.home .widget_text_image_box .banner-img-preview {
   opacity: 0.5 !important;
 }
 
+.carousel-wrapper #jumbotron-carousel .carousel-item img,
+.carousel-wrapper {
+  height: auto !important;
+  min-height: auto !important;
+}
+
 .social-medias {
   display: inline-block;
 }
