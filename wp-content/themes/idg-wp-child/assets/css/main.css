@@ -1,3 +1,16 @@
+header,
+footer,
+main {
+  min-width: 1250px !important;
+}
+
+header > .container,
+footer > .container,
+main > .container {
+  width: 1150px !important;
+  max-width: none !important;
+}
+
 body.home .widget_text_image_box .banner-img-preview {
   border-radius: 15px;
   overflow: hidden;
