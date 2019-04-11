@@ -100,7 +100,7 @@
           <li>Doações de acervos para bibliotecas públicas, museus, arquivos públicos e cinematecas, bem como treinamento de pessoal e aquisição de equipamentos para a manutenção desses acervos;</li>
           <li>Produção de obras cinematográficas e videofonográficas de curta e média metragem e preservação e difusão do acervo audiovisual;</li>
           <li>Preservação do patrimônio cultural material e imaterial;</li>
-          <li>Construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em municípios com menos de cem milhabitantes.</li>
+          <li>Construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em municípios com menos de cem mil habitantes.</li>
         </ul>
 
         <p>Todos os demais projetos que não estão previstos no Artigo 18 se enquadram no Artigo 26, que prevê renúncia fiscal parcial, conforme o tipo de pessoa (física ou jurídica) e a natureza do investimento (doação ou patrocínio):</p>
