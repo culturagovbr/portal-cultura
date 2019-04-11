@@ -600,7 +600,7 @@ body.page {
 		}
 
 		.col-image {
-			flex: 0 0 400px;
+			flex: 0 0 360px;
 			padding: 30px 0 30px;
 			position: relative;
 
@@ -632,6 +632,18 @@ body.page {
 				}
 			}
 		}
+	}
+
+	.image-wrapper,
+	.img-wrapper {
+		width: 350px;
+		height: 350px;
+		border-radius: 15px;
+		overflow: hidden;
+		display: block;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin: 0 auto;
 	}
 }
 
