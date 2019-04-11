@@ -7495,15 +7495,6 @@ img {
 .type-post .entry-content *:-moz-only-whitespace:not(br):not(img):not(hr):not(link) {
   display: none; }
 
-.type-post .entry-content > p:first-child:first-letter {
-  color: #2969BD;
-  font-size: 5rem;
-  display: block;
-  font-weight: 700;
-  float: left;
-  line-height: 4rem;
-  margin-right: 20px; }
-
 .type-post .entry-content p {
   font-size: 1.1em;
   line-height: 1.7em; }
@@ -10470,6 +10461,8 @@ p img.alignright, p img.alignleft {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
   margin-bottom: 1rem; }
+  .wp-block-columns.has-2-columns {
+    grid-template-columns: repeat(2, 1fr); }
   .wp-block-columns .wp-block-column {
     margin: 0; }
 
