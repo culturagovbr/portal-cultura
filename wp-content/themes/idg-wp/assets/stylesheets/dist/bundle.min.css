@@ -9607,12 +9607,15 @@ body.page #main-single {
         #vale-cultura #menu-vale ul li a {
           color: #FFFFFF; }
   #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a {
-    display: flex;
-    line-height: normal;
     height: auto;
+    line-height: normal;
     min-height: 50px;
+    display: flex;
     align-items: center;
-    padding: 10px 20px 10px 70px; }
+    font-size: 1.3rem;
+    padding-left: 60px; }
+    #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a span {
+      padding: 15px 0; }
 
 #share-box {
   position: absolute;
