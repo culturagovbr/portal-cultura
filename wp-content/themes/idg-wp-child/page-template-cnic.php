@@ -279,7 +279,7 @@
           </div>
         </div>
 
-        <p class="text-center m-0"><a href="http://cultura.gov.br/wp-content/uploads/2019/03/Calend%C3%A1rio-das-reuni%C3%B5es-da-CNIC-2019-atualizado-em-19-02.pdf" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
+        <p class="text-center m-0"><a href="http://portal-rouanet.infra.cultura.gov.br/wp-content/uploads/2019/04/Calendário-atualizado-29.03.pdf" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
       </div>
     </div>
   </section>
