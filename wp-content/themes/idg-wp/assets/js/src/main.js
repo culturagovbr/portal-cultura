@@ -9,6 +9,7 @@
 			this.utils();
 			this.menu();
 			this.carousel();
+			this.scrollToAnchor();
 			this.multimedia();
 		},
 
@@ -76,6 +77,13 @@
 					if (swipedir === 'left') {
 						$carousel.carousel('next');
 					}
+			});
+		},
+
+		scrollToAnchor: function() {
+			$( "a.scrollLink" ).click(function( event ) {
+				event.preventDefault();
+				$("html, body").animate({ scrollTop: ($($(this).attr("href")).offset().top - 50) }, 500);
 			});
 		},
 
