@@ -94,7 +94,7 @@
         <h2 class="section-title mb-4">Manual de Marcas</h2>
         <p>O artigo 47 do <a href="http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5761.htm" target="_blank">Decreto 5.761/2006</a>, que regulamenta o Programa Nacional de Apoio à Cultura (Pronac), diz que é obrigatória a inserção das logos relacionadas ao Programa e da logo do Ministério da Cidadania: I - nos produtos resultantes de programas, projetos e ações culturais realizados com recursos do Fundo Nacional de Cultura e/ou da Lei de Incentivo à Cultura; II - nas atividades relacionadas à difusão, divulgação, promoção e distribuição destes projetos e ações culturais, incluindo placa de obra e placa permanente de edificação, sempre com visibilidade pelo menos igual à da marca do patrocinador majoritário; III - em peças promocionais e campanhas institucionais dos patrocinadores que façam referência a programas, projetos e ações culturais beneficiados com incentivos fiscais. Os modelos e critérios de inserção, segundo o decreto, devem ser definidos em manual elaborado e aprovado pelo Ministério.</p>
 
-        <a href="http://portal-rouanet.infra.cultura.gov.br/noticias/acesse-aqui-as-marcas-e-o-manual-do-pronac/" target="_blank" class="btn btn-acesse">Acesse</a>
+        <a href="http://leideincentivoacultura.cultura.gov.br/noticias/acesse-aqui-as-marcas-e-o-manual-do-pronac/" target="_blank" class="btn btn-acesse">Acesse</a>
       </div>
     </div>
   </section>

@@ -130,7 +130,7 @@
         <div class="row mb-4">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/novo-cadastro-e-primeiros-passos-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/novo-cadastro-e-primeiros-passos-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Novo Cadastro e Primeiros Passos da Nova Proposta</h3>
@@ -140,7 +140,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/corpo-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/corpo-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Corpo da Proposta</h3>
@@ -150,7 +150,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/local-de-realizacao-e-plano-de-distribuicao/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/local-de-realizacao-e-plano-de-distribuicao/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Local de Realização e Plano de Distribuição</h3>
@@ -163,7 +163,7 @@
         <div class="row  mb-4">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/planilha-orcamentaria/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/planilha-orcamentaria/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Planilha Orçamentária</h3>
@@ -173,7 +173,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/envio-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/envio-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Envio da Proposta</h3>
@@ -183,7 +183,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/clonagem-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/clonagem-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Clonagem da Proposta</h3>
@@ -196,7 +196,7 @@
         <div class="row">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/minhas-solicitacoes/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/minhas-solicitacoes/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Minhas Solicitações</h3>
@@ -206,7 +206,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/relatorio-de-comprovacao-do-objeto/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/relatorio-de-comprovacao-do-objeto/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Relatório de Comprovação do Objeto</h3>
@@ -216,7 +216,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/comprovacao-financeira/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/comprovacao-financeira/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Comprovação Financeira</h3>
