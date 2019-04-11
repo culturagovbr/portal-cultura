@@ -22,6 +22,11 @@ main .container {
     max-width: 25% !important;
 }
 
+.col-lg-4 {
+    flex: 0 0 33.33333% !important;
+    max-width: 33.33333% !important;
+}
+
 body.home .widget_text_image_box .banner-img-preview {
   border-radius: 15px;
   overflow: hidden;
