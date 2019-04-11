@@ -1,14 +1,25 @@
-header,
+#main-header,
 footer,
 main {
-  min-width: 1250px !important;
+  min-width: 1250px;
+  overflow: hidden;
+  position: relative;
 }
 
 header > .container,
 footer > .container,
-main > .container {
+main .container {
   width: 1150px !important;
   max-width: none !important;
+}
+
+.col-lg-9 {
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+}
+.col-lg-3 {
+    flex: 0 0 25% !important;
+    max-width: 25% !important;
 }
 
 body.home .widget_text_image_box .banner-img-preview {

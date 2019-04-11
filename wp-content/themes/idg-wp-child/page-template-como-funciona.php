@@ -51,7 +51,7 @@
 
         <p><strong>7) Execução:</strong> é a realização do projeto, quando o proponente entra em contato com fornecedores, artistas e outros prestadores de serviço que irão ajudar a executar a proposta. Também envolve a realização em si do espetáculo, show, festival, montagem e visitação de exposições, impressão de livros, etc.</p>
 
-        <p><strong>8) Prestação de contas:</strong> após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados do projeto foi alcançado, quantas pessoas foram atingidas pela proposta, qual foi a contrapartida social oferecida – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, fotos, etc.</p>
+        <p><strong>8) Prestação de contas:</strong> após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados do projeto foram alcançados, quantas pessoas foram atingidas pela proposta, qual foi a contrapartida social oferecida – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, fotos, etc.</p>
       </div>
     </div>
   </section>
