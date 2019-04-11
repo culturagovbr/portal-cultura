@@ -15,7 +15,7 @@
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=1250">
+  <meta name="viewport" content="width=1250" content="initial-scale=0.1">
   <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
 
 
