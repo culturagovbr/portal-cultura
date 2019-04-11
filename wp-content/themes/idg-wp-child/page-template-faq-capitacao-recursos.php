@@ -21,7 +21,7 @@
 
 
           <div class="entry-content mb-5">
-            <div id="accordionExample" class="accordion">
+<!--             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-15" class="card-header">
                      <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-15" aria-expanded="false" aria-controls="collapse-faq-15"><span>O próprio proponente do projeto pode captar os recursos para a sua execução?</span></a></h3>
@@ -36,7 +36,7 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
 
             <div id="accordionExample" class="accordion">
                <div class="card">
