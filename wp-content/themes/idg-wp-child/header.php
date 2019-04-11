@@ -15,7 +15,7 @@
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=1250">
   <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
 
 
@@ -70,7 +70,7 @@
             'theme_location'    => 'featured-links',
             'depth'             => 1,
             'container'         => '',
-            'menu_class'   => 'nav d-none d-md-flex',
+            'menu_class'   => 'nav',
           );
           wp_nav_menu($menu_args); ?>
         </nav>
