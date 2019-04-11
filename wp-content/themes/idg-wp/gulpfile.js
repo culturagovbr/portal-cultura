@@ -275,7 +275,7 @@ gulp.task('prepare-dev', ['fonts', 'bootstrap'], function () {
  */
 gulp.task('browser-sync', function () {
 	browserSync.init({
-		proxy: 'http://hmg.cultura.localhost/'
+		proxy: 'http://rouanet.localhost'
 	});
 });
 
