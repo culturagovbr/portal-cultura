@@ -21,3 +21,15 @@ function remove_some_widgets(){
 	unregister_sidebar( 'multimedia-widgets-area' );
 }
 add_action( 'widgets_init', 'remove_some_widgets', 11 );
+
+/**
+ * Redirect users to auth page when not logged
+ */
+function redirect_to() {
+	if ( !is_user_logged_in() ) {
+		wp_redirect( home_url( 'wp-login.php' ) );
+		exit;
+	}
+}
+
+add_action( 'template_redirect', 'redirect_to' );
