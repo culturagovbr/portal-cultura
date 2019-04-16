@@ -5,7 +5,7 @@ Plugin URI: https://github.com/Darciro/
 Description: @TODO
 Version: 1.0
 Author: Ricardo Carvalho
-Author URI: https://galdar.com.br
+Author URI: https://github.com/darciro
 License: GNU GPLv3
 */
 
@@ -46,6 +46,10 @@ if ( ! class_exists( 'IdgWpApiExtension' ) ) :
 				$args['posts_per_page'] = $request['posts_per_page'];
 			}
 
+			if( !empty( $request['offset'] ) ){
+				$args['offset'] = $request['offset'];
+			}
+
 			if( !empty( $request['paged'] ) ){
 				$args['paged'] = $request['paged'];
 			}
@@ -58,21 +62,37 @@ if ( ! class_exists( 'IdgWpApiExtension' ) ) :
 				$i = 0;
 				while ( $the_query->have_posts() ) : $the_query->the_post();
 
-					$data[$i]['title'] = get_the_title();
-					$data[$i]['excerpt'] = get_the_excerpt();
-					$data[$i]['thumbnail'] = get_the_post_thumbnail_url( get_the_ID(), array(350,350) );
-					$data[$i]['author'] = get_the_author();
+					$data['posts'][$i]['link'] = get_the_permalink();
+					$data['posts'][$i]['title'] = get_the_title();
+					$data['posts'][$i]['excerpt'] = get_the_excerpt();
+					$data['posts'][$i]['thumbnail'] = get_the_post_thumbnail_url( get_the_ID(), array(350,350) );
+					$data['posts'][$i]['author'] = get_the_author();
+					$data['posts'][$i]['date'] = get_the_date();
+					$data['posts'][$i]['modified_date'] = get_the_modified_date();
 
 					$tags_raw = get_the_tags();
 					foreach($tags_raw as $tag_i => $tag) {
-						$data[$i]['tags'][$tag_i]['name'] = $tag->name;
-						$data[$i]['tags'][$tag_i]['slug'] = $tag->slug;
+						$data['posts'][$i]['tags'][$tag_i]['name'] = $tag->name;
+						$data['posts'][$i]['tags'][$tag_i]['slug'] = $tag->slug;
 					}
 
 					$i++;
 				endwhile;
 
+				if( !empty( $request['post_count'] ) ){
+					$data['post_count'] = $the_query->post_count;
+				}
+
+				if( !empty( $request['found_posts'] ) ){
+					$data['found_posts'] = intval( $the_query->found_posts );
+				}
+
+				if( !empty( $request['max_num_pages'] ) ){
+					$data['max_num_pages'] = $the_query->max_num_pages;
+				}
+
 				return $data;
+
 			else:
 				return new WP_Error( 'no_posts', 'Nenhuma postagem encontrada', array( 'status' => 404 ) );
 			endif;
