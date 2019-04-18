@@ -28,3 +28,8 @@ Exemplo de uma requisição, buscando pela palavra-chave "jogos", com apenas 3 r
 ```sh
 [wp_home_url]/wp-json/idg-wp/v1/posts?s=jogos&posts_per_page=3&offset=1
 ```
+
+Exemplo de uma requisição buscando posts de uma categoria específica - "destaques", trazendo o número de postagens encontradas
+```sh
+[wp_home_url]/wp-json/idg-wp/v1/posts?category_name=destaques&found_posts=1
+```
