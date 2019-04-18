@@ -53,6 +53,16 @@
     }
   }
 
+  #beneficios {
+    .box {
+      background: #FFF;
+
+      .text {
+        padding: 15px;
+      }
+    }
+  }
+
   #perguntas-frequentes {
     .accordion {
       .card .card-header h3 a {

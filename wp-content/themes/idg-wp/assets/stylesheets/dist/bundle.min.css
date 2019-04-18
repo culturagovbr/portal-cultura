@@ -7878,7 +7878,7 @@ body.page #main-single {
     .image-and-text .container.no-border .col-image:after {
       display: none; }
     .image-and-text .container .col-image {
-      flex: 0 0 400px;
+      flex: 0 0 360px;
       padding: 30px 0 30px;
       position: relative; }
       .image-and-text .container .col-image:after {
@@ -7900,6 +7900,16 @@ body.page #main-single {
       flex-grow: 1; }
       .image-and-text .container .col-text.small-font p, .image-and-text .container .col-text.small-font a {
         font-size: 12px; }
+  .image-and-text .image-wrapper,
+  .image-and-text .img-wrapper {
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto; }
 
 .child-theme .menu-item-home a {
   font-size: 0; }
@@ -10514,6 +10524,60 @@ body.page #main-single {
             position: absolute;
             top: -8px;
             left: 15px; }
+
+#vale-cultura {
+  position: relative; }
+  #vale-cultura #menu-vale {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #2969BD; }
+    #vale-cultura #menu-vale ul {
+      font-size: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+      #vale-cultura #menu-vale ul li {
+        font-size: 1rem;
+        display: inline-block;
+        margin-left: 15px;
+        padding-left: 15px;
+        position: relative; }
+        #vale-cultura #menu-vale ul li:before {
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          content: "";
+          width: 1px;
+          height: 50%;
+          position: absolute;
+          top: 50%;
+          left: -0.5px;
+          background: #FFFFFF; }
+        #vale-cultura #menu-vale ul li:first-child {
+          margin: 0;
+          padding: 0; }
+          #vale-cultura #menu-vale ul li:first-child:before {
+            display: none; }
+        #vale-cultura #menu-vale ul li a {
+          color: #FFFFFF; }
+  #vale-cultura #beneficios .box {
+    background: #FFF; }
+    #vale-cultura #beneficios .box .text {
+      padding: 15px; }
+  #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a {
+    display: flex;
+    line-height: normal;
+    height: auto;
+    min-height: 50px;
+    align-items: center;
+    padding: 10px 20px 10px 70px; }
 
 #share-box {
   position: absolute;

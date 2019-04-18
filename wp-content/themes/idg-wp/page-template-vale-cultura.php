@@ -23,9 +23,8 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_167a7bbb73d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_167a7bbb73d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.45%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/vantagens.jpg">
       </div>
-
 
       <div class="carousel-item">
         <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_167a7bbb747%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_167a7bbb747%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.45%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
@@ -50,9 +49,9 @@
       <div class="container">
         <ul>
           <li><a class="scrollLink" href="#o-que-e">O que é?</a></li>
-          <li><a class="scrollLink" href="#como-receber">Como Receber</a></li>
           <li><a class="scrollLink" href="#como-funciona">Como Funciona</a></li>
           <li><a class="scrollLink" href="#onde-cadastrar">Onde Cadastrar</a></li>
+          <li><a class="scrollLink" href="#beneficios">Benefícios</a></li>
           <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li>
           <li><a class="scrollLink" href="#saiba-mais">Saiba Mais</a></li>
           <li><a class="scrollLink" href="#perguntas-frequentes">Perguntas Frequentes</a></li>
@@ -65,7 +64,7 @@
       <div class="container image-right align-center no-border">
         <div class="col-image text-center">
           <div class="box">
-            <div class="img-wrapper mb-3 mt-0" style="background-image: url('https://picsum.photos/300/300?image=0'); border: 1px solid #CCC;">
+            <div class="img-wrapper mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/oquee.jpg'); border: 1px solid #CCC;">
             </div>
           </div>
         </div>
@@ -85,29 +84,12 @@
       </div>
     </section>
 
-    <section class="image-and-text bg-grey-2" id="como-receber">
-
-      <div class="container image-left align-center no-border">
-        <div class="col-image text-center">
-          <div class="box">
-            <div class="img-wrapper mb-3 mt-0" style="background-image: url('https://picsum.photos/300/300?image=1'); border: 1px solid #CCC;">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-text">
-          <h2 class="section-title mb-5">Como receber o benefício?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptate harum dignissimos, commodi eaque. Doloremque suscipit illo, tenetur odio laudantium assumenda aut autem quae reiciendis! Quas accusamus ut ipsa, magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptate harum dignissimos, commodi eaque. Doloremque suscipit illo, tenetur odio laudantium assumenda aut autem quae reiciendis! Quas accusamus ut ipsa, magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptate harum dignissimos, commodi eaque. Doloremque suscipit illo, tenetur odio laudantium assumenda aut autem quae reiciendis! Quas accusamus ut ipsa, magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptate harum dignissimos, commodi eaque. Doloremque suscipit illo, tenetur odio laudantium assumenda aut autem quae reiciendis! Quas accusamus ut ipsa, magnam.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="image-and-text" id="como-funciona">
+    <section class="image-and-text bg-grey-2" id="como-funciona">
 
       <div class="container image-right align-center no-border">
         <div class="col-image text-center">
           <div class="box">
-            <div class="img-wrapper mb-3 mt-0" style="background-image: url('https://picsum.photos/300/300?image=2'); border: 1px solid #CCC;">
+            <div class="img-wrapper mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/comofunciona.jpg'); border: 1px solid #CCC;">
             </div>
           </div>
         </div>
@@ -117,10 +99,10 @@
           <p>Primeiro, você deverá identificar qual o seu perfil no programa:</p>
 
           <ul>
-            <li>Beneficiária: Empresa que deseja conceder o benefício para seus trabalhadores, devidamente cadastrada no programa; SAIBA MAIS – Para a empresa beneficiária</li>
-            <li>Operadora: Empresa cadastrada no programa e autorizada a emitir o cartão; SAIBA MAIS – Para a operadora</li>
-            <li>Recebedora: Empresa habilitada por operadora cuja atividade econômica e produtos constem da lista do programa; SAIBA MAIS – Para o estabelecimento comercial</li>
-            <li>Usuário: Trabalhador com vínculo empregatício com a beneficiária. SAIBA MAIS – Para o trabalhador</li>
+            <li>Beneficiária: Empresa que deseja conceder o benefício para seus trabalhadores, devidamente cadastrada no programa; saiba mais:</li>
+            <li>Operadora: Empresa cadastrada no programa e autorizada a emitir o cartão; saiba mais:</li>
+            <li>Recebedora: Empresa habilitada por operadora cuja atividade econômica e produtos constem da lista do programa; saiba mais:</li>
+            <li>Usuário: Trabalhador com vínculo empregatício com a beneficiária. saiba mais:</li>
           </ul>
 
           <p>Após identificar o seu perfil, somente as beneficiárias e operadoras deverão se cadastrar no sistema do <a href="http://vale.cultura.gov.br/" target="_blank">Vale-Cultura</a>.</p>
@@ -132,12 +114,12 @@
       </div>
     </section>
 
-    <section class="image-and-text bg-grey-2" id="onde-cadastrar">
+    <section class="image-and-text" id="onde-cadastrar">
 
       <div class="container image-left align-center no-border">
         <div class="col-image text-center">
           <div class="box">
-            <div class="img-wrapper mb-3 mt-0" style="background-image: url('https://picsum.photos/300/300?image=3'); border: 1px solid #CCC;">
+            <div class="img-wrapper mb-3 mt-0" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/ondecadastrar.jpg'); border: 1px solid #CCC;">
             </div>
           </div>
         </div>
@@ -156,13 +138,57 @@
       </div>
     </section>
 
+    <section class="image-and-text bg-grey-2" id="beneficios">
+
+      <div class="container image-left align-center no-border">
+        <div class="row">
+          <div class="col">
+            <div class="box">
+              <div class="image-wrapper">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/beneficios02.jpg" />
+              </div>
+
+              <div class="text">
+                <h2>Benefício</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <div class="image-wrapper">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/beneficios02.jpg" />
+              </div>
+
+              <div class="text">
+                <h2>Benefício</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="box">
+              <div class="image-wrapper">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/beneficios02.jpg" />
+              </div>
+
+              <div class="text">
+                <h2>Benefício</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="pt-5 pb-5" id="depoimentos">
       <div class="container">
         <h2 class="section-title mb-5 text-center">Depoimentos</h2>
         <div class="row">
           <div class="overflow-wrapper">
               <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=3')">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
                   <div class="box-body">
                     <span class="cat">Lorem Ipsum</span>
                     <h3 class="box-title">
@@ -172,7 +198,7 @@
                 </div>
               </div>
               <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=3')">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
                   <div class="box-body">
                     <span class="cat">Lorem Ipsum</span>
                     <h3 class="box-title">
@@ -182,7 +208,7 @@
                 </div>
               </div>
               <div class="col-lg-4 mb-5">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=3')">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/depoimentos.jpg')">
                   <div class="box-body">
                     <span class="cat">Lorem Ipsum</span>
                     <h3 class="box-title">
@@ -276,7 +302,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Com a interrupção do incentivo fiscal, os trabalhadores podem continuar usando o cartão Vale-Cultura?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3"><span>Com a interrupção do incentivo fiscal, os trabalhadores podem continuar usando o cartão Vale-Cultura?</span></a></h3>
             </div>
 
             <div id="collapse-3" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
