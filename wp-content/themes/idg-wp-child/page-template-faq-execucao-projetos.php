@@ -57,7 +57,7 @@
             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-20" class="card-header">
-                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-20" aria-expanded="false" aria-controls="collapse-faq-20"><span>Os produtos culturais/ ingressos podem ser comercializados? Há um limite de preço a ser executado por produto realizado com apoio de incentivo fiscal?</span></a></h3>
+                     <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-20" aria-expanded="false" aria-controls="collapse-faq-20"><span>Os produtos culturais/ingressos podem ser comercializados? Há um limite de preço a ser executado por produto realizado com apoio de incentivo fiscal?</span></a></h3>
                   </div>
                   <div id="collapse-faq-20" class="collapse" aria-labelledby="faq-20" data-parent="#accordionExample">
                      <div class="card-body">
@@ -66,7 +66,7 @@
                         <p>Mínimo de 20% deve ser distribuído gratuitamente, com caráter social;</p>
                         <p>Até 10% deve ser disponibilizado gratuitamente para os patrocinadores;</p>
                         <p>Até 10% deve ser distribuído gratuitamente pelo proponente como forma de divulgar o projeto;</p>
-                        <p>Mínimo de 20% dos ingressos deve ser comercializado em valores que não ultrapassem R$ 25.</p>
+                        <p>10% dos ingressos deve ser comercializado em valores que não ultrapassem R$ 50.</p>
                      </div>
                   </div>
                </div>

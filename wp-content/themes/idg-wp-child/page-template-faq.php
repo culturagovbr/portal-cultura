@@ -70,7 +70,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col">
+<!--               <div class="col">
                 <div class="feature-card text-center card-1">
                   <a href="<?php echo get_bloginfo('url'); ?>/perguntas-frequentes/promocao-do-patrocinador">
                     <div class="align">
@@ -78,7 +78,7 @@
                     </div>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
 
           </div>

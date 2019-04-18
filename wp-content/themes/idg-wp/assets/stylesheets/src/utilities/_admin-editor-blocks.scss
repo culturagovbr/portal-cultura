@@ -12,6 +12,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  &.has-2-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .wp-block-column {
     margin: 0;
   }

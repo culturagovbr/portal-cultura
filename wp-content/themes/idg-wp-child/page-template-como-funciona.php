@@ -51,7 +51,7 @@
 
         <p><strong>7) Execução:</strong> é a realização do projeto, quando o proponente entra em contato com fornecedores, artistas e outros prestadores de serviço que irão ajudar a executar a proposta. Também envolve a realização em si do espetáculo, show, festival, montagem e visitação de exposições, impressão de livros, etc.</p>
 
-        <p><strong>8) Prestação de contas:</strong> após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados do projeto foi alcançado, quantas pessoas foram atingidas pela proposta, qual foi a contrapartida social oferecida – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, fotos, etc.</p>
+        <p><strong>8) Prestação de contas:</strong> após o término do projeto, o proponente precisa prestar contas de tudo o que foi realizado: como os recursos foram aplicados, como os objetivos e resultados do projeto foram alcançados, quantas pessoas foram atingidas pela proposta, qual foi a contrapartida social oferecida – tudo acompanhado por notas fiscais, comprovantes de transferência, panfletos, anúncios, matérias de jornal, fotos, etc.</p>
       </div>
     </div>
   </section>
@@ -100,7 +100,7 @@
           <li>Doações de acervos para bibliotecas públicas, museus, arquivos públicos e cinematecas, bem como treinamento de pessoal e aquisição de equipamentos para a manutenção desses acervos;</li>
           <li>Produção de obras cinematográficas e videofonográficas de curta e média metragem e preservação e difusão do acervo audiovisual;</li>
           <li>Preservação do patrimônio cultural material e imaterial;</li>
-          <li>Construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em municípios com menos de cem milhabitantes.</li>
+          <li>Construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em municípios com menos de cem mil habitantes.</li>
         </ul>
 
         <p>Todos os demais projetos que não estão previstos no Artigo 18 se enquadram no Artigo 26, que prevê renúncia fiscal parcial, conforme o tipo de pessoa (física ou jurídica) e a natureza do investimento (doação ou patrocínio):</p>
@@ -130,7 +130,7 @@
         <div class="row mb-4">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/novo-cadastro-e-primeiros-passos-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/novo-cadastro-e-primeiros-passos-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Novo Cadastro e Primeiros Passos da Nova Proposta</h3>
@@ -140,7 +140,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/corpo-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/corpo-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Corpo da Proposta</h3>
@@ -150,7 +150,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/local-de-realizacao-e-plano-de-distribuicao/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/local-de-realizacao-e-plano-de-distribuicao/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Local de Realização e Plano de Distribuição</h3>
@@ -163,7 +163,7 @@
         <div class="row  mb-4">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/planilha-orcamentaria/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/planilha-orcamentaria/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Planilha Orçamentária</h3>
@@ -173,7 +173,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/envio-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/envio-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Envio da Proposta</h3>
@@ -183,7 +183,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/clonagem-da-proposta/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/clonagem-da-proposta/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Clonagem da Proposta</h3>
@@ -196,7 +196,7 @@
         <div class="row">
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/minhas-solicitacoes/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/minhas-solicitacoes/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Minhas Solicitações</h3>
@@ -206,7 +206,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/relatorio-de-comprovacao-do-objeto/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/relatorio-de-comprovacao-do-objeto/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Relatório de Comprovação do Objeto</h3>
@@ -216,7 +216,7 @@
           </div>
           <div class="col">
             <div class="feature-card text-center card-1">
-              <a href="http://portal-rouanet.infra.cultura.gov.br/tutoriais/comprovacao-financeira/">
+              <a href="http://leideincentivoacultura.cultura.gov.br/tutoriais/comprovacao-financeira/">
                 <div class="align">
                   <div class="icon icon-legislacao"></div>
                   <h3 class="card-title">Comprovação Financeira</h3>

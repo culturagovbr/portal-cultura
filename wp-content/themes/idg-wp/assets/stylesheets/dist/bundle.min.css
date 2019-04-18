@@ -7526,15 +7526,6 @@ img {
 .type-post .entry-content *:-moz-only-whitespace:not(br):not(img):not(hr):not(link) {
   display: none; }
 
-.type-post .entry-content > p:first-child:first-letter {
-  color: #2969BD;
-  font-size: 5rem;
-  display: block;
-  font-weight: 700;
-  float: left;
-  line-height: 4rem;
-  margin-right: 20px; }
-
 .type-post .entry-content p {
   font-size: 1.1em;
   line-height: 1.7em; }
@@ -9644,7 +9635,9 @@ body.page #main-single {
   padding: 45px 0;
   top: 100%;
   height: max-content;
-  z-index: 100; }
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0; }
   @media (min-width: 1150px) {
     #menu-wrapper {
       transition: visibility 0s linear 0.25s, opacity 0.25s;
@@ -9671,7 +9664,9 @@ body.page #main-single {
     z-index: 102;
     padding: 0;
     display: block;
-    min-height: 100vh; } }
+    min-height: 100vh;
+    visibility: visible;
+    opacity: 1; } }
   @media screen and (min-width: 320px) and (max-width: 1150px) and (prefers-reduced-motion: reduce) {
     #menu-wrapper {
       transition: none; } }
@@ -10572,12 +10567,15 @@ body.page #main-single {
     #vale-cultura #beneficios .box .text {
       padding: 15px; }
   #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a {
-    display: flex;
-    line-height: normal;
     height: auto;
+    line-height: normal;
     min-height: 50px;
+    display: flex;
     align-items: center;
-    padding: 10px 20px 10px 70px; }
+    font-size: 1.3rem;
+    padding-left: 60px; }
+    #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a span {
+      padding: 15px 0; }
 
 #share-box {
   position: absolute;
@@ -11434,6 +11432,8 @@ p img.alignright, p img.alignleft {
 @media (min-width: 320px) and (max-width: 768px) {
   .wp-block-columns {
     grid-template-columns: repeat(2, 1fr); } }
+  .wp-block-columns.has-2-columns {
+    grid-template-columns: repeat(2, 1fr); }
   .wp-block-columns .wp-block-column {
     margin: 0; }
 

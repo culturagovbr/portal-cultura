@@ -13,6 +13,8 @@
 	top: 100%;
 	height: max-content;
 	z-index: 100;
+	visibility: hidden;
+	opacity: 0;
 
 	@include media("≥desktop") {
 		@include transition(visibility 0s linear .25s, opacity .25s);
@@ -36,6 +38,8 @@
 		padding: 0;
 		display: block;
 		min-height: 100vh;
+		visibility: visible;
+		opacity: 1;
 
 		.icon-close {
 			display: block;

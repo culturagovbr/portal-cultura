@@ -35,7 +35,7 @@
 
           <p>A principal função da CNIC é a de subsidiar as decisões sobre a aprovação de projetos culturais que pleiteiam incentivo fiscal por meio da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>.</p>
 
-          <p>Com o objetivo de garantir diversidade à Comissão, as indicações dos representantes da sociedade civil tem, obrigatoriamente, que considerar as cinco regiões brasileiras e contemplar seguintes áreas: artes cênicas, audiovisual, música, artes visuais, arte digital e eletrônica, patrimônio cultural, inclusive museológico e expressões da cultura negra, indígena e das populações tradicionais; humanidades, inclusive literatura e obras de referência.</p>
+          <p>Com o objetivo de garantir diversidade à Comissão, as indicações dos representantes da sociedade civil tem, obrigatoriamente, que considerar as cinco regiões brasileiras e contemplar as seguintes áreas: artes cênicas, audiovisual, música, artes visuais, arte digital e eletrônica, patrimônio cultural, inclusive museológico e expressões da cultura negra, indígena e das populações tradicionais; humanidades, inclusive literatura e obras de referência.</p>
 
           <p>Conforme o art. 39 do <a href="http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5761.htm" target="_blank">Decreto 5.761/2006</a>, o mandato dos membros da CNIC é de dois anos, podendo ser renovado uma vez. Também fazem parte da Comissão o Secretário Especial da Cultura, que a preside, os presidentes de cada uma das instituições vinculadas ao Ministério da Cidadania (Agência Nacional do Cinema – Ancine, Instituto do Patrimônio Histórico e Artístico Nacional – Iphan, Instituto Brasileiro de Museus – Ibram, Fundação Biblioteca Nacional, Fundação Casa de Rui Barbosa, Fundação Nacional de Artes – Funarte e Fundação Cultural Palmares) e o presidente da entidade nacional que congrega os Secretários de Cultura das unidades federativas.</p>
 
@@ -279,7 +279,7 @@
           </div>
         </div>
 
-        <p class="text-center m-0"><a href="http://portal-rouanet.infra.cultura.gov.br/wp-content/uploads/2019/04/Calendário-atualizado-29.03.pdf" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
+        <p class="text-center m-0"><a href="http://leideincentivoacultura.cultura.gov.br/wp-content/uploads/2019/04/Calendário-atualizado-29.03.pdf" target="_blank" class="btn m-0">Calendário de reuniões 2019</a></p>
       </div>
     </div>
   </section>

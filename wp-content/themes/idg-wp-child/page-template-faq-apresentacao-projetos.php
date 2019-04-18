@@ -57,7 +57,7 @@
                   </div>
                   <div id="collapse-faq-9" class="collapse" aria-labelledby="faq-9" data-parent="#accordionExample">
                      <div class="card-body">
-                        <p>Sim, o valor máximo para um projeto é de R$ 10 milhões.</p>
+                        <p>Sim, o valor máximo para um projeto é de R$ 1 milhões.</p>
                      </div>
                   </div>
                </div>
@@ -86,13 +86,13 @@
                         <p>Sim, há no número de projetos que um mesmo proponente pode apresentar e no valor máximo da soma dos projetos por perfil de proponente:
                         Para a Pessoa Física e para o Empresário Individual com enquadramento em Microempresário Individual (MEI), o valor máximo é de R$ 1,5 milhão para até quatro projetos por ano;</p>
                         <p><u>Para os demais enquadramentos de Empresário Individual, o valor máximo é de R$ 7, 5 milhões para até oito projetos por ano. </u>
-                        <p><u>Para a Empresa Individual de Responsabilidade Limitada (EIRELI), Sociedades Limitadas (Ltda.) e demais Pessoas Jurídicas, o valor máximo é de R$ 20 milhões para até 16 projetos por ano.</u></p>
+                        <p><u>Para a Empresa Individual de Responsabilidade Limitada (EIRELI), Sociedades Limitadas (Ltda.) e demais Pessoas Jurídicas, o valor máximo é de R$ 10 milhões para até 16 projetos por ano.</u></p>
                      </div>
                   </div>
                </div>
             </div>
 
-            <div id="accordionExample" class="accordion">
+<!--             <div id="accordionExample" class="accordion">
                <div class="card">
                   <div id="faq-12" class="card-header">
                      <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-faq-12" aria-expanded="false" aria-controls="collapse-faq-12"><span>Esses limites podem ser ultrapassados? Em quais situações?</span></a></h3>
@@ -112,7 +112,7 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
 
             <p class="mt-4"><a href="<?php echo get_bloginfo('url'); ?>/perguntas-frequentes">&larr; Voltar para perguntas frequentes</a>
           </div>
