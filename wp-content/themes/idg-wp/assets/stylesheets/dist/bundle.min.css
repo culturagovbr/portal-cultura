@@ -10563,9 +10563,38 @@ body.page #main-single {
         #vale-cultura #menu-vale ul li a {
           color: #FFFFFF; }
   #vale-cultura #beneficios .box {
-    background: #FFF; }
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    margin: 0;
+    overflow: hidden;
+    background: #FFF;
+    height: 100%;
+    width: 100%; }
+    #vale-cultura #beneficios .box .image-wrapper {
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      width: 100%; }
+      #vale-cultura #beneficios .box .image-wrapper img {
+        width: 100%; }
     #vale-cultura #beneficios .box .text {
+      height: calc(100% - 350px);
       padding: 15px; }
+      #vale-cultura #beneficios .box .text h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        display: block; }
+      #vale-cultura #beneficios .box .text ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        #vale-cultura #beneficios .box .text ul li {
+          margin-top: 10px; }
+          #vale-cultura #beneficios .box .text ul li:first-child {
+            margin: 0; }
   #vale-cultura #perguntas-frequentes .accordion .card .card-header h3 a {
     height: auto;
     line-height: normal;

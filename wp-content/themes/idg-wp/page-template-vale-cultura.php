@@ -149,8 +149,13 @@
               </div>
 
               <div class="text">
-                <h2>Benefício</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+                <h2>Para o trabalhador</h2>
+                <ul>
+                  <li>Mais acesso a produtos e eventos culturais;</li>
+                  <li>Auxilia na sua formação educacional e social;</li>
+                  <li>Melhoria da qualidade de vida do trabalhador e de sua família;</li>
+                  <li>Desenvolve o seu pensamento crítico e criativo;</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -161,8 +166,13 @@
               </div>
 
               <div class="text">
-                <h2>Benefício</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+                <h2>Para os empregadores</h2>
+                <ul>
+                  <li>Melhoria do relacionamento com os seus funcionários;</li>
+                  <li>Atração e retenção de talentos;</li>
+                  <li>Motivação dos funcionários;</li>
+                  <li>Não constitui base de incidência de contribuição previdenciária ou FGTS;</li>
+                <ul>
               </div>
             </div>
           </div>
@@ -173,8 +183,13 @@
               </div>
 
               <div class="text">
-                <h2>Benefício</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, inventore et. Voluptas natus, tenetur quibusdam unde deserunt accusantium consectetur iste. Dolorem expedita autem natus vel beatae minus pariatur, cumque impedit.</p>
+                <h2>Para o Brasil</h2>
+                <ul>
+                  <li>Democratização de acesso à cultura;</li>
+                  <li>Valorização da cultura nacional;</li>
+                  <li>Desenvolvimento econômico do setor cultural;</li>
+                  <li>Geração de emprego e renda;</li>
+                <ul>
               </div>
             </div>
           </div>

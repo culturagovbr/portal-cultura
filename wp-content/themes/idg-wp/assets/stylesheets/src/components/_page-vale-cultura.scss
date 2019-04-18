@@ -55,10 +55,45 @@
 
   #beneficios {
     .box {
+      @include border-radius(15px);
+      margin: 0;
+      overflow: hidden;
       background: #FFF;
+      height: 100%;
+      width: 100%;
+
+      .image-wrapper {
+        @include border-radius(0px);
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
 
       .text {
+        height: calc(100% - 350px;);
         padding: 15px;
+
+        h2 {
+          font-size: 1.6rem;
+          margin-bottom: 1rem;
+          display: block;
+        }
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+
+          li {
+            margin-top: 10px;
+
+            &:first-child {
+              margin: 0;
+            }
+          }
+          
+        }
       }
     }
   }
