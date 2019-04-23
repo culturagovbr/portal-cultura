@@ -97,6 +97,9 @@ class Feature_Card extends WP_Widget
 				<select class="widefat icon-selector" id="<?php echo esc_attr($this->get_field_id('icon')); ?>"
 						name="<?php echo esc_attr($this->get_field_name('icon')); ?>">
 
+					<option <?php echo $icon == 'icon-lei-incentivo' ? 'selected' : ''; ?>
+						value="icon-lei-incentivo">lei-incentivo
+					</option>
 					<option <?php echo $icon == 'icon-acoes-programadas' ? 'selected' : ''; ?>
 						value="icon-acoes-programadas">acoes-programadas
 					</option>
