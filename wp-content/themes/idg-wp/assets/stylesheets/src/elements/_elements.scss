@@ -396,6 +396,49 @@ body.page {
 	}
 }
 
+table {
+	&.wp-block-table {
+		border: 1px solid #CCC;
+		background: #FFF;
+	}
+
+	th {
+		width: 25%;
+		background: color(primary);
+		color: color(white);
+		border-bottom: 1px solid #dee2e6;
+		font-weight: normal;
+		padding: 10px;
+		// border-left: 1px solid #CCC;
+
+		&:first-child {
+			border: none;
+		}
+
+		@include media("≥phone", "≤desktop") {
+			white-space: nowrap;
+		}
+	}
+
+	tr {
+		border-top: 1px solid #CCC;
+
+		&:first-child {
+			border: none;
+		}
+	}
+
+	td {
+		border-left: 1px solid #CCC;
+		padding: 10px;
+		min-width: 200px;
+
+		&:first-child {
+			border: none;
+		}
+	}
+}
+
 .multimedia-archive {
 	.widget_idg_banner {
 		display: none !important;

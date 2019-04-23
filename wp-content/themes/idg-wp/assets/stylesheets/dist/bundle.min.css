@@ -7719,6 +7719,36 @@ body.page #main-single {
   .table-responsive tbody td {
     width: 50%; } }
 
+table.wp-block-table {
+  border: 1px solid #CCC;
+  background: #FFF; }
+
+table th {
+  width: 25%;
+  background: #2969BD;
+  color: #FFFFFF;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: normal;
+  padding: 10px; }
+  table th:first-child {
+    border: none; }
+
+@media (min-width: 320px) and (max-width: 1150px) {
+  table th {
+    white-space: nowrap; } }
+
+table tr {
+  border-top: 1px solid #CCC; }
+  table tr:first-child {
+    border: none; }
+
+table td {
+  border-left: 1px solid #CCC;
+  padding: 10px;
+  min-width: 200px; }
+  table td:first-child {
+    border: none; }
+
 .multimedia-archive .widget_idg_banner {
   display: none !important; }
 
