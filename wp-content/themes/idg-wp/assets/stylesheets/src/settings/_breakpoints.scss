@@ -105,7 +105,7 @@ $unit-intervals: (
 ///    color: tomato;
 ///  }
 ///
-$im-media-support: false !default;
+$im-media-support: true !default;
 
 ///
 /// Selects which breakpoint to emulate when support for media queries is disabled. Media queries that start at or
