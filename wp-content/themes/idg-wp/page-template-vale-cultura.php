@@ -244,7 +244,7 @@
         <div class="row">
           <div class="overflow-wrapper">
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-a-empresa-beneficiaria/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-a-empresa-beneficiaria/">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_beneficiarios-01.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Beneficiária</h3>
@@ -254,7 +254,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-empresas-recebedoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-empresas-recebedoras/">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_estabelecimento_comercial.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Estabelecimento</h3>
@@ -264,7 +264,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-o-trabalhador/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-o-trabalhador/">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/5_trabalhador.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Trabalhador</h3>
@@ -274,7 +274,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-as-operadoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
+              <a href="http://cultura.gov.br/vale-cultura/para-as-operadoras/">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_operadoras.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Operadora</h3>

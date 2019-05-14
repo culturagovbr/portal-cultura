@@ -7721,7 +7721,8 @@ body.page #main-single {
 
 table.wp-block-table {
   border: 1px solid #CCC;
-  background: #FFF; }
+  background: #FFF;
+  margin-bottom: 1rem; }
 
 table th {
   width: 25%;
@@ -10619,8 +10620,7 @@ table td {
         display: block; }
       #vale-cultura #beneficios .box .text ul {
         margin: 0;
-        padding: 0;
-        list-style: none; }
+        padding: 0 0 0 18px; }
         #vale-cultura #beneficios .box .text ul li {
           margin-top: 10px; }
           #vale-cultura #beneficios .box .text ul li:first-child {
@@ -10639,7 +10639,8 @@ table td {
     height: 257px; }
     #vale-cultura #saiba-mais .highlight-box .cat {
       display: block;
-      font-size: .8rem; }
+      font-size: .8rem;
+      text-transform: none; }
     #vale-cultura #saiba-mais .highlight-box:before {
       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
       height: 70%;

@@ -82,8 +82,8 @@
 
         ul {
           margin: 0;
-          padding: 0;
-          list-style: none;
+          padding: 0 0 0 18px;
+          // list-style: none;
 
           li {
             margin-top: 10px;
@@ -123,6 +123,7 @@
       .cat {
         display: block;
         font-size: .8rem;
+        text-transform: none;
       }
 
       &:before {
