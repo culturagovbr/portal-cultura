@@ -23,14 +23,14 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/vantagens.jpg">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/01_banner_inicio-01.jpg">
       </div>
 
       <div class="carousel-item">
-        <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_167a7bbb747%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_167a7bbb747%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.45%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-1.jpg">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_167a7bbb73f%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_167a7bbb73f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.45%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+        <img class="d-block w-100" src="<?php echo get_template_directory_uri() ?>/assets/img/2_infografico-inicio-2.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -52,7 +52,7 @@
           <li><a class="scrollLink" href="#como-funciona">Como Funciona</a></li>
           <li><a class="scrollLink" href="#onde-cadastrar">Onde Cadastrar</a></li>
           <li><a class="scrollLink" href="#beneficios">Benefícios</a></li>
-          <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li>
+          <!-- <li><a class="scrollLink" href="#depoimentos">Depoimentos</a></li> -->
           <li><a class="scrollLink" href="#saiba-mais">Saiba Mais</a></li>
           <li><a class="scrollLink" href="#perguntas-frequentes">Perguntas Frequentes</a></li>
         </ul>
@@ -145,7 +145,7 @@
           <div class="col">
             <div class="box">
               <div class="image-wrapper">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/beneficios02.jpg" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/5_trabalhador.jpg" />
               </div>
 
               <div class="text">
@@ -162,7 +162,7 @@
           <div class="col">
             <div class="box">
               <div class="image-wrapper">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/beneficios02.jpg" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/5_empregador.jpg" />
               </div>
 
               <div class="text">
@@ -197,7 +197,7 @@
       </div>
     </section>
 
-    <section class="pt-5 pb-5" id="depoimentos">
+<!--     <section class="pt-5 pb-5" id="depoimentos">
       <div class="container">
         <h2 class="section-title mb-5 text-center">Depoimentos</h2>
         <div class="row">
@@ -235,7 +235,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="pt-5 pb-5 bg-grey-2" id="saiba-mais">
       <div class="container">
@@ -243,40 +243,40 @@
         <div class="row">
           <div class="overflow-wrapper">
             <div class="col">
-              <a href="http://www.hmg.cultura.gov.br/documents/10883/1544337/Calend%C3%A1rio+das+reuni%C3%B5es+da+CNIC+-+2019.pdf/e8bb3613-646f-4b83-b9ed-120d34b5d4e0" title="Lorem Ipsum">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=4')">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-a-empresa-beneficiaria/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Lorem Ipsum">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_beneficiarios-01.jpg')">
                   <div class="box-body">
-                    <h3 class="box-title">Lorem Ipsum</h3>
+                    <h3 class="box-title"><span class="cat">Para a</span> Beneficiária</h3>
                   </div>
                 </div>
               </a>
             </div>
 
             <div class="col">
-              <a href="http://pnc.hmg.cultura.gov.br/" title="Dolor sit amet">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=5')">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-empresas-recebedoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Dolor sit amet">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_estabelecimento_comercial.jpg')">
                   <div class="box-body">
-                    <h3 class="box-title">Dolor sit amet</h3>
+                    <h3 class="box-title"><span class="cat">Para o</span> Estabelecimento</h3>
                   </div>
                 </div>
               </a>
             </div>
 
             <div class="col">
-              <a href="http://sniic.hmg.cultura.gov.br/" title="Consectetur adipisicing elit">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=6')">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-o-trabalhador/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/5_trabalhador.jpg')">
                   <div class="box-body">
-                    <h3 class="box-title">Consectetur adipisicing elit</h3>
+                    <h3 class="box-title"><span class="cat">Para o</span> Trabalhador</h3>
                   </div>
                 </div>
               </a>
             </div>
 
             <div class="col">
-              <a href="http://sniic.hmg.cultura.gov.br/" title="Optio facere excepturi">
-                <div class="highlight-box" style="background-image: url('https://picsum.photos/300/300?image=7')">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-as-operadoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Optio facere excepturi">
+                <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_operadoras.jpg')">
                   <div class="box-body">
-                    <h3 class="box-title">Optio facere excepturi</h3>
+                    <h3 class="box-title"><span class="cat">Para a</span> Operadora</h3>
                   </div>
                 </div>
               </a>
@@ -293,7 +293,7 @@
         <div id="accordionExample" class="accordion">
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Por que o Vale-Cultura foi criado?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1"><span>Por que o Vale-Cultura foi criado?</span></a></h3>
             </div>
 
             <div id="collapse-1" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -305,7 +305,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">O Vale-Cultura tem previsão de término?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2"><span>O Vale-Cultura tem previsão de término?</span></a></h3>
             </div>
 
             <div id="collapse-2" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -329,7 +329,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Com a interrupção do incentivo fiscal, as empresas tributadas com base no lucro real podem continuar ofertando o benefício do Vale-Cultura aos seus funcionários?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4"><span>Com a interrupção do incentivo fiscal, as empresas tributadas com base no lucro real podem continuar ofertando o benefício do Vale-Cultura aos seus funcionários?</span></a></h3>
             </div>
 
             <div id="collapse-4" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -341,7 +341,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Quem fornece o Vale-Cultura?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5"><span>Quem fornece o Vale-Cultura?</span></a></h3>
             </div>
 
             <div id="collapse-5" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -353,7 +353,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Quem aceita o Vale-Cultura como forma de pagamento?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6"><span>Quem aceita o Vale-Cultura como forma de pagamento?</span></a></h3>
             </div>
 
             <div id="collapse-6" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -365,7 +365,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Como minha empresa pode receber o cartão Vale-Cultura como forma de pagamento?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7"><span>Como minha empresa pode receber o cartão Vale-Cultura como forma de pagamento?</span></a></h3>
             </div>
 
             <div id="collapse-7" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -377,7 +377,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Como este dinheiro chega ao trabalhador?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8"><span>Como este dinheiro chega ao trabalhador?</span></a></h3>
             </div>
 
             <div id="collapse-8" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -389,7 +389,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">O Vale-Cultura é uma bolsa oferecida pelo Governo Federal?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9"><span>O Vale-Cultura é uma bolsa oferecida pelo Governo Federal?</span></a></h3>
             </div>
 
             <div id="collapse-9" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -401,7 +401,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">O que a empresa que concede o benefício ganha com o Vale-Cultura?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10"><span>O que a empresa que concede o benefício ganha com o Vale-Cultura?</span></a></h3>
             </div>
 
             <div id="collapse-10" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -413,7 +413,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11">Os servidores públicos podem ser beneficiados?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11"><span>Os servidores públicos podem ser beneficiados?</span></a></h3>
             </div>
 
             <div id="collapse-11" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -425,7 +425,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false" aria-controls="collapse-12">O Vale-Cultura é extensivo aos aposentados pela Previdência Social?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-12" aria-expanded="false" aria-controls="collapse-12"><span>O Vale-Cultura é extensivo aos aposentados pela Previdência Social?</span></a></h3>
             </div>
 
             <div id="collapse-12" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -437,7 +437,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13">Os estudantes podem receber o Vale-Cultura?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13"><span>Os estudantes podem receber o Vale-Cultura?</span></a></h3>
             </div>
 
             <div id="collapse-13" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -449,7 +449,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-14" aria-expanded="false" aria-controls="collapse-14">Um trabalhador pode receber o Vale-Cultura sem que a empresa onde trabalhe tenha feito adesão junto à Secretaria Especial de Cultura?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-14" aria-expanded="false" aria-controls="collapse-14"><span>Um trabalhador pode receber o Vale-Cultura sem que a empresa onde trabalhe tenha feito adesão junto à Secretaria Especial de Cultura?</span></a></h3>
             </div>
 
             <div id="collapse-14" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
@@ -461,7 +461,7 @@
 
           <div class="card">
             <div id="gabinete-container" class="card-header">
-              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-15" aria-expanded="false" aria-controls="collapse-15">O Microempreendedor Individual (MEI) pode receber o Vale-Cultura e também conceder o benefício ao seu empregado?</a></h3>
+              <h3><a class="collapsed" href="#this" data-toggle="collapse" data-target="#collapse-15" aria-expanded="false" aria-controls="collapse-15"><span>O Microempreendedor Individual (MEI) pode receber o Vale-Cultura e também conceder o benefício ao seu empregado?</span></a></h3>
             </div>
 
             <div id="collapse-15" class="collapse" aria-labelledby="gabinete-container" data-parent="#accordionExample">
