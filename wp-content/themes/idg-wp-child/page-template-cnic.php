@@ -77,17 +77,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Maricene Aparecida Gregorut - Associação dos Produtores de Teatro Independente
+                           <strong>Titular:</strong> Maricene Aparecida Gregorut – Associação de Produtores Teatrais Independentes
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Celio Rodrigues de Lima Pontes - Rede de Teatros e Produtores Independentes
+                           <strong>1º Suplente:</strong> Celio Rodrigues de Lima Pontes – Rede de Teatros e Produtores Independentes – REDE
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Getúlio Lima - Escola de Teatro Bolshoi no Brasil
+                           <strong>2º Suplente:</strong> Getúlio Lima – Relações Institucionais da Escola do Teatro Bolshoi no Brasil
                         </td>
                      </tr>
                   </tbody>
@@ -108,17 +108,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Paula Sulmonetti Tavares de Azevedo - Associação Nacional das Entidades Não Lucrativas
+                           <strong>Titular:</strong> Paula Sulmonetti Tavares de Azevedo – Associação Nacional das Entidades Não Lucrativas
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Anete Abarno&nbsp;
-                        </td>
-                     </tr>
-                     <tr>
-                        <td>
-                           <strong>2º Suplente:</strong> Maria de Fátima da Silva - Associação da Rede de Produtores Culturais em Brasília
+                           <strong>2º Suplente:</strong> Maria de Fátima da Silva – Associação Rede de Produtores Culturais da Fotografia no Brasil.
                         </td>
                      </tr>
                   </tbody>
@@ -141,12 +136,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Sérgio Luiz Ferreira de Figueiredo&nbsp;
+                           <strong>Titular:</strong> Sérgio Luiz Ferreira de Figueiredo – Indicação do Ministro 
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Cláudio Alano Cohen Bezerra&nbsp;
+                           <strong>2º Suplente:</strong> Cláudio Alano Cohen Bezerra – Indicação do Ministro Audiovisual
                         </td>
                      </tr>
                   </tbody>
@@ -167,12 +162,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Bruno Luis Margraf Gehring - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
+                           <strong>Titular:</strong> Bruno Luis Margraf Gehring – Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos 
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Thiago Wanderley de Freitas - Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
+                           <strong>1º Suplente:</strong> Thiago Wanderley de Freitas – Associação Brasileira das Desenvolvedoras dos Jogos Eletrônicos
                         </td>
                      </tr>
                   </tbody>
@@ -196,17 +191,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Adriana Mortara Almeida - Comitê Brasileiro do ICOM-BR
+                           <strong>Titular:</strong> Adriana Mortara Almeida – Comitê Brasileiro do ICOM-BR
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Fabiano de Melo Duarte Rocha - Diretoria Nacional do Instituto dos Arquitetos do Brasil
+                           <strong>1º Suplente:</strong> Fabiano de Melo Duarte Rocha – Diretoria Nacional do Instituto dos Arquitetos do Brasil
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Marcelo Nascimento Bernardo da Cunha - Comitê Brasileiro do ICOM-BR
+                           <strong>2º Suplente:</strong> Marcelo Nascimento Bernardo da Cunha – Comitê Brasileiro do ICOM-BR
                         </td>
                      </tr>
                   </tbody>
@@ -227,17 +222,17 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Luís Antônio Torelli - Câmara Brasileiro do Livro
+                           <strong>Titular:</strong> Luís Antônio Torelli – Câmara Brasileiro do Livro
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Márcio Teixeira Tupinambá - Associação Brasileira de Difusão do Livro
+                           <strong>1º Suplente:</strong> Márcio Teixeira Tupinambá – Associação Brasileira de Difusão do Livro
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Larissa Pereira Mundim - Fundação Dorina Nowill
+                           <strong>2º Suplente:</strong> Larissa Pereira Mundim – Fundação Dorina Nowill
                         </td>
                      </tr>
                   </tbody>
@@ -260,12 +255,12 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Caroline Soares de Souza - Confederação Nacional do Comércio de Bens, Serviços e Turismo
+                           <strong>Titular:</strong> Caroline Soares de Souza – Confederação Nacional do Comércio de Bens, Serviços e Turismo
                         </td>
                      </tr>
                      <tr>
                         <td>
-                           <strong>1º Suplente:</strong> Maria Angélica Ribeiro Santos - Confederação Nacional do Comércio de Bens, Serviços e Turismo
+                           <strong>1º Suplente:</strong> Maria Angélica Ribeiro Santos – Confederação Nacional da Indústria
                         </td>
                      </tr>
                      <tr>

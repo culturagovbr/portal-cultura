@@ -36,7 +36,6 @@
 
 <?php wp_footer(); ?>
 
-<?php /*
 <!-- Start of Rocket.Chat Livechat Script -->
 <script type="text/javascript">
 	(function(w, d, s, u) {
@@ -47,7 +46,6 @@
 	})(window, document, 'script', 'https://lappis.cultura.gov.br/livechat');
 </script>
 <!-- End of Rocket.Chat Livechat Script -->
-*/ ?>
 
 </body>
 </html>
