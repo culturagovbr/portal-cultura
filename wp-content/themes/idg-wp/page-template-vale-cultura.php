@@ -128,7 +128,7 @@
           <h2 class="section-title mb-5">Onde cadastrar?</h2>
 
           <ul>
-            <li>Acesse o sistema do Vale-Cultura</li>
+            <li>Acesse o sistema do <a href="http://vale.cultura.gov.br" target="_blank">Vale-Cultura</a></li>
             <li>No menu, clique no link "Cadastrar Beneficiária" ou Cadastrar Operadora”;</li>
             <li>Preencha o formulário com os dados solicitados.</li>
             <li>Salvar e encaminhar para análise</li>
@@ -139,6 +139,7 @@
     </section>
 
     <section class="image-and-text bg-grey-2" id="beneficios">
+      <h2 class="section-title mb-5 text-center">Benefícios</h2>
 
       <div class="container image-left align-center no-border">
         <div class="row">
@@ -237,13 +238,13 @@
       </div>
     </section> -->
 
-    <section class="pt-5 pb-5 bg-grey-2" id="saiba-mais">
+    <section class="pt-5 pb-5" id="saiba-mais">
       <div class="container">
         <h2 class="section-title mb-5 text-center">Saiba Mais</h2>
         <div class="row">
           <div class="overflow-wrapper">
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-a-empresa-beneficiaria/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Lorem Ipsum">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-a-empresa-beneficiaria/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_beneficiarios-01.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Beneficiária</h3>
@@ -253,7 +254,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-empresas-recebedoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Dolor sit amet">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-empresas-recebedoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_estabelecimento_comercial.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Estabelecimento</h3>
@@ -263,7 +264,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-o-trabalhador/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-o-trabalhador/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/5_trabalhador.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para o</span> Trabalhador</h3>
@@ -273,7 +274,7 @@
             </div>
 
             <div class="col">
-              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-as-operadoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" title="Optio facere excepturi">
+              <a href="http://antigo.cultura.gov.br/por-dentro-do-vale-cultura1/-/asset_publisher/cOdwpc5nCipt/content/para-as-operadoras/10895?redirect=http%3A%2F%2Fantigo.cultura.gov.br%2Fpor-dentro-do-vale-cultura1%3Fp_p_id%3D101_INSTANCE_cOdwpc5nCipt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1" target="_blank">
                 <div class="highlight-box" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/6_para_operadoras.jpg')">
                   <div class="box-body">
                     <h3 class="box-title"><span class="cat">Para a</span> Operadora</h3>
@@ -286,7 +287,7 @@
       </div>
     </section>
 
-    <section class="pt-5 pb-5" id="perguntas-frequentes">
+    <section class="pt-5 pb-5 bg-grey-2" id="perguntas-frequentes">
       <div class="container">
         <h2 class="section-title mb-5 text-center">Perguntas Frequentes</h2>
 
