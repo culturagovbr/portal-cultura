@@ -62,7 +62,8 @@
 						</div>
 					<?php endif; ?>
 
-					<span class="details">por Ascom última modificação em <?php the_modified_date( 'd/m/Y' ); ?> <?php the_modified_time( 'H' ); ?>h<?php the_modified_time( 'i' ); ?></span>
+					<span class="details">por Ascom, publicado em <?php the_date('d/m/Y'); ?> <?php the_time('H'); ?>h<?php the_time('i'); ?>, última modificação em <?php the_modified_date('d/m/Y'); ?> <?php the_modified_time('H'); ?>h<?php the_modified_time('i'); ?></span>
+
 				</div>
 
 			</li>

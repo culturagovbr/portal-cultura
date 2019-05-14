@@ -16,24 +16,37 @@ $filter_active = false;
 if( !empty( $_GET['type'] ) ) {
 	$search_query['post_type'] = $_GET['type'];
 	$filter_active = true;
+} else {
+	$search_query['post_type'] = array( 'event', 'documentos', 'multimedia', 'post', 'page' ); // We'll do this so the post_type isn't set as 'any'
 }
 
 if( !empty( $_GET['period'] ) ) {
-	$today = getdate();
+
+	$today = date('Y-m-d H:i:s');
+	$date_range = 0;
 	switch ( $_GET['period'] ) {
 		case 'week':
-			$search_query['w'] = date('W');
+			$date_range = '-7 days';
 			break;
 		case 'month':
-			$search_query['monthnum'] = $today['mon'];
+			$date_range = '-30 days';
 			break;
 		case 'year':
-			$search_query['year'] = $today['year'];
+			$date_range = '-1 year';
 			break;
 		default:
+			$date_range = 0;
 	}
+
+	$search_query['date_query'] =  array(
+		'before'    => $today,
+		'after'     => date('Y-m-d H:i:s', strtotime($date_range) ),
+		'inclusive' => true,
+	);
+
 	$search_query['post_type'] = $_GET['type'];
 	$filter_active = true;
+
 }
 
 $wp_query = new WP_Query( $search_query );
