@@ -1,0 +1,99 @@
+#featured-links > .nav {
+    padding-left: 0;
+}
+
+#steps {
+	background: #1C1C1C;
+	color: #B2AB95;;
+}
+
+.steps {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.steps .steps-segment {
+	position: relative;
+	flex-basis: 1rem;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.steps .steps-segment:after {
+	height: .4em;
+	left: 0;
+	right: 0;
+	top: calc(1.2rem - (.2em));
+	content: " ";
+	display: block;
+	position: absolute;
+	background-color: #F7E288;
+}
+
+.steps .steps-marker {
+	align-items: center;
+	display: flex;
+	border-radius: 50%;
+	font-weight: 700;
+	justify-content: center;
+	position: relative;
+	z-index: 5;
+	height: 2.5rem;
+	width: 2.5rem;
+	overflow: hidden;
+	background-color: #F7E288;
+	color: #fff;
+	margin: auto;
+}
+
+.steps .steps-marker:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	height: 2rem;
+	width: 2rem;
+	z-index: 1;
+}
+
+.steps .steps-content{
+	padding: 30px;
+	text-align: center;
+}
+
+.steps .step-active .steps-marker:after{
+	background-color: #F7E288;
+}
+
+#main-footer .container {
+	overflow: hidden;
+	position: relative;
+}
+
+#main-footer {
+	overflow: hidden;
+	position: relative;
+}
+
+#main-footer .menus {
+	position: relative;
+	float: left;
+	margin-bottom: 0 !important;
+}
+
+#main-footer .menus .section-title {
+	font-size: 21px;
+}
+
+#main-footer .social-network {
+	float: right;
+}
+
+#main-footer .footer-brasil {
+	position: absolute;
+	right: 0;
+	bottom: 23px;
+}
