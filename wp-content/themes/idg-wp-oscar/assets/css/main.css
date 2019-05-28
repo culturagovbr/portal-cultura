@@ -68,6 +68,11 @@
 	background-color: #F7E288;
 }
 
+#multimidia .multimidia-footer .btn {
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
 #main-footer .container {
 	overflow: hidden;
 	position: relative;
