@@ -100,6 +100,8 @@ get_header();
 					</div>
 				</div>
 			</div>
+
+			<hr class="style-eight" />
 		</section>
 
 		<section id="news" class="pb-5 pt-5">
@@ -156,6 +158,8 @@ get_header();
 					</div>
 				</div>
 			</div>
+
+			<hr class="style-eight" />
 		</section>
 
 <!-- 		<section id="multimidia" class="mt-5">

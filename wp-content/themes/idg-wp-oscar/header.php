@@ -42,7 +42,7 @@
 <div id="login-bar">
 	<div class="container">
 		<div class="float-left">
-			<span>Acesso:</span>
+			<span>Participe:</span>
 		</div>
 
 		<div class="float-right">
