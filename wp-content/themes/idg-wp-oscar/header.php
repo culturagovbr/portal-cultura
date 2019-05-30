@@ -40,6 +40,13 @@
 <header id="main-header" class="child-theme">
 	<div id="barra-brasil"></div>
 
+	<div id="login-bar">
+		<div class="container">
+			<a href="#this" class="btn-outline">Entrar</a>
+			<a href="#this" class="btn-outline">Registrar</a>
+		</div>
+	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-lg-8 title-wrapper">
