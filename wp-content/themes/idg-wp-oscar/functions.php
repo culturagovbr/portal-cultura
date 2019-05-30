@@ -22,29 +22,3 @@ function remove_some_widgets(){
 }
 add_action( 'widgets_init', 'remove_some_widgets', 11 );
 
-// customize admin bar css
-function override_admin_bar_css() { 
-
-   if ( is_admin_bar_showing() ) { ?>
-
-
-      <style type="text/css">
-         /* add your style here */
-         #wpadminbar * {
-/*            height: 50px;
-            line-height: 50px;*/
-            color: #F7E288 !important;
-         }
-      </style>
-
-   <?php }
-
-}
-
-// on backend area
-add_action( 'admin_head', 'override_admin_bar_css' );
-
-// on frontend area
-add_action( 'wp_head', 'override_admin_bar_css' );
-
-show_admin_bar( false );

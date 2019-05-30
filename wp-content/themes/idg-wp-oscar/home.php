@@ -61,7 +61,7 @@ get_header();
 
 		<?php endif; ?>
 
-		<section id="steps" class="pt-5 pb-5">
+		<section id="steps" class="pt-5 pb-5 mb-0">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -69,25 +69,31 @@ get_header();
 					</div>
 					<div class="col-12">
 						<ul class="steps">
+							<li class="steps-segment">
+								<span class="steps-marker"></span>
+								<div class="steps-content">
+									<div class="box">
+										<p><b>De 5/06/2018 a 17/08/2018</b></p>
+										<p>This is the first step, which means you start here.</p>
+									</div>
+								</div>
+							</li>
 							<li class="steps-segment step-active">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
-									<p><b>De 5/06/2018 a 17/08/2018</b></p>
-									<p>This is the first step, which means you start here.</p>
+									<div class="box">
+										<p><b>11/09/2018</b></p>
+										<p>This is the second step. Once you complete the first step, you will end up here.</p>
+									</div>
 								</div>
 							</li>
 							<li class="steps-segment">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
-									<p><b>11/09/2018</b></p>
-									<p>This is the second step. Once you complete the first step, you will end up here.</p>
-								</div>
-							</li>
-							<li class="steps-segment is-active">
-								<span class="steps-marker"></span>
-								<div class="steps-content">
-									<p><b>01/10/2018</b></p>
-									<p>This is the third step. This is halfway between the start and the end.</p>
+									<div class="box">
+										<p><b>01/10/2018</b></p>
+										<p>This is the third step. This is halfway between the start and the end.</p>
+									</div>
 								</div>
 							</li>
 						</ul>
@@ -152,7 +158,7 @@ get_header();
 			</div>
 		</section>
 
-		<section id="multimidia" class="mt-5">
+<!-- 		<section id="multimidia" class="mt-5">
 			<div class="container">
 				<div class="row">
 
@@ -274,7 +280,64 @@ get_header();
 
 				</div>
 			</div>
-		</section>
+		</section> -->
+
+
+    <section id="depoimentos" class="video-gallery">
+       <div class="container">
+        <h2 class="section-title mb-5 text-center">Depoimentos</h2>
+
+          <div class="row">
+             <div id="video-box" class="highlight video">
+                <iframe src="https://www.youtube.com/embed/LrEoT7Uq4o4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+
+             <div id="idg_banner-3" class="container widget_idg_banner">
+                <div class="row">
+                   <div class="col order-1">
+                     <div class="highlight-box active" data-video-src="LrEoT7Uq4o4">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Cinema
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-2">
+                     <div class="highlight-box" data-video-src="ZEDmrqlJeRw">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Música
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-3">
+                     <div class="highlight-box" data-video-src="h-4EfNZCaHw">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Teatro
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+
+                   <div class="col order-3">
+                     <div class="highlight-box" data-video-src="kwDgJQF0XCE">
+                        <div class="box-body">
+                           <h3 class="box-title">
+                              Vale Cultura<br/> Jose Paulo Martins
+                           </h3>
+                        </div>
+                     </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
 
 	</main>
 

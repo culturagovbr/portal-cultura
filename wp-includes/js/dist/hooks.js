@@ -82,12 +82,12 @@ this["wp"] = this["wp"] || {}; this["wp"]["hooks"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 311);
+/******/ 	return __webpack_require__(__webpack_require__.s = 366);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 311:
+/***/ 366:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -155,6 +155,9 @@ function validateHookName(hookName) {
 /* harmony default export */ var build_module_validateHookName = (validateHookName);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/hooks/build-module/createAddHook.js
+/**
+ * Internal dependencies
+ */
 
 
 
@@ -208,21 +211,25 @@ function createAddHook(hooks) {
     if (hooks[hookName]) {
       // Find the correct insert index of the new hook.
       var handlers = hooks[hookName].handlers;
-      var i = 0;
+      var i;
 
-      while (i < handlers.length) {
-        if (handlers[i].priority > priority) {
+      for (i = handlers.length; i > 0; i--) {
+        if (priority >= handlers[i - 1].priority) {
           break;
         }
+      }
 
-        i++;
-      } // Insert (or append) the new hook.
-
-
-      handlers.splice(i, 0, handler); // We may also be currently executing this hook.  If the callback
+      if (i === handlers.length) {
+        // If append, operate via direct assignment.
+        handlers[i] = handler;
+      } else {
+        // Otherwise, insert before index via splice.
+        handlers.splice(i, 0, handler);
+      } // We may also be currently executing this hook.  If the callback
       // we're adding would come after the current callback, there's no
       // problem; otherwise we need to increase the execution index of
       // any other runs by 1 to account for the added element.
+
 
       (hooks.__current || []).forEach(function (hookInfo) {
         if (hookInfo.name === hookName && hookInfo.currentIndex >= i) {
@@ -246,6 +253,9 @@ function createAddHook(hooks) {
 /* harmony default export */ var build_module_createAddHook = (createAddHook);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/hooks/build-module/createRemoveHook.js
+/**
+ * Internal dependencies
+ */
 
 
 
@@ -482,6 +492,9 @@ function createDoingHook(hooks) {
 /* harmony default export */ var build_module_createDoingHook = (createDoingHook);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/hooks/build-module/createDidHook.js
+/**
+ * Internal dependencies
+ */
 
 /**
  * Returns a function which, when invoked, will return the number of times a
@@ -512,6 +525,9 @@ function createDidHook(hooks) {
 /* harmony default export */ var build_module_createDidHook = (createDidHook);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/hooks/build-module/createHooks.js
+/**
+ * Internal dependencies
+ */
 
 
 
@@ -574,6 +590,9 @@ function createHooks() {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "actions", function() { return build_module_actions; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filters", function() { return build_module_filters; });
 /* concated harmony reexport createHooks */__webpack_require__.d(__webpack_exports__, "createHooks", function() { return build_module_createHooks; });
+/**
+ * Internal dependencies
+ */
 
 
 var _createHooks = build_module_createHooks(),

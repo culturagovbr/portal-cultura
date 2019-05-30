@@ -37,15 +37,28 @@
 	<?php esc_html_e('Skip to content', 'idg-wp'); ?>
 </a>
 
-<header id="main-header" class="child-theme">
-	<div id="barra-brasil"></div>
+<div id="barra-brasil"></div>
 
-	<div id="login-bar">
-		<div class="container">
-			<a href="#this" class="btn-outline">Entrar</a>
-			<a href="#this" class="btn-outline">Registrar</a>
+<div id="login-bar">
+	<div class="container">
+		<div class="float-left">
+			<span>Acesso:</span>
+		</div>
+
+		<div class="float-right">
+			<?php if( is_user_logged_in() ): ?>
+				<a class="btn-outline" href="<?php echo home_url('/minhas-inscricoes'); ?>">Minhas inscrições</a>
+				<a class="btn-outline" href="<?php echo home_url('/perfil'); ?>">Perfil</a>
+				<a class="btn-outline" href="<?php echo wp_logout_url( home_url() ); ?>">Sair</a>
+			<?php else: ?>
+				<a class="btn-outline" href="<?php echo home_url('/login'); ?>">Login</a>
+				<a class="btn-outline" href="<?php echo home_url('/cadastro'); ?>">Cadastrar</a>
+			<?php endif; ?>
 		</div>
 	</div>
+</div>
+
+<header id="main-header" class="child-theme">
 
 	<div class="container">
 		<div class="row">

@@ -82,43 +82,10 @@ this["wp"] = this["wp"] || {}; this["wp"]["viewport"] =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 316);
+/******/ 	return __webpack_require__(__webpack_require__.s = 372);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ 19:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js
-var iterableToArray = __webpack_require__(32);
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _toConsumableArray; });
-
-
-
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || Object(iterableToArray["a" /* default */])(arr) || _nonIterableSpread();
-}
-
-/***/ }),
 
 /***/ 2:
 /***/ (function(module, exports) {
@@ -127,7 +94,7 @@ function _toConsumableArray(arr) {
 
 /***/ }),
 
-/***/ 316:
+/***/ 372:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -186,16 +153,7 @@ function setIsMatching(values) {
   };
 }
 
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules
-var toConsumableArray = __webpack_require__(19);
-
 // CONCATENATED MODULE: ./node_modules/@wordpress/viewport/build-module/store/selectors.js
-
-
-/**
- * External dependencies
- */
-
 /**
  * Returns true if the viewport matches the given query, or false otherwise.
  *
@@ -212,12 +170,13 @@ var toConsumableArray = __webpack_require__(19);
  *
  * @return {boolean} Whether viewport matches query.
  */
-
 function isViewportMatch(state, query) {
-  // Pad to _at least_ two elements to take from the right, effectively
-  // defaulting the left-most value.
-  var key = Object(external_lodash_["takeRight"])(['>='].concat(Object(toConsumableArray["a" /* default */])(query.split(' '))), 2).join(' ');
-  return !!state[key];
+  // Default to `>=` if no operator is present.
+  if (query.indexOf(' ') === -1) {
+    query = '>= ' + query;
+  }
+
+  return !!state[query];
 }
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/viewport/build-module/store/index.js
@@ -239,7 +198,7 @@ function isViewportMatch(state, query) {
 }));
 
 // EXTERNAL MODULE: external {"this":["wp","compose"]}
-var external_this_wp_compose_ = __webpack_require__(7);
+var external_this_wp_compose_ = __webpack_require__(6);
 
 // CONCATENATED MODULE: ./node_modules/@wordpress/viewport/build-module/with-viewport-match.js
 /**
@@ -257,9 +216,21 @@ var external_this_wp_compose_ = __webpack_require__(7);
  * the given prop names, where the value passed to the underlying component is
  * the result of the query assigned as the object's value.
  *
+ * @see isViewportMatch
+ *
  * @param {Object} queries  Object of prop name to viewport query.
  *
- * @see isViewportMatch
+ * @example
+ *
+ * ```jsx
+ * function MyComponent( { isMobile } ) {
+ * 	return (
+ * 		<div>Currently: { isMobile ? 'Mobile' : 'Not Mobile' }</div>
+ * 	);
+ * }
+ *
+ * MyComponent = withViewportMatch( { isMobile: '< small' } )( MyComponent );
+ * ```
  *
  * @return {Function} Higher-order component.
  */
@@ -288,9 +259,19 @@ var with_viewport_match_withViewportMatch = function withViewportMatch(queries) 
  * Higher-order component creator, creating a new component which renders if
  * the viewport query is satisfied.
  *
+ * @see withViewportMatches
+ *
  * @param {string} query Viewport query.
  *
- * @see withViewportMatches
+ * @example
+ *
+ * ```jsx
+ * function MyMobileComponent() {
+ * 	return <div>I'm only rendered on mobile viewports!</div>;
+ * }
+ *
+ * MyMobileComponent = ifViewportMatches( '< small' )( MyMobileComponent );
+ * ```
  *
  * @return {Function} Higher-order component.
  */
@@ -385,18 +366,8 @@ var build_module_queries = Object(external_lodash_["reduce"])(BREAKPOINTS, funct
 window.addEventListener('orientationchange', build_module_setIsMatching); // Set initial values
 
 build_module_setIsMatching();
+build_module_setIsMatching.flush();
 
-
-/***/ }),
-
-/***/ 32:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _iterableToArray; });
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
 
 /***/ }),
 
@@ -407,7 +378,7 @@ function _iterableToArray(iter) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /***/ (function(module, exports) {
 
 (function() { module.exports = this["wp"]["compose"]; }());

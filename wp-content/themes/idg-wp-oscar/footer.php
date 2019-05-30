@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="social-network">
-			<h3 class="social-title text-uppercase">Redes sociais</h3>
+			<h3 class="text-uppercase">Redes sociais</h3>
 
 			<?php get_template_part('template-parts/social-medias'); ?>
 		</div>
