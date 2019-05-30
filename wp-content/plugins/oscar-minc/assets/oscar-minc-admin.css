@@ -1,0 +1,38 @@
+.column-movie,
+#oscar-video-post .inside{
+    position: relative;
+    overflow: hidden;
+}
+
+.oscar-thickbox-modal {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 9999px;
+    left: 9999px;
+}
+
+.oscar-thickbox-modal-body h3{
+    margin-bottom: 0;
+}
+
+.oscar-thickbox-modal-body h3 a{
+    float: right;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.oscar-thickbox-modal-body p{
+    margin: 0;
+}
+
+.oscar-thickbox-modal-body .movie-desc {
+    padding: 5px 10px;
+    background: #ccc;
+    margin-top: 5px;
+}
+
+.post-type-inscricao #TB_window{
+    max-width: 630px !important;
+}

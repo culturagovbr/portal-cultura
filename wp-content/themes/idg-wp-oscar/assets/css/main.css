@@ -1,10 +1,11 @@
-#featured-links > .nav {
-    padding-left: 0;
+#featured-links>.nav {
+	padding-left: 0;
 }
 
 #steps {
 	background: #1C1C1C;
-	color: #B2AB95;;
+	color: #B2AB95;
+;
 }
 
 .steps {
@@ -59,12 +60,12 @@
 	z-index: 1;
 }
 
-.steps .steps-content{
+.steps .steps-content {
 	padding: 30px;
 	text-align: center;
 }
 
-.steps .step-active .steps-marker:after{
+.steps .step-active .steps-marker:after {
 	background-color: #F7E288;
 }
 
@@ -101,4 +102,20 @@
 	position: absolute;
 	right: 0;
 	bottom: 23px;
+}
+
+.acf-input-prepend,
+.acf-input-append,
+.acf-input-wrap,
+#oscar-main-form .acf-field input[type="text"],
+#oscar-main-form .acf-field input[type="password"],
+#oscar-main-form .acf-field input[type="number"],
+#oscar-main-form .acf-field input[type="search"],
+#oscar-main-form .acf-field input[type="email"],
+#oscar-main-form .acf-field input[type="url"],
+#oscar-main-form .acf-field textarea,
+#oscar-main-form .acf-field select,
+#oscar-login-form input[type="text"],
+#oscar-login-form input[type="password"] {
+	height: auto !important;
 }

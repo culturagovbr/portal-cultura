@@ -42,6 +42,31 @@
 
 	<div class="container">
 		<div class="row">
+			<div class="col-12">
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="access-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Acesso
+					</button>
+
+					<?php if( is_user_logged_in() ): ?>
+						<div class="dropdown-menu" aria-labelledby="access-menu">
+							<a class="dropdown-item" href="<?php echo home_url('/minhas-inscricoes'); ?>">Minhas inscrições</a>
+							<a class="dropdown-item" href="<?php echo home_url('/perfil'); ?>">Perfil</a>
+							<a class="dropdown-item" href="<?php echo wp_logout_url( home_url() ); ?>">Sair</a>
+						</div>
+					<?php else: ?>
+						<div class="dropdown-menu" aria-labelledby="access-menu">
+							<a class="dropdown-item" href="<?php echo home_url('/login'); ?>">Login</a>
+							<a class="dropdown-item" href="<?php echo home_url('/cadastro'); ?>">Cadastrar</a>
+						</div>
+					<?php endif; ?>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
 			<div class="col-md-6 col-lg-8 title-wrapper">
 				<p class="site-denomination mb-0"><?php bloginfo('description'); ?></p>
 				<h1 class="site-title mt-0 mb-0"><a href="<?php echo esc_url(home_url('/')); ?>"
