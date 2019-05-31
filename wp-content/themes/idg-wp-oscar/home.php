@@ -79,8 +79,6 @@ get_header();
 							$oscar_minc_schedule_time_3 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_3'] );
 							$oscar_minc_schedule_text_3 = $oscar_minc_options['oscar_minc_schedule_text_3'];
 							$current_step = false;
-
-							// $now = new DateTime('2019-06-31 15:20:29');
 							?>
 
 							<?php
@@ -88,7 +86,7 @@ get_header();
 								$current_step = 1;
 							}
 							?>
-							<li class="steps-segment <?php echo ( $current_step == 1 ) ? 'step-active' : ''; ?>">
+							<li class="steps-segment <?php echo ( $current_step == 1 ) ? 'step-active' : ''; echo ( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_1'] ) ) ? ' set-active' : ''; ?>">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
@@ -103,7 +101,7 @@ get_header();
 								$current_step = 2;
 							}
 							?>
-							<li class="steps-segment <?php echo ( $current_step == 2 ) ? 'step-active' : ''; ?>">
+							<li class="steps-segment <?php echo ( $current_step == 2 ) ? 'step-active' : ''; echo ( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_2'] ) ) ? ' set-active' : ''; ?>">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
@@ -122,7 +120,7 @@ get_header();
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
-										<p><b><?php echo $oscar_minc_schedule_time_3->format('d/m/Y'); ?></b></p>
+										<p><b><?php echo $oscar_minc_schedule_time_3->format('d/m/Y'); echo ( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_3'] ) ) ? ' set-active' : ''; ?></b></p>
 										<p><?php echo $oscar_minc_schedule_text_3; ?></p>
 									</div>
 								</div>
