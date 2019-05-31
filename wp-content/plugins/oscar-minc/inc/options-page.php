@@ -79,6 +79,13 @@ function oscar_minc_settings_init() {
         'oscar'
     );
 
+    add_settings_section(
+        'oscar_minc_schedule_section',
+        'Cronograma',
+        '',
+        'oscar'
+    );
+
     add_settings_field(
         'oscar_minc_movie_extensions',
         'Extensões permitidas',
@@ -184,6 +191,78 @@ function oscar_minc_settings_init() {
             'class' => 'form-field',
         ]
     );
+
+	add_settings_field(
+		'oscar_minc_schedule_time_1',
+		'1ª Etapa - Data',
+		'oscar_minc_schedule_time_1',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_time_1',
+			'class' => 'form-field',
+		]
+	);
+
+	add_settings_field(
+		'oscar_minc_schedule_text_1',
+		'1ª Etapa - Texto',
+		'oscar_minc_schedule_text_1',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_text_1',
+			'class' => 'form-field',
+		]
+	);
+
+	add_settings_field(
+		'oscar_minc_schedule_time_2',
+		'2ª Etapa - Data',
+		'oscar_minc_schedule_time_2',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_time_2',
+			'class' => 'form-field',
+		]
+	);
+
+	add_settings_field(
+		'oscar_minc_schedule_text_2',
+		'2ª Etapa - Texto',
+		'oscar_minc_schedule_text_2',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_text_2',
+			'class' => 'form-field',
+		]
+	);
+
+	add_settings_field(
+		'oscar_minc_schedule_time_3',
+		'3ª Etapa - Data',
+		'oscar_minc_schedule_time_3',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_time_3',
+			'class' => 'form-field',
+		]
+	);
+
+	add_settings_field(
+		'oscar_minc_schedule_text_3',
+		'3ª Etapa - Texto',
+		'oscar_minc_schedule_text_3',
+		'oscar',
+		'oscar_minc_schedule_section',
+		[
+			'label_for' => 'oscar_minc_schedule_text_3',
+			'class' => 'form-field',
+		]
+	);
 }
 
 function oscar_minc_movie_extensions( $args ) {
@@ -254,11 +333,60 @@ function oscar_minc_deadline_text( $args ) {
     <?php
 }
 
+function oscar_minc_schedule_time_1( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<input id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" type="text" value="<?php echo date('d/m/Y H:i', strtotime($options['oscar_minc_schedule_time_1'])); ?>" placeholder="__/__/____ HH:MM">
+	<p class="description">Seguindo o seguinte padrão: <b>DD/MM/AAAA 24:59</b></p>
+	<?php
+}
+
+function oscar_minc_schedule_text_1( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
+	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<?php
+}
+
+function oscar_minc_schedule_time_2( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<input id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" type="text" value="<?php echo date('d/m/Y H:i', strtotime($options['oscar_minc_schedule_time_2'])); ?>" placeholder="__/__/____ HH:MM">
+	<p class="description">Seguindo o seguinte padrão: <b>DD/MM/AAAA 24:59</b></p>
+	<?php
+}
+
+function oscar_minc_schedule_text_2( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
+	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<?php
+}
+
+function oscar_minc_schedule_time_3( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<input id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" type="text" value="<?php echo date('d/m/Y H:i', strtotime($options['oscar_minc_schedule_time_3'])); ?>" placeholder="__/__/____ HH:MM">
+	<p class="description">Seguindo o seguinte padrão: <b>DD/MM/AAAA 24:59</b></p>
+	<?php
+}
+
+function oscar_minc_schedule_text_3( $args ) {
+	$options = get_option( 'oscar_minc_options' ); ?>
+	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
+	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<?php
+}
+
 function oscar_sanitize_fields ( $input ){
     $date_arr = explode(' ', $input['oscar_minc_deadline_time']);
 	$raw_date = implode('/', array_reverse(explode('-', $date_arr[0])));
     $raw_date = implode('-',array_reverse(explode('/',$raw_date)));
     $raw_time = $date_arr[1] . ':00';
 	$input['oscar_minc_deadline_time'] = $raw_date . ' ' . $raw_time;
+
+	$date_arr = explode(' ', $input['oscar_minc_schedule_time_1']);
+	$raw_date = implode('/', array_reverse(explode('-', $date_arr[0])));
+	$raw_date = implode('-',array_reverse(explode('/',$raw_date)));
+	$raw_time = $date_arr[1] . ':00';
+	$input['oscar_minc_schedule_time_1'] = $raw_date . ' ' . $raw_time;
+
 	return $input;
 }
