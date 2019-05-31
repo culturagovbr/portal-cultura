@@ -197,6 +197,18 @@ body.home .widget_text_image_box .banner-img-preview {
   position: static;
 }
 
+#ferramentas .image-and-text .buttons {
+  font-size: 0;
+}
+
+#ferramentas .image-and-text .buttons a {
+  margin-left: 15px;
+}
+
+#ferramentas .image-and-text .buttons a:first-child {
+  margin-left: 0;
+}
+
 #ferramentas .btn-acesse {
   margin: 0;
   cursor: pointer;

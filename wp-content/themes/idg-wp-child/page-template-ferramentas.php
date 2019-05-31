@@ -24,7 +24,10 @@
       <div class="col-text">
         <h2 class="section-title mb-4">Salic</h2>
         <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) é o local de cadastro das propostas. No Salic, são transitadas todas as fases do projeto, desde o cadastramento, passando pela aprovação, execução e prestação de contas. É também o principal veículo de comunicação entre o proponente e a equipe da Secretaria de Fomento e Incentivo à Cultura (Sefic) da Secretaria da Cultura, responsável pela gestão da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>.</p>
-        <a href="http://salic.cultura.gov.br/autenticacao/index/index" target="_blank" class="btn btn-acesse">Acesse</a>
+
+        <div class="buttons">
+          <a href="http://salic.cultura.gov.br/autenticacao/index/index" target="_blank" class="btn btn-acesse">Acesse</a>
+        </div>
       </div>
     </div>
   </section>
@@ -41,8 +44,11 @@
       <div class="col-text">
         <h2 class="section-title mb-4">Salic Mobile</h2>
         <p>O Sistema de Acesso às Leis de Incentivo à Cultura (Salic) conta com a versão para acesso remoto. Pelo celular, o proponente pode acompanhar o andamento de seu projeto, além de ter a possibilidade de fazer upload de documentos e notas fiscais, entre outras funcionalidades. Trata-se de uma facilidade a mais para os usuários do sistema.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.ionicframework.salicmobile804600&hl=pt_BR" target="_blank" class="btn btn-acesse">Google Play</a>
-        <a href="https://itunes.apple.com/us/app/salic/id1224617502?mt=8" target="_blank" class="btn btn-acesse">Apple Store</a>
+
+        <div class="buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.ionicframework.salicmobile804600&hl=pt_BR" target="_blank" class="btn btn-acesse">Google Play</a>
+          <a href="https://itunes.apple.com/us/app/salic/id1224617502?mt=8" target="_blank" class="btn btn-acesse">Apple Store</a>
+        </div>
       </div>
     </div>
   </section>
@@ -59,7 +65,10 @@
       <div class="col-text">
         <h2 class="section-title mb-4">Versalic</h2>
         <p>Todas as informações sobre propostas apresentadas e projetos aprovados pela <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a> estão disponíveis ao público no Versalic. São disponibilizados dados básicos sobre a captação e execução dos projetos, que podem ser consultados a partir do nome do projeto, do proponente ou do incentivador, por exemplo.</p>
-        <a href="http://versalic.cultura.gov.br/#/home" target="_blank" class="btn btn-acesse">Acesse</a>
+
+        <div class="buttons">
+          <a href="http://versalic.cultura.gov.br/#/home" target="_blank" class="btn btn-acesse">Acesse</a>
+        </div>
       </div>
     </div>
   </section>
@@ -76,7 +85,10 @@
       <div class="col-text">
         <h2 class="section-title mb-4">Comparar</h2>
         <p>Aqui estão os principais indicadores da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a>, que podem ser organizados de diversas formas: projetos apresentados e aprovados por ano e mês, por estado e região, ou até mesmo por área – como audiovisual, patrimônio e música. Valores e dados sobre captadores e incentivadores são atualizados diariamente.</p>
-        <a href="http://sistemas.cultura.gov.br/comparar/salicnet/salicnet.php" target="_blank" class="btn btn-acesse">Acesse</a>
+
+        <div class="buttons">
+          <a href="http://sistemas.cultura.gov.br/comparar/salicnet/salicnet.php" target="_blank" class="btn btn-acesse">Acesse</a>
+        </div>
       </div>
     </div>
   </section>
@@ -94,8 +106,10 @@
         <h2 class="section-title mb-4">Manual de Marcas</h2>
         <p>O artigo 47 do <a href="http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5761.htm" target="_blank">Decreto 5.761/2006</a>, que regulamenta o Programa Nacional de Apoio à Cultura (Pronac), diz que é obrigatória a inserção das logos relacionadas ao Programa e da logo do Ministério da Cidadania: I - nos produtos resultantes de programas, projetos e ações culturais realizados com recursos do Fundo Nacional de Cultura e/ou da Lei de Incentivo à Cultura; II - nas atividades relacionadas à difusão, divulgação, promoção e distribuição destes projetos e ações culturais, incluindo placa de obra e placa permanente de edificação, sempre com visibilidade pelo menos igual à da marca do patrocinador majoritário; III - em peças promocionais e campanhas institucionais dos patrocinadores que façam referência a programas, projetos e ações culturais beneficiados com incentivos fiscais. Os modelos e critérios de inserção, segundo o decreto, devem ser definidos em manual elaborado e aprovado pelo Ministério.</p>
 
-        <a href="http://leideincentivoacultura.cultura.gov.br/noticias/acesse-aqui-as-marcas-e-o-manual-do-pronac/" target="_blank" class="btn btn-acesse">Acesse</a>
-        <a href="http://cultura.gov.br/wp-content/uploads/2019/05/Marcas-Vale-Cultura.zip" target="_blank" class="btn btn-acesse">Vale Cultura</a>
+        <div class="buttons">
+          <a href="http://leideincentivoacultura.cultura.gov.br/noticias/acesse-aqui-as-marcas-e-o-manual-do-pronac/" target="_blank" class="btn btn-acesse">Pronac</a>
+          <a href="http://cultura.gov.br/wp-content/uploads/2019/05/Marcas-Vale-Cultura.zip" target="_blank" class="btn btn-acesse">Vale-Cultura</a>
+        </div>
       </div>
     </div>
   </section>
