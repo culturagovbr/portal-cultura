@@ -36,11 +36,15 @@ body {
 	color: #FFF;
 }
 
-.home #main-header {
+body.admin-bar.home #main-header {
+  top: 105px;
+}
+
+body.home #main-header {
 	top: 77px;
 }
 
-.home #main-header {
+body.home #main-header {
   color: #FFF;
 }
 
@@ -246,8 +250,8 @@ hr.style-eight:after {
 }
 
 #multimidia .multimidia-footer .btn {
-	border-color: #FFFFFF;
-	color: #FFFFFF;
+	border-color: #FFF;
+	color: #FFF;
 }
 
 #main-footer {
@@ -308,13 +312,6 @@ hr.style-eight:after {
 
 .carousel-wrapper #jumbotron-carousel .carousel-item:before {
 	opacity: 1;
-}
-
-
-.carousel-control-prev,
-.carousel-control-next,
-.carousel-indicators {
-	display: none;
 }
 
 .carousel-wrapper #jumbotron-carousel .carousel-item .carousel-caption h2 a {
@@ -424,7 +421,7 @@ hr.style-eight:after {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	background: #73cf41;
-	color: #ffffff;
+	color: #FFF;
 	cursor: pointer;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -436,8 +433,48 @@ hr.style-eight:after {
 .text-p a { color: #1383ea; }
 
 #news {
-	background: #222;
-	color: #FFF;
+	background: #FFF;
+	color: #F7E288;
+}
+
+#news .section-title {
+  color: #F7E288;
+  text-shadow: 1px 1px rgba(0,0,0, .2);
+}
+
+#news .highlight-box {
+  border: 4px solid #F7E288;
+}
+
+#news .highlight-box .box-body .box-title a {
+  color: #FFF;
+}
+
+#main-header {
+  background: #110c11;
+}
+
+.carousel-wrapper #jumbotron-carousel .carousel-item img {
+  display: none !important;
+}
+
+.carousel-wrapper:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 680px;
+  background: url('../images/pexels-photo-cutted-1.jpg') no-repeat;
+  background-size: cover;
+}
+
+.carousel-wrapper #jumbotron-carousel .carousel-item {
+  min-height: 680px;
+}
+
+body.high-contrast #login-bar {
+  background: #232b2b;
 }
 
 #login-bar {
@@ -503,6 +540,11 @@ body.admin-bar #login-bar {
 	color: #FFF;
 }
 
+#main-single,
+#main {
+  background: #FFF;
+}
+
 #multimidia {
   background: #222;
 }
@@ -511,6 +553,11 @@ body.admin-bar #login-bar {
   background: #000;
 }
 
+#multimidia .highlight.video {
+  border: 2px solid #F7E288;
+}
+
 #multimidia .highlight-box {
   background-color: #222;
+  border-color: #F7E288;
 }
