@@ -69,30 +69,61 @@ get_header();
 					</div>
 					<div class="col-12">
 						<ul class="steps">
-							<li class="steps-segment set-active">
+							<?php
+							$now = new DateTime();
+							$oscar_minc_options = get_option('oscar_minc_options');
+							$oscar_minc_schedule_time_1 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_1'] );
+							$oscar_minc_schedule_text_1 = $oscar_minc_options['oscar_minc_schedule_text_1'];
+							$oscar_minc_schedule_time_2 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_2'] );
+							$oscar_minc_schedule_text_2 = $oscar_minc_options['oscar_minc_schedule_text_2'];
+							$oscar_minc_schedule_time_3 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_3'] );
+							$oscar_minc_schedule_text_3 = $oscar_minc_options['oscar_minc_schedule_text_3'];
+							$current_step = false;
+
+							// $now = new DateTime('2019-06-31 15:20:29');
+							?>
+
+							<?php
+							if( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_1'] ) && $now < new DateTime( $oscar_minc_options['oscar_minc_schedule_time_2'] ) ) {
+								$current_step = 1;
+							}
+							?>
+							<li class="steps-segment <?php echo ( $current_step == 1 ) ? 'step-active' : ''; ?>">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
-										<p><b>De 5/06/2018 a 17/08/2018</b></p>
-										<p>This is the first step, which means you start here.</p>
+										<p><b><?php echo $oscar_minc_schedule_time_1->format('d/m/Y'); ?></b></p>
+										<p><?php echo $oscar_minc_schedule_text_1; ?></p>
 									</div>
 								</div>
 							</li>
-							<li class="steps-segment step-active">
+
+							<?php
+							if( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_2'] ) && $now < new DateTime( $oscar_minc_options['oscar_minc_schedule_time_3'] ) ) {
+								$current_step = 2;
+							}
+							?>
+							<li class="steps-segment <?php echo ( $current_step == 2 ) ? 'step-active' : ''; ?>">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
-										<p><b>11/09/2018</b></p>
-										<p>This is the second step. Once you complete the first step, you will end up here.</p>
+										<p><b><?php echo $oscar_minc_schedule_time_2->format('d/m/Y'); ?></b></p>
+										<p><?php echo $oscar_minc_schedule_text_2; ?></p>
 									</div>
 								</div>
 							</li>
-							<li class="steps-segment">
+
+							<?php
+							if( $now > new DateTime( $oscar_minc_options['oscar_minc_schedule_time_3'] ) ) {
+								$current_step = 3;
+							}
+							?>
+							<li class="steps-segment <?php echo ( $current_step == 3 ) ? 'step-active' : ''; ?>">
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
-										<p><b>01/10/2018</b></p>
-										<p>This is the third step. This is halfway between the start and the end.</p>
+										<p><b><?php echo $oscar_minc_schedule_time_3->format('d/m/Y'); ?></b></p>
+										<p><?php echo $oscar_minc_schedule_text_3; ?></p>
 									</div>
 								</div>
 							</li>
