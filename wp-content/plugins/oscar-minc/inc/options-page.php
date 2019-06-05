@@ -343,7 +343,7 @@ function oscar_minc_schedule_time_1( $args ) {
 function oscar_minc_schedule_text_1( $args ) {
 	$options = get_option( 'oscar_minc_options' ); ?>
 	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
-	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<p class="description">Esta mensagem será visível na tela inicial na seção cronograma 1ª etapa.</p>
 	<?php
 }
 
@@ -357,7 +357,7 @@ function oscar_minc_schedule_time_2( $args ) {
 function oscar_minc_schedule_text_2( $args ) {
 	$options = get_option( 'oscar_minc_options' ); ?>
 	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
-	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<p class="description">Esta mensagem será visível na tela inicial na seção cronograma 2ª etapa.</p>
 	<?php
 }
 
@@ -371,7 +371,7 @@ function oscar_minc_schedule_time_3( $args ) {
 function oscar_minc_schedule_text_3( $args ) {
 	$options = get_option( 'oscar_minc_options' ); ?>
 	<textarea id="<?php echo esc_attr( $args['label_for'] ); ?>" name="oscar_minc_options[<?php echo esc_attr( $args['label_for'] ); ?>]" rows="3"><?php echo $options['oscar_minc_schedule_text_1']; ?></textarea>
-	<p class="description">Esta mensagem será visível na tela de inscrições do proponente.</p>
+	<p class="description">Esta mensagem será visível na tela inicial na seção cronograma 3ª etapa.</p>
 	<?php
 }
 
@@ -382,11 +382,13 @@ function oscar_sanitize_fields ( $input ){
     $raw_time = $date_arr[1] . ':00';
 	$input['oscar_minc_deadline_time'] = $raw_date . ' ' . $raw_time;
 
-	$date_arr = explode(' ', $input['oscar_minc_schedule_time_1']);
-	$raw_date = implode('/', array_reverse(explode('-', $date_arr[0])));
-	$raw_date = implode('-',array_reverse(explode('/',$raw_date)));
-	$raw_time = $date_arr[1] . ':00';
-	$input['oscar_minc_schedule_time_1'] = $raw_date . ' ' . $raw_time;
+	for ($i = 1; $i <= 3; $i++) {
+		$date_arr = explode(' ', $input['oscar_minc_schedule_time_' . $i]);
+		$raw_date = implode('/', array_reverse(explode('-', $date_arr[0])));
+		$raw_date = implode('-',array_reverse(explode('/',$raw_date)));
+		$raw_time = $date_arr[1] . ':00';
+		$input['oscar_minc_schedule_time_' . $i] = $raw_date . ' ' . $raw_time;
+	}
 
 	return $input;
 }
