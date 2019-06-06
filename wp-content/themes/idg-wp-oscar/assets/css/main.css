@@ -332,6 +332,12 @@ hr.style-eight:after {
 	max-width: 580px;
 }
 
+.carousel-wrapper .carousel-control-prev,
+.carousel-wrapper .carousel-control-next,
+.carousel-wrapper .carousel-indicators {
+  display: none;
+}
+
 
 .forms {
 	background: #fff;
@@ -433,12 +439,11 @@ hr.style-eight:after {
 .text-p a { color: #1383ea; }
 
 #news {
-	background: #FFF;
+	background: #222;
 	color: #F7E288;
 }
 
 #news .section-title {
-  color: #F7E288;
   text-shadow: 1px 1px rgba(0,0,0, .2);
 }
 
@@ -465,7 +470,7 @@ hr.style-eight:after {
   top: 0;
   width: 100%;
   height: 680px;
-  background: url('../images/pexels-photo-cutted-1.jpg') no-repeat;
+  background: url('../images/oscar.jpg') no-repeat;
   background-size: cover;
 }
 

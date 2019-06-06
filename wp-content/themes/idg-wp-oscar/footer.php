@@ -19,12 +19,6 @@
 			endif; ?>
 		</div>
 
-		<div class="social-network">
-			<h3 class="text-uppercase">Redes sociais</h3>
-
-			<?php get_template_part('template-parts/social-medias'); ?>
-		</div>
-
 		<div class="footer-brasil">
 			<a class="logo-acesso-footer" target="_blank" href="http://www.acessoainformacao.gov.br/"
 			   alt="Acesso à informação" title="Acesso à informação"></a>
