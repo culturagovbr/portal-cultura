@@ -825,3 +825,9 @@ select:focus {
   color: #FFF;
   cursor: normal;
 }
+
+.carousel-wrapper #jumbotron-carousel .carousel-item .carousel-caption a {
+  color: #F7E288;
+  display: block;
+  margin-top: 10px;
+}
