@@ -73,6 +73,7 @@ get_header();
 							$now = new DateTime();
 							$oscar_minc_options = get_option('oscar_minc_options');
 							$oscar_minc_schedule_time_1 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_1'] );
+							$oscar_minc_oscar_minc_deadline_time = new DateTime( $oscar_minc_options['oscar_minc_oscar_minc_deadline_time'] );
 							$oscar_minc_schedule_text_1 = $oscar_minc_options['oscar_minc_schedule_text_1'];
 							$oscar_minc_schedule_time_2 = new DateTime( $oscar_minc_options['oscar_minc_schedule_time_2'] );
 							$oscar_minc_schedule_text_2 = $oscar_minc_options['oscar_minc_schedule_text_2'];
@@ -90,7 +91,7 @@ get_header();
 								<span class="steps-marker"></span>
 								<div class="steps-content">
 									<div class="box">
-										<p><b><?php echo $oscar_minc_schedule_time_1->format('d/m/Y'); ?></b></p>
+										<p><b><?php echo $oscar_minc_schedule_time_1->format('d/m/Y'); ?> a <?php echo $oscar_minc_oscar_minc_deadline_time->format('d/m/Y'); ?></b></p>
 										<p><?php echo $oscar_minc_schedule_text_1; ?></p>
 									</div>
 								</div>
@@ -183,7 +184,7 @@ get_header();
 					</div>
 
 					<div class="col-lg-12 text-center">
-						<a href="<?php echo home_url('/category/noticias/'); ?>" class="btn text-uppercase mt-1">Mais notícias</a>
+						<a href="<?php echo home_url('/noticias/'); ?>" class="btn text-uppercase mt-1">Mais notícias</a>
 					</div>
 				</div>
 			</div>

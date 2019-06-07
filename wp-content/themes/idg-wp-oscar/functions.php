@@ -5,6 +5,7 @@
  */
 function idg_child_enqueue_styles() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/assets/css/main.css', array('idg-wp-style'), wp_get_theme()->get('Version') );
+  wp_enqueue_script( 'font-awesome', 'https://kit.fontawesome.com/ac7029627a.js', false, false, true );
 }
 add_action( 'wp_enqueue_scripts', 'idg_child_enqueue_styles' );
 
