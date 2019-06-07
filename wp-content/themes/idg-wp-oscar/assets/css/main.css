@@ -329,7 +329,7 @@ hr.style-eight:after {
 .carousel-wrapper #jumbotron-carousel .carousel-item .carousel-caption .container {
 	margin: 0;
 	padding: 0;
-	max-width: 580px;
+  max-width: 485px;
   position: relative;
 }
 
@@ -819,4 +819,9 @@ select:focus {
 
 #oscar-main-form .acf-form-submit .button {
   margin: 0;
+}
+
+.carousel-wrapper #jumbotron-carousel .carousel-item .carousel-caption a:hover {
+  color: #FFF;
+  cursor: normal;
 }
