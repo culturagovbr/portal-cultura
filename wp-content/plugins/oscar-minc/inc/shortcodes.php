@@ -495,12 +495,12 @@ class Oscar_Minc_Shortcodes
                         <td>
                             <?php if( !get_post_meta( get_the_ID(), 'movie_attachment_id', true ) ): ?>
                                 <a href="<?php echo home_url('/inscricao') . '?inscricao=' . get_the_ID(); ?>" class="btn btn-primary btn-sm" role="button" data-toggle="tooltip" data-placement="top" title="Editar inscrição">
-	                                <i class="icon icon-lei-incentivo"></i>
+	                                <i class="fa fa-edit"></i>
 	                                <span>Editar</span>
                                 </a>
                                 <a href="<?php echo home_url('/enviar-filme') . '?inscricao=' . get_the_ID(); ?>" class="btn btn-primary btn-sm" role="button" data-toggle="tooltip" data-placement="top" title="Enviar filme">
                                     <i class="fa fa-paper-plane"></i>
-	                                <span>Filme</span>
+	                                <span>Enviar</span>
                                 </a>
                             <?php else: ?>
                                 <span data-toggle="tooltip" data-placement="top" title="Solicitar suporte">
@@ -521,7 +521,7 @@ class Oscar_Minc_Shortcodes
                 <?php $i++; endwhile; ?>
                 </tbody>
             </table>
-            <a href="<?php echo home_url('/inscricao'); ?>" class="btn btn-primary ">Realizar nova inscrição</a>
+            <a href="<?php echo home_url('/inscricao'); ?>" class="btn btn-primary float-right"><i class="fa fa-plus"></i> Realizar nova inscrição</a>
 
             <div class="modal fade" id="support-modal" tabindex="-1" role="dialog" aria-labelledby="support-modal-title" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
