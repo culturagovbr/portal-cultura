@@ -220,7 +220,7 @@ class Oscar_Minc_Shortcodes
                 </div>
 
                 <div class="form-group col-md-12 text-right">
-                    <input class="btn btn-default" type="submit" name="reg_submit" value="<?php echo is_user_logged_in() ? 'Atualizar' : 'Cadastrar'; ?>"/>
+                    <input class="btn btn-primary" type="submit" name="reg_submit" value="<?php echo is_user_logged_in() ? 'Atualizar' : 'Cadastrar'; ?>"/>
                 </div>
             </div>
         <?php if( is_user_logged_in() ): ?>
@@ -665,7 +665,7 @@ class Oscar_Minc_Shortcodes
                         <input type="text" name="user_login" id="user_login" class="form-control login-field">
                     </div>
                     <div class="form-group col-md-12 text-right">
-                        <input type="submit" name="submit" class="lostpassword-button btn btn-default" value="Recuperar senha"/>
+                        <input type="submit" name="submit" class="lostpassword-button btn btn-primary" value="Recuperar senha"/>
                     </div>
                 </div>
             </form>

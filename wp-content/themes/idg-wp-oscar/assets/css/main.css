@@ -571,7 +571,8 @@ body.admin-bar #login-bar {
 }
 
 .btn,
-.button-primary {
+.button-primary,
+#oscar-main-form .acf-form-submit .button {
   -webkit-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
@@ -628,7 +629,13 @@ body.home .btn:hover {
 
 #main-single,
 #main {
-  background: #FFF;
+  background: #222;
+}
+
+.entry-content p,
+.entry-content span,
+.entry-content h2 {
+  color: #FFF;
 }
 
 #multimidia {
@@ -658,6 +665,10 @@ body.page #main-single {
 }
 
 #breadcrumb-wrapper #breadcrumb li.item-home a {
+  color: #FFF;
+}
+
+#breadcrumb-wrapper #breadcrumb li {
   color: #FFF;
 }
 
@@ -795,4 +806,17 @@ body.page #main-single {
 
 .entry-content a {
   color: #F7E288;
+}
+
+.modal-dialog {
+  color: #222;
+}
+
+input:focus,
+select:focus {
+  outline-color: #F7E288;
+}
+
+#oscar-main-form .acf-form-submit .button {
+  margin: 0;
 }
