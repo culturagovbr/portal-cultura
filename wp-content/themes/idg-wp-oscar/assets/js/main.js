@@ -5,7 +5,7 @@
 
   var app = {
     init: function () {
-      // this.timeline();
+      this.timeline();
     },
 
     timeline: function() {
