@@ -1025,8 +1025,22 @@ time {
   }
 }
 
+.page-link {
+  background: #222;
+  color: #FFF;
+}
+
+.page-item.active .page-link {
+  background: #F7E288;
+  color: #222;
+  border-color: #F7E288;
+}
+
 .page-title, .entry-title {
   color: #FFF;
+}
+#posts-list li .categories {
+  color: #F7E288;
 }
 
 #posts-list li .categories a {
