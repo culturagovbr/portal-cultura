@@ -1063,3 +1063,99 @@ time {
 .date-box span {
   color: #FAFAFA;
 }
+
+.people-list {
+  display: block;
+}
+
+.people-list .section-title {
+  display: block;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  background: #000004;
+  text-transform: uppercase;
+  font-size: 30px;
+  background: #F7E288;
+  color: #222;
+}
+
+.people-list ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.people-list ul li {
+  padding: 50px;
+}
+
+.people-list ul li:nth-child(even) {
+  background: #222;
+}
+
+.people-list ul li:nth-child(odd) {
+  background: #363737;
+}
+
+.people-list ul li .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.people-list ul li .image {
+  width: 30%;
+  position: relative;
+}
+
+.people-list ul li .image:before {
+  content: "";
+  width: 100%;
+  display: block;
+  padding-bottom: 100%;
+}
+
+.people-list ul li .image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255, .4);
+}
+
+.people-list ul li .text {
+  width: 70%;
+  color: #FFF;
+  padding: 0 0 0 50px;
+}
+
+.people-list ul li .text .occupation {
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.people-list ul li .text .occupation:before {
+  content: '';
+  display: block;
+  width: 45px;
+  height: 3px;
+  background-color: #F7E288;
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+.people-list ul li .text .btn {
+  margin: 0;
+  text-transform: uppercase;
+}
+
