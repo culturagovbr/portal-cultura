@@ -1064,6 +1064,29 @@ time {
   color: #FAFAFA;
 }
 
+.alert-success a {
+  color: #222;
+}
+
+.alert-primary {
+  background: #F7E288;
+  border: none;
+}
+
+.alert-primary p {
+  color: #222;
+}
+
+#upload-status .panel.success {
+  border: none;
+  background: #F7E288;
+  color: #222;
+}
+
+#oscar-video-form .progress {
+  height: 30px;
+}
+
 .people-list {
   display: block;
 }
@@ -1104,10 +1127,11 @@ time {
   flex-wrap: wrap;
   align-items: center;
   padding: 0 50px;
+  justify-content: center;
 }
 
 .people-list ul li .image {
-  width: 30%;
+  width: 23%;
   position: relative;
 }
 
@@ -1132,7 +1156,7 @@ time {
 .people-list ul li .text {
   width: 70%;
   color: #FFF;
-  padding: 0 0 0 50px;
+  padding: 0 0 0 65px;
 }
 
 .people-list ul li .text .occupation {

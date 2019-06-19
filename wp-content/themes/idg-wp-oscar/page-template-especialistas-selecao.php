@@ -1,4 +1,4 @@
-<?php /* Template Name: Comissão de Seleção */ ?>
+<?php /* Template Name: Especialistas de Seleção */ ?>
 
 <?php get_header(); ?>
 
