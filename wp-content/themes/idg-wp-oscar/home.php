@@ -184,7 +184,7 @@ get_header();
 					</div>
 
 					<div class="col-lg-12 text-center">
-						<a href="<?php echo home_url('/noticias/'); ?>" class="btn text-uppercase mt-1">Mais notícias</a>
+						<a href="<?php echo site_url( '/categoria/noticias' ); ?>" class="btn text-uppercase mt-1">Mais notícias</a>
 					</div>
 				</div>
 			</div>
