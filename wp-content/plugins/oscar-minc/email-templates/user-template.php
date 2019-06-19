@@ -357,7 +357,7 @@
                                                 <td style="padding-right: 0px; padding-left: 0px;" align="center">
                                         <![endif]-->
                                         <img class="center  autowidth " align="center" border="0"
-                                             src="http://oscar.cultura.localhost/wp-content/uploads/2018/06/brasil-no-oscar-logo.png" alt="Image" title="Image"
+                                             src="http://oscar.cultura.gov.br/wp-content/plugins/oscar-minc/assets/brasil-no-oscar-logo.png" alt="Image" title="Image"
                                              style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 472px"
                                              width="472">
                                         <!--[if mso]></td></tr></table><![endif]-->
