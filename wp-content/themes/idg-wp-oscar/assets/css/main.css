@@ -1205,3 +1205,52 @@ time {
   text-transform: uppercase;
 }
 
+body .acf-field, 
+body .acf-field .acf-label,
+body .acf-field .acf-input {
+  position: relative;
+}
+
+body .acf-field .acf-notice {
+  -webkit-transform: translateX(0) translateY(100%);
+  -ms-transform: translateX(0) translateY(100%);
+  -o-transform: translateX(0) translateY(100%);
+  transform: translateX(0) translateY(100%);
+
+  position: absolute !important;
+  left: 0;
+  bottom: -10px;
+  z-index: 1;
+  white-space: nowrap;
+  margin: 0;
+  background: rgb(247,226,136,.98) !important;
+  color: #222 !important;
+  border-radius: 5px !important;
+  /*border: 1px solid #110c11 !important;*/
+}
+
+body .acf-field .acf-notice:before {
+  -webkit-transform: translateX(0) translateY(-100%);
+  -ms-transform: translateX(0) translateY(-100%);
+  -o-transform: translateX(0) translateY(-100%);
+  transform: translateX(0) translateY(-100%);
+
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #FFF;
+  position: absolute;
+  left: 15px;
+  top: 0;
+}
+
+body .acf-field .acf-notice.-error:before {
+  border-bottom-color: rgb(247,226,136,.98);
+}
+
+.acf-notice.-error.acf-error-message.-dismiss {
+  background: #d12626 !important;
+  color: #FFF !important;
+}
