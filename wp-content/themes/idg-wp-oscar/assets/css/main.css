@@ -1028,12 +1028,20 @@ time {
 .page-link {
   background: #222;
   color: #FFF;
+  -webkit-transition: all ease-in-out .2s;
+  -o-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
 }
 
 .page-item.active .page-link {
   background: #F7E288;
   color: #222;
   border-color: #F7E288;
+}
+
+.page-link:hover {
+  color: #F7E288;
+  background: #110c11;
 }
 
 .page-title, .entry-title {
