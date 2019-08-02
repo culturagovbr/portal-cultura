@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/idg-wp"]
+	path = wp-content/themes/idg-wp
+	url = https://github.com/culturagovbr/IDG-WP
