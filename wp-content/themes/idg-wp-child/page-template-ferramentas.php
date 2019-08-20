@@ -118,7 +118,7 @@
     <div class="container image-left no-border align-center">
         <div class="col-image text-center">
             <div class="box">
-                <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/manuais.jpg'); border: 1px solid #CCC;"></div>
+                <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/salic.jpg'); border: 1px solid #CCC;"></div>
             </div>
         </div>
 
