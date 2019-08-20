@@ -113,6 +113,33 @@
       </div>
     </div>
   </section>
+
+  <section class="image-and-text bg-grey-2" id="desenvolvedor">
+    <div class="container image-left no-border align-center">
+        <div class="col-image text-center">
+            <div class="box">
+                <div class="img-wrapper mb-3" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/manuais.jpg'); border: 1px solid #CCC;"></div>
+            </div>
+        </div>
+
+        <div class="col-text">
+            <h2 class="section-title mb-4">Para Desenvolvedores</h2>
+            <p>Os dados do Sistema de Apoio às Leis de Incentivo à Cultura (SALIC) são utilizado para apoiar todo o processo de incentivo, desde a submissão de propostas culturais até sua avaliação pela Comissão Nacional de Incentivo à Cultura. Os dados estão disponíveis na API de dados abertos, que contemplam essas entidades:</p>
+            <ul>
+                <li>Projetos Culturais</li>
+                <li>Propostas (de projetos culturais)</li>
+                <li>Proponentes</li>
+                <li>Incentivadores</li>
+                <li>Fornecedores</li>
+            </ul>
+            <p>A API retorna os recursos nos formatos JSON (padrão), XML e CSV. O VerSalic utiliza esta API de dados abertos para acesso dinâmico ao SALIC. Estude o código-fonte e proponha novas visualizações!</p>
+
+            <div class="buttons">
+                <a href="http://dados.cultura.gov.br/dataset/incentivos-da-lei-rouanet" target="_blank" class="btn btn-acesse">Acesse</a>
+            </div>
+        </div>
+    </div>
+  </section>
 </main>
 
 
