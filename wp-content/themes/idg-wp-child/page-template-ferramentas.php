@@ -108,7 +108,7 @@
 
         <div class="buttons">
           <a href="http://leideincentivoacultura.cultura.gov.br/noticias/acesse-aqui-as-marcas-e-o-manual-do-pronac/" target="_blank" class="btn btn-acesse">Pronac</a>
-          <a href="http://cultura.gov.br/wp-content/uploads/2019/05/Marcas-Vale-Cultura.zip" target="_blank" class="btn btn-acesse">Vale-Cultura</a>
+          <a href="http://cultura.gov.br/wp-content/uploads/2020/05/manual_vale_cultura_2019_2205_WEB.pdf" target="_blank" class="btn btn-acesse">Vale-Cultura</a>
         </div>
       </div>
     </div>
