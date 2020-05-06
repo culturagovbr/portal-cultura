@@ -50,8 +50,14 @@
 			<div class="col-text">
 				<p>Responsável pela gestão do Programa Nacional de Apoio à Cultura (Pronac)</p>
 				<p><strong>Endereço:</strong> Esplanada dos Ministérios, Bloco B, 1º andar </p>
-				<p><strong>CEP:</strong> 70068-900 – Brasília/DF</p>
-				<p><strong>Fone:</strong> <a href="tel:+556120242368">61 2024-2368</a></p>
+				<p><strong>CEP:</strong> 70068-900 – Brasília/DF</p><br/>
+
+				<p>Contato Gabinete do Secretário</p>
+				<p><strong>Fone: </strong><a href="tel:+556120242113">(61) 2024-2113</a> ou <a href="tel:+556120242114">2024-2114 </a></p><br/>
+
+				<p>Contato Departamento de Fomento Indireto </p>
+				<p>(informações sobre projetos culturais e agendamento para atendimento presencial)</p>
+				<p><strong>Fone:</strong> <a href="tel:+556120242368">(61) 2024-2368</a></p>
 			</div>
 		</div>
 	</section>
