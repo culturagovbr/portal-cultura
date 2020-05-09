@@ -35,9 +35,9 @@
 
           <p>A principal função da CNIC é apreciar os projetos culturais que pleiteiam incentivo fiscal por meio da <a href="http://www.planalto.gov.br/ccivil_03/leis/L8313cons.htm" target="_blank">Lei de Incentivo à Cultura</a> e subsidiar nas decisões do Ministro de Estado da Cidadania.</p>
 
-          <p>Com o objetivo de garantir diversidade à Comissão, as indicações dos representantes da sociedade civil tem, obrigatoriamente, que considerar as cinco regiões brasileiras e contemplar as seguintes áreas: artes cênicas, audiovisual, música, artes visuais, arte digital e eletrônica, patrimônio cultural, inclusive museológico e expressões da cultura negra, indígena e das populações tradicionais; humanidades, inclusive literatura e obras de referência.</p>
+          <p>Com o objetivo de garantir diversidade à Comissão, as indicações dos representantes da sociedade civil tem, preferencialmente, que considerar as cinco regiões brasileiras e contemplar as seguintes áreas: artes cênicas, audiovisual, música, artes visuais, arte digital e eletrônica, patrimônio cultural, inclusive museológico e expressões da cultura negra, indígena e das populações tradicionais; humanidades, inclusive literatura e obras de referência.</p>
 
-          <p>O trabalho da comissão é voluntário, ou seja, não é remunerado. Os membros da CNIC recebem apenas ajuda de custo para participar das reuniões presenciais. A escolha dos representantes da sociedade civil é feita pelo ministro da Cidadania, com base em uma lista de nomes indicados por entidades habilitadas.</p>
+          <p>Os serviços prestados pelos Conselheiros do referido colegiado têm caráter voluntário, estando os mesmos isentos do recebimento de qualquer contrapartida remuneratória. A escolha dos representantes da sociedade civil é feita pelo ministro da Cidadania, com base em uma lista de nomes indicados por entidades habilitadas em Edital.</p>
       </div>
     </div>
   </section>
@@ -85,7 +85,7 @@
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Getúlio Lima – Relações Institucionais da Escola do Teatro Bolshoi no Brasil
+                           <strong>2º Suplente:</strong> Getúlio Lima – Escola do Teatro Bolshoi no Brasil
                         </td>
                      </tr>
                   </tbody>
@@ -139,7 +139,7 @@
                   <tbody>
                      <tr>
                         <td>
-                           <strong>Titular:</strong> Sérgio Luiz Ferreira de Figueiredo – Indicação do Ministro 
+                           <strong>Titular:</strong> Sérgio Luiz Ferreira de Figueiredo – Indicação do Ministro de Estado da Cidadania
                         </td>
                      </tr>
                      <tr>
@@ -149,7 +149,7 @@
                      </tr>
                      <tr>
                         <td>
-                           <strong>2º Suplente:</strong> Cláudio Alano Cohen Bezerra – Indicação do Ministro Audiovisual
+                           <strong>2º Suplente:</strong> Cláudio Alano Cohen Bezerra – Indicação do Ministro de Estado da Cidadania
                         </td>
                      </tr>
                   </tbody>
